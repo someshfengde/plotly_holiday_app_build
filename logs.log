@@ -1,0 +1,2470 @@
+2022-12-26 23:31:32,060:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-26 23:31:32,060:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-26 23:31:32,060:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-26 23:31:32,060:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-26 23:31:32,775:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2022-12-26 23:33:37,896:INFO:PyCaret ClassificationExperiment
+2022-12-26 23:33:37,896:INFO:Logging name: clf-default-name
+2022-12-26 23:33:37,897:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2022-12-26 23:33:37,897:INFO:version 3.0.0.rc5
+2022-12-26 23:33:37,897:INFO:Initializing setup()
+2022-12-26 23:33:37,898:INFO:self.USI: 028f
+2022-12-26 23:33:37,898:INFO:self._variable_keys: {'logging_param', 'data', 'y_test', 'fold_shuffle_param', 'fold_groups_param', 'n_jobs_param', 'target_param', 'X_train', 'html_param', 'fold_generator', 'USI', 'gpu_n_jobs_param', 'y_train', 'is_multiclass', 'pipeline', 'idx', '_ml_usecase', 'seed', 'exp_name_log', 'y', 'gpu_param', 'log_plots_param', 'fix_imbalance', '_available_plots', 'X_test', 'exp_id', 'memory', 'X'}
+2022-12-26 23:33:37,898:INFO:Checking environment
+2022-12-26 23:33:37,898:INFO:python_version: 3.10.6
+2022-12-26 23:33:37,898:INFO:python_build: ('main', 'Nov  2 2022 18:53:38')
+2022-12-26 23:33:37,898:INFO:machine: x86_64
+2022-12-26 23:33:37,898:INFO:platform: Linux-6.0.6-76060006-generic-x86_64-with-glibc2.35
+2022-12-26 23:33:37,899:INFO:Memory: svmem(total=16658173952, available=9518587904, percent=42.9, used=5625409536, free=1275248640, active=2485792768, inactive=11523166208, buffers=396247040, cached=9361268736, shared=1165492224, slab=439349248)
+2022-12-26 23:33:37,900:INFO:Physical Core: 2
+2022-12-26 23:33:37,900:INFO:Logical Core: 4
+2022-12-26 23:33:37,900:INFO:Checking libraries
+2022-12-26 23:33:37,901:INFO:System:
+2022-12-26 23:33:37,901:INFO:    python: 3.10.6 (main, Nov  2 2022, 18:53:38) [GCC 11.3.0]
+2022-12-26 23:33:37,901:INFO:executable: /bin/python3
+2022-12-26 23:33:37,901:INFO:   machine: Linux-6.0.6-76060006-generic-x86_64-with-glibc2.35
+2022-12-26 23:33:37,901:INFO:PyCaret required dependencies:
+2022-12-26 23:33:37,901:INFO:                 pip: 22.0.2
+2022-12-26 23:33:37,902:INFO:          setuptools: 59.6.0
+2022-12-26 23:33:37,902:INFO:             pycaret: 3.0.0rc5
+2022-12-26 23:33:37,902:INFO:             IPython: 8.6.0
+2022-12-26 23:33:37,902:INFO:          ipywidgets: 8.0.3
+2022-12-26 23:33:37,902:INFO:                tqdm: 4.64.1
+2022-12-26 23:33:37,902:INFO:               numpy: 1.23.3
+2022-12-26 23:33:37,902:INFO:              pandas: 1.5.0
+2022-12-26 23:33:37,903:INFO:              jinja2: 3.1.2
+2022-12-26 23:33:37,903:INFO:               scipy: 1.9.1
+2022-12-26 23:33:37,903:INFO:              joblib: 1.2.0
+2022-12-26 23:33:37,903:INFO:             sklearn: 1.1.2
+2022-12-26 23:33:37,903:INFO:                pyod: 1.0.7
+2022-12-26 23:33:37,903:INFO:            imblearn: 0.10.0
+2022-12-26 23:33:37,903:INFO:   category_encoders: 2.5.1.post0
+2022-12-26 23:33:37,903:INFO:            lightgbm: 3.3.3
+2022-12-26 23:33:37,904:INFO:               numba: 0.56.4
+2022-12-26 23:33:37,904:INFO:            requests: 2.25.1
+2022-12-26 23:33:37,904:INFO:          matplotlib: 3.6.0
+2022-12-26 23:33:37,904:INFO:          scikitplot: 0.3.7
+2022-12-26 23:33:37,904:INFO:         yellowbrick: 1.5
+2022-12-26 23:33:37,904:INFO:              plotly: 5.10.0
+2022-12-26 23:33:37,904:INFO:             kaleido: 0.2.1
+2022-12-26 23:33:37,905:INFO:         statsmodels: 0.13.5
+2022-12-26 23:33:37,905:INFO:              sktime: 0.14.1
+2022-12-26 23:33:37,905:INFO:               tbats: 1.1.2
+2022-12-26 23:33:37,905:INFO:            pmdarima: 2.0.2
+2022-12-26 23:33:37,905:INFO:              psutil: 5.9.4
+2022-12-26 23:33:37,905:INFO:PyCaret optional dependencies:
+2022-12-26 23:33:37,916:INFO:                shap: Not installed
+2022-12-26 23:33:37,921:INFO:           interpret: Not installed
+2022-12-26 23:33:37,921:INFO:                umap: Not installed
+2022-12-26 23:33:37,921:INFO:    pandas_profiling: Not installed
+2022-12-26 23:33:37,921:INFO:  explainerdashboard: Not installed
+2022-12-26 23:33:37,922:INFO:             autoviz: Not installed
+2022-12-26 23:33:37,922:INFO:           fairlearn: Not installed
+2022-12-26 23:33:37,922:INFO:             xgboost: 1.7.2
+2022-12-26 23:33:37,922:INFO:            catboost: 1.1.1
+2022-12-26 23:33:37,923:INFO:              kmodes: Not installed
+2022-12-26 23:33:37,923:INFO:             mlxtend: Not installed
+2022-12-26 23:33:37,923:INFO:       statsforecast: Not installed
+2022-12-26 23:33:37,923:INFO:        tune_sklearn: Not installed
+2022-12-26 23:33:37,923:INFO:                 ray: Not installed
+2022-12-26 23:33:37,923:INFO:            hyperopt: Not installed
+2022-12-26 23:33:37,924:INFO:              optuna: Not installed
+2022-12-26 23:33:37,924:INFO:               skopt: Not installed
+2022-12-26 23:33:37,924:INFO:              mlflow: Not installed
+2022-12-26 23:33:37,924:INFO:              gradio: Not installed
+2022-12-26 23:33:37,925:INFO:             fastapi: Not installed
+2022-12-26 23:33:37,925:INFO:             uvicorn: Not installed
+2022-12-26 23:33:37,925:INFO:              m2cgen: Not installed
+2022-12-26 23:33:37,926:INFO:           evidently: Not installed
+2022-12-26 23:33:37,926:INFO:                nltk: Not installed
+2022-12-26 23:33:37,927:INFO:            pyLDAvis: Not installed
+2022-12-26 23:33:37,927:INFO:              gensim: Not installed
+2022-12-26 23:33:37,933:INFO:               spacy: Not installed
+2022-12-26 23:33:37,933:INFO:           wordcloud: Not installed
+2022-12-26 23:33:37,933:INFO:            textblob: Not installed
+2022-12-26 23:33:37,933:INFO:               fugue: Not installed
+2022-12-26 23:33:37,933:INFO:           streamlit: Not installed
+2022-12-26 23:33:37,933:INFO:             prophet: Not installed
+2022-12-26 23:33:37,934:INFO:None
+2022-12-26 23:33:37,934:INFO:Set up data.
+2022-12-26 23:33:38,001:INFO:Set up train/test split.
+2022-12-26 23:33:38,030:INFO:Set up index.
+2022-12-26 23:33:38,031:INFO:Set up folding strategy.
+2022-12-26 23:33:38,031:INFO:Assigning column types.
+2022-12-26 23:33:38,035:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2022-12-26 23:33:38,087:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-12-26 23:33:38,090:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2022-12-26 23:33:38,131:INFO:Soft dependency imported: xgboost: 1.7.2
+2022-12-26 23:33:38,267:INFO:Soft dependency imported: catboost: 1.1.1
+2022-12-26 23:33:38,432:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-12-26 23:33:38,433:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2022-12-26 23:33:38,457:INFO:Soft dependency imported: xgboost: 1.7.2
+2022-12-26 23:33:38,462:INFO:Soft dependency imported: catboost: 1.1.1
+2022-12-26 23:33:38,462:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2022-12-26 23:33:38,509:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2022-12-26 23:33:38,540:INFO:Soft dependency imported: xgboost: 1.7.2
+2022-12-26 23:33:38,545:INFO:Soft dependency imported: catboost: 1.1.1
+2022-12-26 23:33:38,597:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2022-12-26 23:33:38,632:INFO:Soft dependency imported: xgboost: 1.7.2
+2022-12-26 23:33:38,635:INFO:Soft dependency imported: catboost: 1.1.1
+2022-12-26 23:33:38,635:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2022-12-26 23:33:38,719:INFO:Soft dependency imported: xgboost: 1.7.2
+2022-12-26 23:33:38,722:INFO:Soft dependency imported: catboost: 1.1.1
+2022-12-26 23:33:38,796:INFO:Soft dependency imported: xgboost: 1.7.2
+2022-12-26 23:33:38,798:INFO:Soft dependency imported: catboost: 1.1.1
+2022-12-26 23:33:38,799:INFO:Preparing preprocessing pipeline...
+2022-12-26 23:33:38,807:INFO:Set up label encoding.
+2022-12-26 23:33:38,807:INFO:Set up simple imputation.
+2022-12-26 23:33:38,816:INFO:Set up encoding of ordinal features.
+2022-12-26 23:33:38,822:INFO:Set up encoding of categorical features.
+2022-12-26 23:33:38,823:INFO:Set up column transformation.
+2022-12-26 23:33:38,823:INFO:Set up feature normalization.
+2022-12-26 23:33:41,087:INFO:Finished creating preprocessing pipeline.
+2022-12-26 23:33:41,104:INFO:Pipeline: Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              missing_values=nan...
+                                                                   handle_unknown='value',
+                                                                   random_state=123,
+                                                                   return_df=True,
+                                                                   sigma=None,
+                                                                   verbose=0))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False))),
+                ('normalize',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=StandardScaler(copy=True,
+                                                               with_mean=True,
+                                                               with_std=True)))],
+         verbose=False)
+2022-12-26 23:33:41,104:INFO:Creating final display dataframe.
+2022-12-26 23:33:46,762:INFO:Setup _display_container:                     Description             Value
+0                    Session id               123
+1                        Target             Churn
+2                   Target type            Binary
+3                Target mapping     No: 0, Yes: 1
+4           Original data shape        (7021, 20)
+5        Transformed data shape        (7021, 41)
+6   Transformed train set shape        (4914, 41)
+7    Transformed test set shape        (2107, 41)
+8              Ordinal features                 5
+9              Numeric features                 3
+10         Categorical features                16
+11                   Preprocess              True
+12              Imputation type            simple
+13           Numeric imputation              mean
+14       Categorical imputation              mode
+15     Maximum one-hot encoding                25
+16              Encoding method              None
+17               Transformation              True
+18        Transformation method       yeo-johnson
+19                    Normalize              True
+20             Normalize method            zscore
+21               Fold Generator   StratifiedKFold
+22                  Fold Number                10
+23                     CPU Jobs                -1
+24                      Use GPU             False
+25               Log Experiment             False
+26              Experiment Name  clf-default-name
+27                          USI              028f
+2022-12-26 23:33:46,859:INFO:Soft dependency imported: xgboost: 1.7.2
+2022-12-26 23:33:46,865:INFO:Soft dependency imported: catboost: 1.1.1
+2022-12-26 23:33:46,942:INFO:Soft dependency imported: xgboost: 1.7.2
+2022-12-26 23:33:46,946:INFO:Soft dependency imported: catboost: 1.1.1
+2022-12-26 23:33:46,947:INFO:setup() successfully completed in 9.05s...............
+2022-12-26 23:34:03,255:INFO:Initializing compare_models()
+2022-12-26 23:34:03,256:INFO:compare_models(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, include=None, fold=None, round=4, cross_validation=True, sort=Accuracy, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'Accuracy', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'probability_threshold': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.classification.oop.ClassificationExperiment'>}, exclude=None)
+2022-12-26 23:34:03,256:INFO:Checking exceptions
+2022-12-26 23:34:03,266:INFO:Preparing display monitor
+2022-12-26 23:34:03,312:INFO:Initializing Logistic Regression
+2022-12-26 23:34:03,312:INFO:Total runtime is 6.055831909179687e-06 minutes
+2022-12-26 23:34:03,318:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:34:03,318:INFO:Initializing create_model()
+2022-12-26 23:34:03,319:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=lr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:34:03,319:INFO:Checking exceptions
+2022-12-26 23:34:03,319:INFO:Importing libraries
+2022-12-26 23:34:03,319:INFO:Copying training dataset
+2022-12-26 23:34:03,325:INFO:Defining folds
+2022-12-26 23:34:03,326:INFO:Declaring metric variables
+2022-12-26 23:34:03,333:INFO:Importing untrained model
+2022-12-26 23:34:03,338:INFO:Logistic Regression Imported successfully
+2022-12-26 23:34:03,351:INFO:Starting cross validation
+2022-12-26 23:34:03,354:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:34:08,352:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,355:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,358:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,362:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,365:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,368:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,371:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,374:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,378:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,381:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,523:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,528:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,532:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,536:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,539:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,542:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,547:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,550:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,553:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,556:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,994:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:08,997:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,001:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,004:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,007:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,011:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,014:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,018:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,021:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,024:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,267:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,271:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,274:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,282:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,285:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,288:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,291:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,299:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,302:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:09,305:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,409:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,413:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,416:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,419:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,422:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,425:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,434:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,437:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,440:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,444:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,771:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,774:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,779:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,783:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,786:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,789:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,792:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,798:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,801:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,804:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,864:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,868:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,871:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,874:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,879:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,882:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,885:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,889:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,892:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:14,896:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:15,217:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:15,220:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:15,223:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:15,226:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:15,231:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:15,235:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:15,239:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:15,241:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:15,247:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:15,250:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:19,893:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:19,896:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:19,899:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:19,901:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:19,903:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:19,905:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:19,907:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:19,909:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:19,913:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:19,915:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:19,997:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:19,999:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:20,002:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:20,004:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:20,006:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:20,008:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:20,010:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:20,015:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:20,017:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:20,019:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2022-12-26 23:34:22,769:INFO:Calculating mean and std
+2022-12-26 23:34:22,771:INFO:Creating metrics dataframe
+2022-12-26 23:34:22,780:INFO:Uploading results into container
+2022-12-26 23:34:22,781:INFO:Uploading model into container now
+2022-12-26 23:34:22,782:INFO:_master_model_container: 1
+2022-12-26 23:34:22,782:INFO:_display_container: 2
+2022-12-26 23:34:22,783:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2022-12-26 23:34:22,783:INFO:create_model() successfully completed......................................
+2022-12-26 23:34:22,931:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:34:22,932:INFO:Creating metrics dataframe
+2022-12-26 23:34:22,940:INFO:Initializing K Neighbors Classifier
+2022-12-26 23:34:22,940:INFO:Total runtime is 0.3271499474843343 minutes
+2022-12-26 23:34:22,945:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:34:22,947:INFO:Initializing create_model()
+2022-12-26 23:34:22,947:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=knn, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:34:22,947:INFO:Checking exceptions
+2022-12-26 23:34:22,947:INFO:Importing libraries
+2022-12-26 23:34:22,947:INFO:Copying training dataset
+2022-12-26 23:34:22,956:INFO:Defining folds
+2022-12-26 23:34:22,957:INFO:Declaring metric variables
+2022-12-26 23:34:22,963:INFO:Importing untrained model
+2022-12-26 23:34:22,969:INFO:K Neighbors Classifier Imported successfully
+2022-12-26 23:34:22,986:INFO:Starting cross validation
+2022-12-26 23:34:22,989:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:34:28,078:INFO:Calculating mean and std
+2022-12-26 23:34:28,080:INFO:Creating metrics dataframe
+2022-12-26 23:34:28,085:INFO:Uploading results into container
+2022-12-26 23:34:28,086:INFO:Uploading model into container now
+2022-12-26 23:34:28,086:INFO:_master_model_container: 2
+2022-12-26 23:34:28,086:INFO:_display_container: 2
+2022-12-26 23:34:28,087:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2022-12-26 23:34:28,087:INFO:create_model() successfully completed......................................
+2022-12-26 23:34:28,207:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:34:28,207:INFO:Creating metrics dataframe
+2022-12-26 23:34:28,219:INFO:Initializing Naive Bayes
+2022-12-26 23:34:28,219:INFO:Total runtime is 0.415126891930898 minutes
+2022-12-26 23:34:28,224:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:34:28,224:INFO:Initializing create_model()
+2022-12-26 23:34:28,224:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=nb, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:34:28,224:INFO:Checking exceptions
+2022-12-26 23:34:28,225:INFO:Importing libraries
+2022-12-26 23:34:28,225:INFO:Copying training dataset
+2022-12-26 23:34:28,233:INFO:Defining folds
+2022-12-26 23:34:28,233:INFO:Declaring metric variables
+2022-12-26 23:34:28,240:INFO:Importing untrained model
+2022-12-26 23:34:28,248:INFO:Naive Bayes Imported successfully
+2022-12-26 23:34:28,259:INFO:Starting cross validation
+2022-12-26 23:34:28,266:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:34:33,138:INFO:Calculating mean and std
+2022-12-26 23:34:33,139:INFO:Creating metrics dataframe
+2022-12-26 23:34:33,142:INFO:Uploading results into container
+2022-12-26 23:34:33,143:INFO:Uploading model into container now
+2022-12-26 23:34:33,144:INFO:_master_model_container: 3
+2022-12-26 23:34:33,144:INFO:_display_container: 2
+2022-12-26 23:34:33,145:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2022-12-26 23:34:33,145:INFO:create_model() successfully completed......................................
+2022-12-26 23:34:33,257:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:34:33,257:INFO:Creating metrics dataframe
+2022-12-26 23:34:33,268:INFO:Initializing Decision Tree Classifier
+2022-12-26 23:34:33,268:INFO:Total runtime is 0.49928030570348103 minutes
+2022-12-26 23:34:33,272:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:34:33,272:INFO:Initializing create_model()
+2022-12-26 23:34:33,272:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=dt, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:34:33,273:INFO:Checking exceptions
+2022-12-26 23:34:33,273:INFO:Importing libraries
+2022-12-26 23:34:33,273:INFO:Copying training dataset
+2022-12-26 23:34:33,279:INFO:Defining folds
+2022-12-26 23:34:33,280:INFO:Declaring metric variables
+2022-12-26 23:34:33,286:INFO:Importing untrained model
+2022-12-26 23:34:33,291:INFO:Decision Tree Classifier Imported successfully
+2022-12-26 23:34:33,303:INFO:Starting cross validation
+2022-12-26 23:34:33,308:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:34:38,308:INFO:Calculating mean and std
+2022-12-26 23:34:38,309:INFO:Creating metrics dataframe
+2022-12-26 23:34:38,316:INFO:Uploading results into container
+2022-12-26 23:34:38,317:INFO:Uploading model into container now
+2022-12-26 23:34:38,317:INFO:_master_model_container: 4
+2022-12-26 23:34:38,318:INFO:_display_container: 2
+2022-12-26 23:34:38,318:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       random_state=123, splitter='best')
+2022-12-26 23:34:38,319:INFO:create_model() successfully completed......................................
+2022-12-26 23:34:38,432:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:34:38,433:INFO:Creating metrics dataframe
+2022-12-26 23:34:38,443:INFO:Initializing SVM - Linear Kernel
+2022-12-26 23:34:38,443:INFO:Total runtime is 0.5855261564254761 minutes
+2022-12-26 23:34:38,448:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:34:38,448:INFO:Initializing create_model()
+2022-12-26 23:34:38,448:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=svm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:34:38,449:INFO:Checking exceptions
+2022-12-26 23:34:38,449:INFO:Importing libraries
+2022-12-26 23:34:38,449:INFO:Copying training dataset
+2022-12-26 23:34:38,455:INFO:Defining folds
+2022-12-26 23:34:38,455:INFO:Declaring metric variables
+2022-12-26 23:34:38,459:INFO:Importing untrained model
+2022-12-26 23:34:38,467:INFO:SVM - Linear Kernel Imported successfully
+2022-12-26 23:34:38,476:INFO:Starting cross validation
+2022-12-26 23:34:38,482:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:34:42,521:INFO:Calculating mean and std
+2022-12-26 23:34:42,522:INFO:Creating metrics dataframe
+2022-12-26 23:34:42,526:INFO:Uploading results into container
+2022-12-26 23:34:42,527:INFO:Uploading model into container now
+2022-12-26 23:34:42,527:INFO:_master_model_container: 5
+2022-12-26 23:34:42,527:INFO:_display_container: 2
+2022-12-26 23:34:42,528:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=123, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2022-12-26 23:34:42,528:INFO:create_model() successfully completed......................................
+2022-12-26 23:34:42,643:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:34:42,643:INFO:Creating metrics dataframe
+2022-12-26 23:34:42,667:INFO:Initializing Ridge Classifier
+2022-12-26 23:34:42,667:INFO:Total runtime is 0.655920179684957 minutes
+2022-12-26 23:34:42,672:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:34:42,673:INFO:Initializing create_model()
+2022-12-26 23:34:42,673:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=ridge, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:34:42,673:INFO:Checking exceptions
+2022-12-26 23:34:42,673:INFO:Importing libraries
+2022-12-26 23:34:42,673:INFO:Copying training dataset
+2022-12-26 23:34:42,679:INFO:Defining folds
+2022-12-26 23:34:42,680:INFO:Declaring metric variables
+2022-12-26 23:34:42,687:INFO:Importing untrained model
+2022-12-26 23:34:42,692:INFO:Ridge Classifier Imported successfully
+2022-12-26 23:34:42,704:INFO:Starting cross validation
+2022-12-26 23:34:42,708:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:34:46,774:INFO:Calculating mean and std
+2022-12-26 23:34:46,775:INFO:Creating metrics dataframe
+2022-12-26 23:34:46,779:INFO:Uploading results into container
+2022-12-26 23:34:46,779:INFO:Uploading model into container now
+2022-12-26 23:34:46,780:INFO:_master_model_container: 6
+2022-12-26 23:34:46,780:INFO:_display_container: 2
+2022-12-26 23:34:46,781:INFO:RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+                max_iter=None, normalize='deprecated', positive=False,
+                random_state=123, solver='auto', tol=0.001)
+2022-12-26 23:34:46,782:INFO:create_model() successfully completed......................................
+2022-12-26 23:34:46,895:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:34:46,896:INFO:Creating metrics dataframe
+2022-12-26 23:34:46,908:INFO:Initializing Random Forest Classifier
+2022-12-26 23:34:46,908:INFO:Total runtime is 0.7266040643056235 minutes
+2022-12-26 23:34:46,912:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:34:46,912:INFO:Initializing create_model()
+2022-12-26 23:34:46,912:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=rf, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:34:46,913:INFO:Checking exceptions
+2022-12-26 23:34:46,913:INFO:Importing libraries
+2022-12-26 23:34:46,913:INFO:Copying training dataset
+2022-12-26 23:34:46,920:INFO:Defining folds
+2022-12-26 23:34:46,921:INFO:Declaring metric variables
+2022-12-26 23:34:46,925:INFO:Importing untrained model
+2022-12-26 23:34:46,932:INFO:Random Forest Classifier Imported successfully
+2022-12-26 23:34:46,945:INFO:Starting cross validation
+2022-12-26 23:34:46,950:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:34:54,295:INFO:Calculating mean and std
+2022-12-26 23:34:54,297:INFO:Creating metrics dataframe
+2022-12-26 23:34:54,303:INFO:Uploading results into container
+2022-12-26 23:34:54,306:INFO:Uploading model into container now
+2022-12-26 23:34:54,306:INFO:_master_model_container: 7
+2022-12-26 23:34:54,306:INFO:_display_container: 2
+2022-12-26 23:34:54,307:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=100, n_jobs=-1, oob_score=False,
+                       random_state=123, verbose=0, warm_start=False)
+2022-12-26 23:34:54,307:INFO:create_model() successfully completed......................................
+2022-12-26 23:34:54,418:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:34:54,418:INFO:Creating metrics dataframe
+2022-12-26 23:34:54,435:INFO:Initializing Quadratic Discriminant Analysis
+2022-12-26 23:34:54,436:INFO:Total runtime is 0.8520704785982769 minutes
+2022-12-26 23:34:54,442:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:34:54,443:INFO:Initializing create_model()
+2022-12-26 23:34:54,443:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=qda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:34:54,443:INFO:Checking exceptions
+2022-12-26 23:34:54,443:INFO:Importing libraries
+2022-12-26 23:34:54,444:INFO:Copying training dataset
+2022-12-26 23:34:54,454:INFO:Defining folds
+2022-12-26 23:34:54,454:INFO:Declaring metric variables
+2022-12-26 23:34:54,460:INFO:Importing untrained model
+2022-12-26 23:34:54,467:INFO:Quadratic Discriminant Analysis Imported successfully
+2022-12-26 23:34:54,478:INFO:Starting cross validation
+2022-12-26 23:34:54,487:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:34:55,444:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-12-26 23:34:55,560:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-12-26 23:34:55,594:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-12-26 23:34:55,637:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-12-26 23:34:57,287:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-12-26 23:34:57,323:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-12-26 23:34:57,338:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-12-26 23:34:57,361:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-12-26 23:34:58,663:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-12-26 23:34:58,692:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2022-12-26 23:34:59,100:INFO:Calculating mean and std
+2022-12-26 23:34:59,102:INFO:Creating metrics dataframe
+2022-12-26 23:34:59,108:INFO:Uploading results into container
+2022-12-26 23:34:59,109:INFO:Uploading model into container now
+2022-12-26 23:34:59,109:INFO:_master_model_container: 8
+2022-12-26 23:34:59,109:INFO:_display_container: 2
+2022-12-26 23:34:59,110:INFO:QuadraticDiscriminantAnalysis(priors=None, reg_param=0.0,
+                              store_covariance=False, tol=0.0001)
+2022-12-26 23:34:59,110:INFO:create_model() successfully completed......................................
+2022-12-26 23:34:59,229:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:34:59,229:INFO:Creating metrics dataframe
+2022-12-26 23:34:59,242:INFO:Initializing Ada Boost Classifier
+2022-12-26 23:34:59,242:INFO:Total runtime is 0.9321795463562013 minutes
+2022-12-26 23:34:59,246:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:34:59,247:INFO:Initializing create_model()
+2022-12-26 23:34:59,247:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=ada, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:34:59,247:INFO:Checking exceptions
+2022-12-26 23:34:59,247:INFO:Importing libraries
+2022-12-26 23:34:59,247:INFO:Copying training dataset
+2022-12-26 23:34:59,256:INFO:Defining folds
+2022-12-26 23:34:59,257:INFO:Declaring metric variables
+2022-12-26 23:34:59,286:INFO:Importing untrained model
+2022-12-26 23:34:59,296:INFO:Ada Boost Classifier Imported successfully
+2022-12-26 23:34:59,330:INFO:Starting cross validation
+2022-12-26 23:34:59,339:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:35:05,144:INFO:Calculating mean and std
+2022-12-26 23:35:05,145:INFO:Creating metrics dataframe
+2022-12-26 23:35:05,150:INFO:Uploading results into container
+2022-12-26 23:35:05,152:INFO:Uploading model into container now
+2022-12-26 23:35:05,153:INFO:_master_model_container: 9
+2022-12-26 23:35:05,153:INFO:_display_container: 2
+2022-12-26 23:35:05,154:INFO:AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=1.0,
+                   n_estimators=50, random_state=123)
+2022-12-26 23:35:05,154:INFO:create_model() successfully completed......................................
+2022-12-26 23:35:05,268:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:35:05,268:INFO:Creating metrics dataframe
+2022-12-26 23:35:05,281:INFO:Initializing Gradient Boosting Classifier
+2022-12-26 23:35:05,281:INFO:Total runtime is 1.0328333298365275 minutes
+2022-12-26 23:35:05,287:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:35:05,287:INFO:Initializing create_model()
+2022-12-26 23:35:05,287:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=gbc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:35:05,287:INFO:Checking exceptions
+2022-12-26 23:35:05,287:INFO:Importing libraries
+2022-12-26 23:35:05,287:INFO:Copying training dataset
+2022-12-26 23:35:05,294:INFO:Defining folds
+2022-12-26 23:35:05,294:INFO:Declaring metric variables
+2022-12-26 23:35:05,298:INFO:Importing untrained model
+2022-12-26 23:35:05,306:INFO:Gradient Boosting Classifier Imported successfully
+2022-12-26 23:35:05,317:INFO:Starting cross validation
+2022-12-26 23:35:05,322:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:35:13,216:INFO:Calculating mean and std
+2022-12-26 23:35:13,218:INFO:Creating metrics dataframe
+2022-12-26 23:35:13,223:INFO:Uploading results into container
+2022-12-26 23:35:13,223:INFO:Uploading model into container now
+2022-12-26 23:35:13,224:INFO:_master_model_container: 10
+2022-12-26 23:35:13,224:INFO:_display_container: 2
+2022-12-26 23:35:13,225:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2022-12-26 23:35:13,225:INFO:create_model() successfully completed......................................
+2022-12-26 23:35:13,338:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:35:13,338:INFO:Creating metrics dataframe
+2022-12-26 23:35:13,357:INFO:Initializing Linear Discriminant Analysis
+2022-12-26 23:35:13,357:INFO:Total runtime is 1.1674322923024496 minutes
+2022-12-26 23:35:13,361:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:35:13,361:INFO:Initializing create_model()
+2022-12-26 23:35:13,362:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=lda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:35:13,362:INFO:Checking exceptions
+2022-12-26 23:35:13,362:INFO:Importing libraries
+2022-12-26 23:35:13,362:INFO:Copying training dataset
+2022-12-26 23:35:13,370:INFO:Defining folds
+2022-12-26 23:35:13,370:INFO:Declaring metric variables
+2022-12-26 23:35:13,375:INFO:Importing untrained model
+2022-12-26 23:35:13,379:INFO:Linear Discriminant Analysis Imported successfully
+2022-12-26 23:35:13,391:INFO:Starting cross validation
+2022-12-26 23:35:13,395:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:35:18,457:INFO:Calculating mean and std
+2022-12-26 23:35:18,458:INFO:Creating metrics dataframe
+2022-12-26 23:35:18,463:INFO:Uploading results into container
+2022-12-26 23:35:18,464:INFO:Uploading model into container now
+2022-12-26 23:35:18,465:INFO:_master_model_container: 11
+2022-12-26 23:35:18,466:INFO:_display_container: 2
+2022-12-26 23:35:18,466:INFO:LinearDiscriminantAnalysis(covariance_estimator=None, n_components=None,
+                           priors=None, shrinkage=None, solver='svd',
+                           store_covariance=False, tol=0.0001)
+2022-12-26 23:35:18,467:INFO:create_model() successfully completed......................................
+2022-12-26 23:35:18,581:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:35:18,581:INFO:Creating metrics dataframe
+2022-12-26 23:35:18,594:INFO:Initializing Extra Trees Classifier
+2022-12-26 23:35:18,594:INFO:Total runtime is 1.2547106663386027 minutes
+2022-12-26 23:35:18,597:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:35:18,598:INFO:Initializing create_model()
+2022-12-26 23:35:18,598:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=et, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:35:18,598:INFO:Checking exceptions
+2022-12-26 23:35:18,598:INFO:Importing libraries
+2022-12-26 23:35:18,598:INFO:Copying training dataset
+2022-12-26 23:35:18,606:INFO:Defining folds
+2022-12-26 23:35:18,606:INFO:Declaring metric variables
+2022-12-26 23:35:18,610:INFO:Importing untrained model
+2022-12-26 23:35:18,617:INFO:Extra Trees Classifier Imported successfully
+2022-12-26 23:35:18,628:INFO:Starting cross validation
+2022-12-26 23:35:18,634:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:35:26,032:INFO:Calculating mean and std
+2022-12-26 23:35:26,033:INFO:Creating metrics dataframe
+2022-12-26 23:35:26,040:INFO:Uploading results into container
+2022-12-26 23:35:26,041:INFO:Uploading model into container now
+2022-12-26 23:35:26,041:INFO:_master_model_container: 12
+2022-12-26 23:35:26,041:INFO:_display_container: 2
+2022-12-26 23:35:26,042:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False)
+2022-12-26 23:35:26,042:INFO:create_model() successfully completed......................................
+2022-12-26 23:35:26,158:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:35:26,158:INFO:Creating metrics dataframe
+2022-12-26 23:35:26,171:INFO:Initializing Extreme Gradient Boosting
+2022-12-26 23:35:26,171:INFO:Total runtime is 1.3809987505277 minutes
+2022-12-26 23:35:26,176:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:35:26,176:INFO:Initializing create_model()
+2022-12-26 23:35:26,176:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=xgboost, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:35:26,176:INFO:Checking exceptions
+2022-12-26 23:35:26,176:INFO:Importing libraries
+2022-12-26 23:35:26,177:INFO:Copying training dataset
+2022-12-26 23:35:26,182:INFO:Defining folds
+2022-12-26 23:35:26,182:INFO:Declaring metric variables
+2022-12-26 23:35:26,188:INFO:Importing untrained model
+2022-12-26 23:35:26,194:INFO:Extreme Gradient Boosting Imported successfully
+2022-12-26 23:35:26,205:INFO:Starting cross validation
+2022-12-26 23:35:26,209:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:35:35,540:INFO:Calculating mean and std
+2022-12-26 23:35:35,542:INFO:Creating metrics dataframe
+2022-12-26 23:35:35,546:INFO:Uploading results into container
+2022-12-26 23:35:35,546:INFO:Uploading model into container now
+2022-12-26 23:35:35,547:INFO:_master_model_container: 13
+2022-12-26 23:35:35,548:INFO:_display_container: 2
+2022-12-26 23:35:35,549:INFO:XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=-1, num_parallel_tree=None,
+              objective='binary:logistic', predictor=None, ...)
+2022-12-26 23:35:35,549:INFO:create_model() successfully completed......................................
+2022-12-26 23:35:35,663:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:35:35,663:INFO:Creating metrics dataframe
+2022-12-26 23:35:35,677:INFO:Initializing Light Gradient Boosting Machine
+2022-12-26 23:35:35,677:INFO:Total runtime is 1.5394230405489604 minutes
+2022-12-26 23:35:35,681:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:35:35,682:INFO:Initializing create_model()
+2022-12-26 23:35:35,682:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=lightgbm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:35:35,682:INFO:Checking exceptions
+2022-12-26 23:35:35,682:INFO:Importing libraries
+2022-12-26 23:35:35,682:INFO:Copying training dataset
+2022-12-26 23:35:35,691:INFO:Defining folds
+2022-12-26 23:35:35,691:INFO:Declaring metric variables
+2022-12-26 23:35:35,697:INFO:Importing untrained model
+2022-12-26 23:35:35,701:INFO:Light Gradient Boosting Machine Imported successfully
+2022-12-26 23:35:35,712:INFO:Starting cross validation
+2022-12-26 23:35:35,715:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:35:40,986:INFO:Calculating mean and std
+2022-12-26 23:35:40,988:INFO:Creating metrics dataframe
+2022-12-26 23:35:40,993:INFO:Uploading results into container
+2022-12-26 23:35:40,994:INFO:Uploading model into container now
+2022-12-26 23:35:40,995:INFO:_master_model_container: 14
+2022-12-26 23:35:40,995:INFO:_display_container: 2
+2022-12-26 23:35:40,995:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=123, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2022-12-26 23:35:40,996:INFO:create_model() successfully completed......................................
+2022-12-26 23:35:41,114:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:35:41,114:INFO:Creating metrics dataframe
+2022-12-26 23:35:41,131:INFO:Initializing CatBoost Classifier
+2022-12-26 23:35:41,131:INFO:Total runtime is 1.6303221225738527 minutes
+2022-12-26 23:35:41,135:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:35:41,136:INFO:Initializing create_model()
+2022-12-26 23:35:41,137:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=catboost, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:35:41,137:INFO:Checking exceptions
+2022-12-26 23:35:41,137:INFO:Importing libraries
+2022-12-26 23:35:41,137:INFO:Copying training dataset
+2022-12-26 23:35:41,143:INFO:Defining folds
+2022-12-26 23:35:41,144:INFO:Declaring metric variables
+2022-12-26 23:35:41,149:INFO:Importing untrained model
+2022-12-26 23:35:41,154:INFO:CatBoost Classifier Imported successfully
+2022-12-26 23:35:41,165:INFO:Starting cross validation
+2022-12-26 23:35:41,169:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:36:20,977:INFO:Calculating mean and std
+2022-12-26 23:36:20,979:INFO:Creating metrics dataframe
+2022-12-26 23:36:20,984:INFO:Uploading results into container
+2022-12-26 23:36:20,985:INFO:Uploading model into container now
+2022-12-26 23:36:20,986:INFO:_master_model_container: 15
+2022-12-26 23:36:20,986:INFO:_display_container: 2
+2022-12-26 23:36:20,987:INFO:<catboost.core.CatBoostClassifier object at 0x7f492a0899c0>
+2022-12-26 23:36:20,987:INFO:create_model() successfully completed......................................
+2022-12-26 23:36:21,106:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:36:21,106:INFO:Creating metrics dataframe
+2022-12-26 23:36:21,123:INFO:Initializing Dummy Classifier
+2022-12-26 23:36:21,124:INFO:Total runtime is 2.296866528193156 minutes
+2022-12-26 23:36:21,129:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:36:21,130:INFO:Initializing create_model()
+2022-12-26 23:36:21,130:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=dummy, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492d813a30>, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:36:21,130:INFO:Checking exceptions
+2022-12-26 23:36:21,130:INFO:Importing libraries
+2022-12-26 23:36:21,130:INFO:Copying training dataset
+2022-12-26 23:36:21,136:INFO:Defining folds
+2022-12-26 23:36:21,136:INFO:Declaring metric variables
+2022-12-26 23:36:21,145:INFO:Importing untrained model
+2022-12-26 23:36:21,150:INFO:Dummy Classifier Imported successfully
+2022-12-26 23:36:21,161:INFO:Starting cross validation
+2022-12-26 23:36:21,166:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:36:22,798:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-12-26 23:36:22,848:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-12-26 23:36:23,098:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-12-26 23:36:23,172:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-12-26 23:36:24,538:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-12-26 23:36:24,552:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-12-26 23:36:24,830:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-12-26 23:36:24,952:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-12-26 23:36:25,672:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-12-26 23:36:25,678:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2022-12-26 23:36:25,686:INFO:Calculating mean and std
+2022-12-26 23:36:25,688:INFO:Creating metrics dataframe
+2022-12-26 23:36:25,694:INFO:Uploading results into container
+2022-12-26 23:36:25,695:INFO:Uploading model into container now
+2022-12-26 23:36:25,695:INFO:_master_model_container: 16
+2022-12-26 23:36:25,695:INFO:_display_container: 2
+2022-12-26 23:36:25,695:INFO:DummyClassifier(constant=None, random_state=123, strategy='prior')
+2022-12-26 23:36:25,696:INFO:create_model() successfully completed......................................
+2022-12-26 23:36:25,812:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:36:25,812:INFO:Creating metrics dataframe
+2022-12-26 23:36:25,840:INFO:Initializing create_model()
+2022-12-26 23:36:25,840:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:36:25,840:INFO:Checking exceptions
+2022-12-26 23:36:25,844:INFO:Importing libraries
+2022-12-26 23:36:25,845:INFO:Copying training dataset
+2022-12-26 23:36:25,852:INFO:Defining folds
+2022-12-26 23:36:25,852:INFO:Declaring metric variables
+2022-12-26 23:36:25,852:INFO:Importing untrained model
+2022-12-26 23:36:25,852:INFO:Declaring custom model
+2022-12-26 23:36:25,853:INFO:Logistic Regression Imported successfully
+2022-12-26 23:36:25,856:INFO:Cross validation set to False
+2022-12-26 23:36:25,856:INFO:Fitting Model
+2022-12-26 23:36:26,531:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+2022-12-26 23:36:26,533:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+2022-12-26 23:36:26,535:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+2022-12-26 23:36:26,537:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+2022-12-26 23:36:26,539:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+2022-12-26 23:36:26,543:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+2022-12-26 23:36:26,546:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+2022-12-26 23:36:26,549:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+2022-12-26 23:36:26,551:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+2022-12-26 23:36:26,553:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+2022-12-26 23:36:27,083:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2022-12-26 23:36:27,083:INFO:create_model() successfully completed......................................
+2022-12-26 23:36:27,321:INFO:_master_model_container: 16
+2022-12-26 23:36:27,321:INFO:_display_container: 2
+2022-12-26 23:36:27,321:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2022-12-26 23:36:27,321:INFO:compare_models() successfully completed......................................
+2022-12-26 23:36:49,461:INFO:Initializing tune_model()
+2022-12-26 23:36:49,462:INFO:tune_model(estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={}, self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>)
+2022-12-26 23:36:49,463:INFO:Checking exceptions
+2022-12-26 23:36:49,492:INFO:Copying training dataset
+2022-12-26 23:36:49,501:INFO:Checking base model
+2022-12-26 23:36:49,501:INFO:Base model : Logistic Regression
+2022-12-26 23:36:49,509:INFO:Declaring metric variables
+2022-12-26 23:36:49,520:INFO:Defining Hyperparameters
+2022-12-26 23:36:49,652:INFO:Tuning with n_jobs=-1
+2022-12-26 23:36:49,652:INFO:Initializing RandomizedSearchCV
+2022-12-26 23:37:23,054:INFO:best_params: {'actual_estimator__class_weight': {}, 'actual_estimator__C': 3.882}
+2022-12-26 23:37:23,055:INFO:Hyperparameter search completed
+2022-12-26 23:37:23,055:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:37:23,056:INFO:Initializing create_model()
+2022-12-26 23:37:23,056:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f492ad123b0>, model_only=True, return_train_score=False, kwargs={'class_weight': {}, 'C': 3.882})
+2022-12-26 23:37:23,056:INFO:Checking exceptions
+2022-12-26 23:37:23,056:INFO:Importing libraries
+2022-12-26 23:37:23,056:INFO:Copying training dataset
+2022-12-26 23:37:23,063:INFO:Defining folds
+2022-12-26 23:37:23,064:INFO:Declaring metric variables
+2022-12-26 23:37:23,071:INFO:Importing untrained model
+2022-12-26 23:37:23,071:INFO:Declaring custom model
+2022-12-26 23:37:23,077:INFO:Logistic Regression Imported successfully
+2022-12-26 23:37:23,093:INFO:Starting cross validation
+2022-12-26 23:37:23,097:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:37:27,617:INFO:Calculating mean and std
+2022-12-26 23:37:27,618:INFO:Creating metrics dataframe
+2022-12-26 23:37:27,626:INFO:Finalizing model
+2022-12-26 23:37:28,229:INFO:Uploading results into container
+2022-12-26 23:37:28,232:INFO:Uploading model into container now
+2022-12-26 23:37:28,234:INFO:_master_model_container: 17
+2022-12-26 23:37:28,235:INFO:_display_container: 3
+2022-12-26 23:37:28,236:INFO:LogisticRegression(C=3.882, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2022-12-26 23:37:28,237:INFO:create_model() successfully completed......................................
+2022-12-26 23:37:28,382:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:37:28,382:INFO:choose_better activated
+2022-12-26 23:37:28,387:INFO:SubProcess create_model() called ==================================
+2022-12-26 23:37:28,388:INFO:Initializing create_model()
+2022-12-26 23:37:28,388:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2022-12-26 23:37:28,388:INFO:Checking exceptions
+2022-12-26 23:37:28,391:INFO:Importing libraries
+2022-12-26 23:37:28,391:INFO:Copying training dataset
+2022-12-26 23:37:28,395:INFO:Defining folds
+2022-12-26 23:37:28,395:INFO:Declaring metric variables
+2022-12-26 23:37:28,396:INFO:Importing untrained model
+2022-12-26 23:37:28,396:INFO:Declaring custom model
+2022-12-26 23:37:28,397:INFO:Logistic Regression Imported successfully
+2022-12-26 23:37:28,397:INFO:Starting cross validation
+2022-12-26 23:37:28,400:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-26 23:37:32,803:INFO:Calculating mean and std
+2022-12-26 23:37:32,803:INFO:Creating metrics dataframe
+2022-12-26 23:37:32,805:INFO:Finalizing model
+2022-12-26 23:37:33,337:INFO:Uploading results into container
+2022-12-26 23:37:33,338:INFO:Uploading model into container now
+2022-12-26 23:37:33,339:INFO:_master_model_container: 18
+2022-12-26 23:37:33,339:INFO:_display_container: 4
+2022-12-26 23:37:33,340:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2022-12-26 23:37:33,340:INFO:create_model() successfully completed......................................
+2022-12-26 23:37:33,497:INFO:SubProcess create_model() end ==================================
+2022-12-26 23:37:33,497:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for Accuracy is 0.8075
+2022-12-26 23:37:33,498:INFO:LogisticRegression(C=3.882, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for Accuracy is 0.8077
+2022-12-26 23:37:33,498:INFO:LogisticRegression(C=3.882, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) is best model
+2022-12-26 23:37:33,498:INFO:choose_better completed
+2022-12-26 23:37:33,509:INFO:_master_model_container: 18
+2022-12-26 23:37:33,509:INFO:_display_container: 3
+2022-12-26 23:37:33,509:INFO:LogisticRegression(C=3.882, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2022-12-26 23:37:33,509:INFO:tune_model() successfully completed......................................
+2022-12-26 23:37:33,691:INFO:Initializing plot_model()
+2022-12-26 23:37:33,691:INFO:plot_model(plot=confusion_matrix, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=LogisticRegression(C=3.882, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, system=True)
+2022-12-26 23:37:33,691:INFO:Checking exceptions
+2022-12-26 23:37:33,700:INFO:Preloading libraries
+2022-12-26 23:37:33,700:INFO:Copying training dataset
+2022-12-26 23:37:33,700:INFO:Plot type: confusion_matrix
+2022-12-26 23:37:35,211:INFO:Fitting Model
+2022-12-26 23:37:35,211:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/base.py:450: UserWarning:
+
+X does not have valid feature names, but LogisticRegression was fitted with feature names
+2022-12-26 23:37:35,211:INFO:Scoring test/hold-out set
+2022-12-26 23:37:35,483:INFO:Visual Rendered Successfully
+2022-12-26 23:37:35,644:INFO:plot_model() successfully completed......................................
+2022-12-26 23:38:39,482:INFO:Initializing save_model()
+2022-12-26 23:38:39,482:INFO:save_model(model=LogisticRegression(C=3.882, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), model_name=lr_model.pkl, prep_pipe_=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              missing_values=nan...
+                                                                   handle_unknown='value',
+                                                                   random_state=123,
+                                                                   return_df=True,
+                                                                   sigma=None,
+                                                                   verbose=0))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False))),
+                ('normalize',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=StandardScaler(copy=True,
+                                                               with_mean=True,
+                                                               with_std=True)))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2022-12-26 23:38:39,482:INFO:Adding model into prep_pipe
+2022-12-26 23:38:39,502:INFO:lr_model.pkl.pkl saved in current working directory
+2022-12-26 23:38:39,519:INFO:Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              missing_values=nan...
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=StandardScaler(copy=True,
+                                                               with_mean=True,
+                                                               with_std=True))),
+                ('trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=123,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False))],
+         verbose=False)
+2022-12-26 23:38:39,519:INFO:save_model() successfully completed......................................
+2022-12-26 23:45:12,535:INFO:Initializing predict_model()
+2022-12-26 23:45:12,536:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f492c719c60>, estimator=LogisticRegression(C=3.882, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7f4928d0df30>)
+2022-12-26 23:45:12,536:INFO:Checking exceptions
+2022-12-26 23:45:12,537:INFO:Preloading libraries
+2022-12-26 23:45:12,539:INFO:Set up data.
+2022-12-26 23:45:12,557:INFO:Set up index.
+2022-12-31 14:46:23,214:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-31 14:46:23,219:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-31 14:46:23,220:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-31 14:46:23,220:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-31 14:46:23,658:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2022-12-31 16:58:45,429:INFO:Initializing load_model()
+2022-12-31 16:58:45,430:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 16:59:37,579:INFO:Initializing load_model()
+2022-12-31 16:59:37,579:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:00:10,833:INFO:Initializing load_model()
+2022-12-31 17:00:10,833:INFO:load_model(model_name=../lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:00:34,205:INFO:Initializing load_model()
+2022-12-31 17:00:34,206:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:00:34,207:INFO:Initializing load_model()
+2022-12-31 17:00:34,207:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:00:34,250:INFO:Initializing load_model()
+2022-12-31 17:00:34,250:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:00:34,413:INFO:Initializing load_model()
+2022-12-31 17:00:34,413:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:00:34,630:INFO:Initializing load_model()
+2022-12-31 17:00:34,631:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:00:34,825:INFO:Initializing load_model()
+2022-12-31 17:00:34,827:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:00:35,014:INFO:Initializing load_model()
+2022-12-31 17:00:35,014:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:00:35,159:INFO:Initializing load_model()
+2022-12-31 17:00:35,159:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:01:08,794:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-31 17:01:08,794:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-31 17:01:08,794:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-31 17:01:08,794:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-31 17:01:09,195:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2022-12-31 17:01:09,404:INFO:Initializing load_model()
+2022-12-31 17:01:09,404:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:02:04,584:INFO:Initializing load_model()
+2022-12-31 17:02:04,584:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:05:43,555:INFO:Initializing load_model()
+2022-12-31 17:05:43,556:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:05:57,887:INFO:Initializing load_model()
+2022-12-31 17:05:57,887:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:05:58,499:INFO:Initializing load_model()
+2022-12-31 17:05:58,499:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:05:58,803:INFO:Initializing load_model()
+2022-12-31 17:05:58,804:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:06:40,621:INFO:Initializing load_model()
+2022-12-31 17:06:40,621:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:07:16,188:INFO:Initializing load_model()
+2022-12-31 17:07:16,188:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:08:14,976:INFO:Initializing load_model()
+2022-12-31 17:08:14,976:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:08:55,230:INFO:PyCaret Supervised Module
+2022-12-31 17:08:55,230:INFO:ML Usecase: classification
+2022-12-31 17:08:55,230:INFO:version 2.3.10
+2022-12-31 17:08:55,230:INFO:Initializing setup()
+2022-12-31 17:08:55,230:INFO:setup(target=Churn, ml_usecase=classification, available_plots={'parameter': 'Hyperparameters', 'auc': 'AUC', 'confusion_matrix': 'Confusion Matrix', 'threshold': 'Threshold', 'pr': 'Precision Recall', 'error': 'Prediction Error', 'class_report': 'Class Report', 'rfe': 'Feature Selection', 'learning': 'Learning Curve', 'manifold': 'Manifold Learning', 'calibration': 'Calibration Curve', 'vc': 'Validation Curve', 'dimension': 'Dimensions', 'feature': 'Feature Importance', 'feature_all': 'Feature Importance (All)', 'boundary': 'Decision Boundary', 'lift': 'Lift Chart', 'gain': 'Gain Chart', 'tree': 'Decision Tree', 'ks': 'KS Statistic Plot'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=constant, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=True, normalize_method=zscore, transformation=True, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=True, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=True, data_split_stratify=False, fold_strategy=stratifiedkfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2022-12-31 17:08:55,231:INFO:Checking environment
+2022-12-31 17:08:55,231:INFO:python_version: 3.9.7
+2022-12-31 17:08:55,231:INFO:python_build: ('default', 'Nov 21 2022 17:11:35')
+2022-12-31 17:08:55,231:INFO:machine: x86_64
+2022-12-31 17:08:55,231:INFO:platform: Linux-6.0.12-76060006-generic-x86_64-with-glibc2.35
+2022-12-31 17:08:55,232:INFO:Memory: svmem(total=16658100224, available=8705363968, percent=47.7, used=6298124288, free=1826365440, active=2377248768, inactive=10854715392, buffers=451063808, cached=8082546688, shared=1305735168, slab=574324736)
+2022-12-31 17:08:55,233:INFO:Physical Core: 2
+2022-12-31 17:08:55,233:INFO:Logical Core: 4
+2022-12-31 17:08:55,233:INFO:Checking libraries
+2022-12-31 17:08:55,233:INFO:pd==1.5.1
+2022-12-31 17:08:55,234:INFO:numpy==1.20.3
+2022-12-31 17:08:55,234:INFO:sklearn==0.23.2
+2022-12-31 17:08:55,234:INFO:lightgbm==3.3.3
+2022-12-31 17:08:55,234:WARNING:catboost not found
+2022-12-31 17:08:55,235:WARNING:xgboost not found
+2022-12-31 17:08:55,235:INFO:mlflow==2.1.1
+2022-12-31 17:08:55,235:INFO:Checking Exceptions
+2022-12-31 17:08:55,235:INFO:Declaring global variables
+2022-12-31 17:08:55,235:INFO:USI: 4625
+2022-12-31 17:08:55,236:INFO:pycaret_globals: {'n_jobs_param', 'seed', 'exp_name_log', 'fix_imbalance_param', 'fold_param', 'log_plots_param', 'imputation_regressor', 'y_train', 'fold_shuffle_param', 'X_train', 'experiment__', 'transform_target_method_param', '_all_models_internal', 'fold_groups_param', '_internal_pipeline', 'X_test', '_gpu_n_jobs_param', '_ml_usecase', 'fold_groups_param_full', 'y', 'USI', 'X', 'display_container', 'data_before_preprocess', 'logging_param', 'prep_pipe', 'master_model_container', '_all_models', 'fold_generator', 'transform_target_param', 'fix_imbalance_method_param', 'target_param', '_available_plots', '_all_metrics', 'y_test', 'iterative_imputation_iters_param', 'html_param', 'imputation_classifier', 'pycaret_globals', 'create_model_container', 'stratify_param', 'dashboard_logger', 'gpu_param'}
+2022-12-31 17:08:55,236:INFO:Preparing display monitor
+2022-12-31 17:08:55,236:INFO:Preparing display monitor
+2022-12-31 17:08:55,253:INFO:Importing libraries
+2022-12-31 17:08:55,253:INFO:Copying data for preprocessing
+2022-12-31 17:08:55,271:INFO:Declaring preprocessing parameters
+2022-12-31 17:08:55,274:INFO:Creating preprocessing pipeline
+2022-12-31 17:08:55,310:INFO:Preprocessing pipeline created successfully
+2022-12-31 17:08:55,310:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-12-31 17:08:55,310:INFO:Creating global containers
+2022-12-31 17:08:55,311:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-12-31 17:09:16,893:WARNING:Couldn't import xgboost.XGBClassifier
+2022-12-31 17:09:16,894:WARNING:Couldn't import catboost.CatBoostClassifier
+2022-12-31 17:09:16,989:WARNING:Couldn't import xgboost.XGBClassifier
+2022-12-31 17:09:16,990:WARNING:Couldn't import catboost.CatBoostClassifier
+2022-12-31 17:09:16,991:INFO:Creating grid variables
+2022-12-31 17:09:17,030:INFO:create_model_container: 0
+2022-12-31 17:09:17,031:INFO:master_model_container: 0
+2022-12-31 17:09:17,031:INFO:display_container: 1
+2022-12-31 17:09:17,042:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Churn',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strate...
+                                                  random_state_quantile=123,
+                                                  target='Churn')),
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-12-31 17:09:17,042:INFO:setup() succesfully completed......................................
+2022-12-31 17:09:17,266:INFO:Initializing compare_models()
+2022-12-31 17:09:17,268:INFO:compare_models(include=None, fold=None, round=4, cross_validation=True, sort=Accuracy, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, display=None, exclude=None)
+2022-12-31 17:09:17,268:INFO:Checking exceptions
+2022-12-31 17:09:17,269:INFO:Preparing display monitor
+2022-12-31 17:09:17,270:INFO:Preparing display monitor
+2022-12-31 17:09:17,319:INFO:Initializing Logistic Regression
+2022-12-31 17:09:17,319:INFO:Total runtime is 4.8478444417317706e-06 minutes
+2022-12-31 17:09:17,335:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:09:17,336:INFO:Initializing create_model()
+2022-12-31 17:09:17,336:INFO:create_model(estimator=lr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec44d42b0>, return_train_score=False, kwargs={})
+2022-12-31 17:09:17,336:INFO:Checking exceptions
+2022-12-31 17:09:17,337:INFO:Importing libraries
+2022-12-31 17:09:17,337:INFO:Copying training dataset
+2022-12-31 17:09:17,403:INFO:Defining folds
+2022-12-31 17:09:17,403:INFO:Declaring metric variables
+2022-12-31 17:09:17,412:INFO:Importing untrained model
+2022-12-31 17:09:17,423:INFO:Logistic Regression Imported succesfully
+2022-12-31 17:09:17,446:INFO:Starting cross validation
+2022-12-31 17:09:17,447:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:09:48,535:INFO:Calculating mean and std
+2022-12-31 17:09:48,544:INFO:Creating metrics dataframe
+2022-12-31 17:09:48,584:INFO:Uploading results into container
+2022-12-31 17:09:48,585:INFO:Uploading model into container now
+2022-12-31 17:09:48,586:INFO:create_model_container: 1
+2022-12-31 17:09:48,587:INFO:master_model_container: 1
+2022-12-31 17:09:48,588:INFO:display_container: 2
+2022-12-31 17:09:48,591:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2022-12-31 17:09:48,591:INFO:create_model() succesfully completed......................................
+2022-12-31 17:09:48,789:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:09:48,790:INFO:Creating metrics dataframe
+2022-12-31 17:09:48,804:INFO:Initializing K Neighbors Classifier
+2022-12-31 17:09:48,804:INFO:Total runtime is 0.5247618834177653 minutes
+2022-12-31 17:09:48,818:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:09:48,818:INFO:Initializing create_model()
+2022-12-31 17:09:48,819:INFO:create_model(estimator=knn, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec44d42b0>, return_train_score=False, kwargs={})
+2022-12-31 17:09:48,820:INFO:Checking exceptions
+2022-12-31 17:09:48,821:INFO:Importing libraries
+2022-12-31 17:09:48,821:INFO:Copying training dataset
+2022-12-31 17:09:48,886:INFO:Defining folds
+2022-12-31 17:09:48,886:INFO:Declaring metric variables
+2022-12-31 17:09:48,896:INFO:Importing untrained model
+2022-12-31 17:09:48,914:INFO:K Neighbors Classifier Imported succesfully
+2022-12-31 17:09:48,934:INFO:Starting cross validation
+2022-12-31 17:09:48,935:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:11:23,650:INFO:Calculating mean and std
+2022-12-31 17:11:23,655:INFO:Creating metrics dataframe
+2022-12-31 17:11:23,671:INFO:Uploading results into container
+2022-12-31 17:11:23,671:INFO:Uploading model into container now
+2022-12-31 17:11:23,671:INFO:create_model_container: 2
+2022-12-31 17:11:23,671:INFO:master_model_container: 2
+2022-12-31 17:11:23,672:INFO:display_container: 2
+2022-12-31 17:11:23,673:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2022-12-31 17:11:23,673:INFO:create_model() succesfully completed......................................
+2022-12-31 17:11:23,806:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:11:23,806:INFO:Creating metrics dataframe
+2022-12-31 17:11:23,822:INFO:Initializing Naive Bayes
+2022-12-31 17:11:23,822:INFO:Total runtime is 2.1083926955858865 minutes
+2022-12-31 17:11:23,837:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:11:23,837:INFO:Initializing create_model()
+2022-12-31 17:11:23,838:INFO:create_model(estimator=nb, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec44d42b0>, return_train_score=False, kwargs={})
+2022-12-31 17:11:23,838:INFO:Checking exceptions
+2022-12-31 17:11:23,838:INFO:Importing libraries
+2022-12-31 17:11:23,838:INFO:Copying training dataset
+2022-12-31 17:11:23,905:INFO:Defining folds
+2022-12-31 17:11:23,906:INFO:Declaring metric variables
+2022-12-31 17:11:23,917:INFO:Importing untrained model
+2022-12-31 17:11:23,929:INFO:Naive Bayes Imported succesfully
+2022-12-31 17:11:23,955:INFO:Starting cross validation
+2022-12-31 17:11:23,956:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:11:26,826:INFO:Calculating mean and std
+2022-12-31 17:11:26,835:INFO:Creating metrics dataframe
+2022-12-31 17:11:26,853:INFO:Uploading results into container
+2022-12-31 17:11:26,854:INFO:Uploading model into container now
+2022-12-31 17:11:26,854:INFO:create_model_container: 3
+2022-12-31 17:11:26,854:INFO:master_model_container: 3
+2022-12-31 17:11:26,855:INFO:display_container: 2
+2022-12-31 17:11:26,855:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2022-12-31 17:11:26,855:INFO:create_model() succesfully completed......................................
+2022-12-31 17:11:26,988:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:11:26,988:INFO:Creating metrics dataframe
+2022-12-31 17:11:27,003:INFO:Initializing Decision Tree Classifier
+2022-12-31 17:11:27,003:INFO:Total runtime is 2.1614072004954017 minutes
+2022-12-31 17:11:27,016:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:11:27,016:INFO:Initializing create_model()
+2022-12-31 17:11:27,017:INFO:create_model(estimator=dt, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec44d42b0>, return_train_score=False, kwargs={})
+2022-12-31 17:11:27,017:INFO:Checking exceptions
+2022-12-31 17:11:27,017:INFO:Importing libraries
+2022-12-31 17:11:27,017:INFO:Copying training dataset
+2022-12-31 17:11:27,087:INFO:Defining folds
+2022-12-31 17:11:27,087:INFO:Declaring metric variables
+2022-12-31 17:11:27,095:INFO:Importing untrained model
+2022-12-31 17:11:27,104:INFO:Decision Tree Classifier Imported succesfully
+2022-12-31 17:11:27,130:INFO:Starting cross validation
+2022-12-31 17:11:27,131:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:11:30,718:INFO:Calculating mean and std
+2022-12-31 17:11:30,723:INFO:Creating metrics dataframe
+2022-12-31 17:11:30,768:INFO:Uploading results into container
+2022-12-31 17:11:30,769:INFO:Uploading model into container now
+2022-12-31 17:11:30,770:INFO:create_model_container: 4
+2022-12-31 17:11:30,771:INFO:master_model_container: 4
+2022-12-31 17:11:30,771:INFO:display_container: 2
+2022-12-31 17:11:30,774:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort='deprecated',
+                       random_state=123, splitter='best')
+2022-12-31 17:11:30,774:INFO:create_model() succesfully completed......................................
+2022-12-31 17:11:30,938:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:11:30,938:INFO:Creating metrics dataframe
+2022-12-31 17:11:30,954:INFO:Initializing SVM - Linear Kernel
+2022-12-31 17:11:30,954:INFO:Total runtime is 2.2272628823916114 minutes
+2022-12-31 17:11:30,967:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:11:30,968:INFO:Initializing create_model()
+2022-12-31 17:11:30,968:INFO:create_model(estimator=svm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec44d42b0>, return_train_score=False, kwargs={})
+2022-12-31 17:11:30,968:INFO:Checking exceptions
+2022-12-31 17:11:30,968:INFO:Importing libraries
+2022-12-31 17:11:30,969:INFO:Copying training dataset
+2022-12-31 17:11:31,038:INFO:Defining folds
+2022-12-31 17:11:31,038:INFO:Declaring metric variables
+2022-12-31 17:11:31,049:INFO:Importing untrained model
+2022-12-31 17:11:31,062:INFO:SVM - Linear Kernel Imported succesfully
+2022-12-31 17:11:31,086:INFO:Starting cross validation
+2022-12-31 17:11:31,087:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:11:47,710:INFO:Calculating mean and std
+2022-12-31 17:11:47,716:INFO:Creating metrics dataframe
+2022-12-31 17:11:47,743:INFO:Uploading results into container
+2022-12-31 17:11:47,744:INFO:Uploading model into container now
+2022-12-31 17:11:47,744:INFO:create_model_container: 5
+2022-12-31 17:11:47,744:INFO:master_model_container: 5
+2022-12-31 17:11:47,745:INFO:display_container: 2
+2022-12-31 17:11:47,747:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=123, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2022-12-31 17:11:47,749:INFO:create_model() succesfully completed......................................
+2022-12-31 17:11:47,885:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:11:47,885:INFO:Creating metrics dataframe
+2022-12-31 17:11:47,904:INFO:Initializing Ridge Classifier
+2022-12-31 17:11:47,904:INFO:Total runtime is 2.509755488236745 minutes
+2022-12-31 17:11:47,919:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:11:47,920:INFO:Initializing create_model()
+2022-12-31 17:11:47,920:INFO:create_model(estimator=ridge, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec44d42b0>, return_train_score=False, kwargs={})
+2022-12-31 17:11:47,921:INFO:Checking exceptions
+2022-12-31 17:11:47,921:INFO:Importing libraries
+2022-12-31 17:11:47,921:INFO:Copying training dataset
+2022-12-31 17:11:47,988:INFO:Defining folds
+2022-12-31 17:11:47,988:INFO:Declaring metric variables
+2022-12-31 17:11:47,998:INFO:Importing untrained model
+2022-12-31 17:11:48,009:INFO:Ridge Classifier Imported succesfully
+2022-12-31 17:11:48,039:INFO:Starting cross validation
+2022-12-31 17:11:48,039:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:12:02,593:INFO:Calculating mean and std
+2022-12-31 17:12:02,599:INFO:Creating metrics dataframe
+2022-12-31 17:12:02,647:INFO:Uploading results into container
+2022-12-31 17:12:02,648:INFO:Uploading model into container now
+2022-12-31 17:12:02,650:INFO:create_model_container: 6
+2022-12-31 17:12:02,651:INFO:master_model_container: 6
+2022-12-31 17:12:02,652:INFO:display_container: 2
+2022-12-31 17:12:02,657:INFO:RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+                max_iter=None, normalize=False, random_state=123, solver='auto',
+                tol=0.001)
+2022-12-31 17:12:02,658:INFO:create_model() succesfully completed......................................
+2022-12-31 17:12:02,815:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:12:02,815:INFO:Creating metrics dataframe
+2022-12-31 17:12:02,832:INFO:Initializing Random Forest Classifier
+2022-12-31 17:12:02,832:INFO:Total runtime is 2.758560172716776 minutes
+2022-12-31 17:12:02,872:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:12:02,872:INFO:Initializing create_model()
+2022-12-31 17:12:02,873:INFO:create_model(estimator=rf, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec44d42b0>, return_train_score=False, kwargs={})
+2022-12-31 17:12:02,873:INFO:Checking exceptions
+2022-12-31 17:12:02,873:INFO:Importing libraries
+2022-12-31 17:12:02,873:INFO:Copying training dataset
+2022-12-31 17:12:02,951:INFO:Defining folds
+2022-12-31 17:12:02,951:INFO:Declaring metric variables
+2022-12-31 17:12:02,964:INFO:Importing untrained model
+2022-12-31 17:12:02,977:INFO:Random Forest Classifier Imported succesfully
+2022-12-31 17:12:03,003:INFO:Starting cross validation
+2022-12-31 17:12:03,004:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:12:36,330:INFO:Calculating mean and std
+2022-12-31 17:12:36,337:INFO:Creating metrics dataframe
+2022-12-31 17:12:36,375:INFO:Uploading results into container
+2022-12-31 17:12:36,376:INFO:Uploading model into container now
+2022-12-31 17:12:36,378:INFO:create_model_container: 7
+2022-12-31 17:12:36,379:INFO:master_model_container: 7
+2022-12-31 17:12:36,379:INFO:display_container: 2
+2022-12-31 17:12:36,381:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='auto',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=100,
+                       n_jobs=-1, oob_score=False, random_state=123, verbose=0,
+                       warm_start=False)
+2022-12-31 17:12:36,382:INFO:create_model() succesfully completed......................................
+2022-12-31 17:12:36,545:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:12:36,545:INFO:Creating metrics dataframe
+2022-12-31 17:12:36,562:INFO:Initializing Quadratic Discriminant Analysis
+2022-12-31 17:12:36,562:INFO:Total runtime is 3.3207262158393855 minutes
+2022-12-31 17:12:36,576:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:12:36,577:INFO:Initializing create_model()
+2022-12-31 17:12:36,577:INFO:create_model(estimator=qda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec44d42b0>, return_train_score=False, kwargs={})
+2022-12-31 17:12:36,577:INFO:Checking exceptions
+2022-12-31 17:12:36,578:INFO:Importing libraries
+2022-12-31 17:12:36,578:INFO:Copying training dataset
+2022-12-31 17:12:36,648:INFO:Defining folds
+2022-12-31 17:12:36,648:INFO:Declaring metric variables
+2022-12-31 17:12:36,659:INFO:Importing untrained model
+2022-12-31 17:12:36,670:INFO:Quadratic Discriminant Analysis Imported succesfully
+2022-12-31 17:12:36,697:INFO:Starting cross validation
+2022-12-31 17:12:36,698:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:16:42,738:INFO:Calculating mean and std
+2022-12-31 17:16:42,740:INFO:Creating metrics dataframe
+2022-12-31 17:16:42,748:INFO:Uploading results into container
+2022-12-31 17:16:42,748:INFO:Uploading model into container now
+2022-12-31 17:16:42,748:INFO:create_model_container: 8
+2022-12-31 17:16:42,749:INFO:master_model_container: 8
+2022-12-31 17:16:42,749:INFO:display_container: 2
+2022-12-31 17:16:42,749:INFO:QuadraticDiscriminantAnalysis(priors=None, reg_param=0.0,
+                              store_covariance=False, tol=0.0001)
+2022-12-31 17:16:42,749:INFO:create_model() succesfully completed......................................
+2022-12-31 17:16:42,860:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:16:42,860:INFO:Creating metrics dataframe
+2022-12-31 17:16:42,873:INFO:Initializing Ada Boost Classifier
+2022-12-31 17:16:42,874:INFO:Total runtime is 7.425914422670999 minutes
+2022-12-31 17:16:42,883:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:16:42,883:INFO:Initializing create_model()
+2022-12-31 17:16:42,884:INFO:create_model(estimator=ada, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec44d42b0>, return_train_score=False, kwargs={})
+2022-12-31 17:16:42,884:INFO:Checking exceptions
+2022-12-31 17:16:42,884:INFO:Importing libraries
+2022-12-31 17:16:42,884:INFO:Copying training dataset
+2022-12-31 17:16:42,936:INFO:Defining folds
+2022-12-31 17:16:42,936:INFO:Declaring metric variables
+2022-12-31 17:16:42,944:INFO:Importing untrained model
+2022-12-31 17:16:42,952:INFO:Ada Boost Classifier Imported succesfully
+2022-12-31 17:16:42,972:INFO:Starting cross validation
+2022-12-31 17:16:42,973:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:17:03,431:INFO:Calculating mean and std
+2022-12-31 17:17:03,433:INFO:Creating metrics dataframe
+2022-12-31 17:17:03,444:INFO:Uploading results into container
+2022-12-31 17:17:03,444:INFO:Uploading model into container now
+2022-12-31 17:17:03,444:INFO:create_model_container: 9
+2022-12-31 17:17:03,445:INFO:master_model_container: 9
+2022-12-31 17:17:03,445:INFO:display_container: 2
+2022-12-31 17:17:03,445:INFO:AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=1.0,
+                   n_estimators=50, random_state=123)
+2022-12-31 17:17:03,446:INFO:create_model() succesfully completed......................................
+2022-12-31 17:17:03,576:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:17:03,576:INFO:Creating metrics dataframe
+2022-12-31 17:17:03,591:INFO:Initializing Gradient Boosting Classifier
+2022-12-31 17:17:03,591:INFO:Total runtime is 7.771200859546661 minutes
+2022-12-31 17:17:03,601:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:17:03,601:INFO:Initializing create_model()
+2022-12-31 17:17:03,601:INFO:create_model(estimator=gbc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec44d42b0>, return_train_score=False, kwargs={})
+2022-12-31 17:17:03,601:INFO:Checking exceptions
+2022-12-31 17:17:03,602:INFO:Importing libraries
+2022-12-31 17:17:03,602:INFO:Copying training dataset
+2022-12-31 17:17:03,659:INFO:Defining folds
+2022-12-31 17:17:03,660:INFO:Declaring metric variables
+2022-12-31 17:17:03,673:INFO:Importing untrained model
+2022-12-31 17:17:03,696:INFO:Gradient Boosting Classifier Imported succesfully
+2022-12-31 17:17:03,722:INFO:Starting cross validation
+2022-12-31 17:17:03,723:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:18:17,539:INFO:Calculating mean and std
+2022-12-31 17:18:17,544:INFO:Creating metrics dataframe
+2022-12-31 17:18:17,575:INFO:Uploading results into container
+2022-12-31 17:18:17,576:INFO:Uploading model into container now
+2022-12-31 17:18:17,576:INFO:create_model_container: 10
+2022-12-31 17:18:17,577:INFO:master_model_container: 10
+2022-12-31 17:18:17,578:INFO:display_container: 2
+2022-12-31 17:18:17,582:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='deviance', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_impurity_split=None,
+                           min_samples_leaf=1, min_samples_split=2,
+                           min_weight_fraction_leaf=0.0, n_estimators=100,
+                           n_iter_no_change=None, presort='deprecated',
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2022-12-31 17:18:17,582:INFO:create_model() succesfully completed......................................
+2022-12-31 17:18:17,760:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:18:17,761:INFO:Creating metrics dataframe
+2022-12-31 17:18:17,778:INFO:Initializing Linear Discriminant Analysis
+2022-12-31 17:18:17,778:INFO:Total runtime is 9.007650021711985 minutes
+2022-12-31 17:18:17,790:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:18:17,791:INFO:Initializing create_model()
+2022-12-31 17:18:17,791:INFO:create_model(estimator=lda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec44d42b0>, return_train_score=False, kwargs={})
+2022-12-31 17:18:17,791:INFO:Checking exceptions
+2022-12-31 17:18:17,791:INFO:Importing libraries
+2022-12-31 17:18:17,791:INFO:Copying training dataset
+2022-12-31 17:18:17,861:INFO:Defining folds
+2022-12-31 17:18:17,862:INFO:Declaring metric variables
+2022-12-31 17:18:17,873:INFO:Importing untrained model
+2022-12-31 17:18:17,882:INFO:Linear Discriminant Analysis Imported succesfully
+2022-12-31 17:18:17,901:INFO:Starting cross validation
+2022-12-31 17:18:17,902:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:25:17,951:INFO:Calculating mean and std
+2022-12-31 17:25:17,958:INFO:Creating metrics dataframe
+2022-12-31 17:25:17,968:INFO:Uploading results into container
+2022-12-31 17:25:17,969:INFO:Uploading model into container now
+2022-12-31 17:25:17,969:INFO:create_model_container: 11
+2022-12-31 17:25:17,969:INFO:master_model_container: 11
+2022-12-31 17:25:17,969:INFO:display_container: 2
+2022-12-31 17:25:17,970:INFO:LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage=None,
+                           solver='svd', store_covariance=False, tol=0.0001)
+2022-12-31 17:25:17,970:INFO:create_model() succesfully completed......................................
+2022-12-31 17:25:18,106:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:25:18,106:INFO:Creating metrics dataframe
+2022-12-31 17:25:18,124:INFO:Initializing Extra Trees Classifier
+2022-12-31 17:25:18,125:INFO:Total runtime is 16.01343099673589 minutes
+2022-12-31 17:25:18,139:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:25:18,139:INFO:Initializing create_model()
+2022-12-31 17:25:18,139:INFO:create_model(estimator=et, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec44d42b0>, return_train_score=False, kwargs={})
+2022-12-31 17:25:18,140:INFO:Checking exceptions
+2022-12-31 17:25:18,140:INFO:Importing libraries
+2022-12-31 17:25:18,140:INFO:Copying training dataset
+2022-12-31 17:25:18,212:INFO:Defining folds
+2022-12-31 17:25:18,212:INFO:Declaring metric variables
+2022-12-31 17:25:18,223:INFO:Importing untrained model
+2022-12-31 17:25:18,234:INFO:Extra Trees Classifier Imported succesfully
+2022-12-31 17:25:18,259:INFO:Starting cross validation
+2022-12-31 17:25:18,260:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:26:09,889:INFO:Calculating mean and std
+2022-12-31 17:26:09,895:INFO:Creating metrics dataframe
+2022-12-31 17:26:09,928:INFO:Uploading results into container
+2022-12-31 17:26:09,930:INFO:Uploading model into container now
+2022-12-31 17:26:09,930:INFO:create_model_container: 12
+2022-12-31 17:26:09,931:INFO:master_model_container: 12
+2022-12-31 17:26:09,931:INFO:display_container: 2
+2022-12-31 17:26:09,935:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='auto',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_impurity_split=None,
+                     min_samples_leaf=1, min_samples_split=2,
+                     min_weight_fraction_leaf=0.0, n_estimators=100, n_jobs=-1,
+                     oob_score=False, random_state=123, verbose=0,
+                     warm_start=False)
+2022-12-31 17:26:09,935:INFO:create_model() succesfully completed......................................
+2022-12-31 17:26:10,112:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:26:10,112:INFO:Creating metrics dataframe
+2022-12-31 17:26:10,134:INFO:Initializing Light Gradient Boosting Machine
+2022-12-31 17:26:10,134:INFO:Total runtime is 16.88025034268697 minutes
+2022-12-31 17:26:10,150:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:26:10,151:INFO:Initializing create_model()
+2022-12-31 17:26:10,151:INFO:create_model(estimator=lightgbm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec44d42b0>, return_train_score=False, kwargs={})
+2022-12-31 17:26:10,151:INFO:Checking exceptions
+2022-12-31 17:26:10,151:INFO:Importing libraries
+2022-12-31 17:26:10,151:INFO:Copying training dataset
+2022-12-31 17:26:10,259:INFO:Defining folds
+2022-12-31 17:26:10,259:INFO:Declaring metric variables
+2022-12-31 17:26:10,270:INFO:Importing untrained model
+2022-12-31 17:26:10,283:INFO:Light Gradient Boosting Machine Imported succesfully
+2022-12-31 17:26:10,307:INFO:Starting cross validation
+2022-12-31 17:26:10,308:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:26:13,605:INFO:Calculating mean and std
+2022-12-31 17:26:13,613:INFO:Creating metrics dataframe
+2022-12-31 17:26:13,630:INFO:Uploading results into container
+2022-12-31 17:26:13,631:INFO:Uploading model into container now
+2022-12-31 17:26:13,631:INFO:create_model_container: 13
+2022-12-31 17:26:13,631:INFO:master_model_container: 13
+2022-12-31 17:26:13,631:INFO:display_container: 2
+2022-12-31 17:26:13,633:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=123, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2022-12-31 17:26:13,633:INFO:create_model() succesfully completed......................................
+2022-12-31 17:26:13,778:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:26:13,779:INFO:Creating metrics dataframe
+2022-12-31 17:26:13,799:INFO:Initializing Dummy Classifier
+2022-12-31 17:26:13,799:INFO:Total runtime is 16.94134018421173 minutes
+2022-12-31 17:26:13,819:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:26:13,820:INFO:Initializing create_model()
+2022-12-31 17:26:13,820:INFO:create_model(estimator=dummy, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec44d42b0>, return_train_score=False, kwargs={})
+2022-12-31 17:26:13,820:INFO:Checking exceptions
+2022-12-31 17:26:13,821:INFO:Importing libraries
+2022-12-31 17:26:13,821:INFO:Copying training dataset
+2022-12-31 17:26:13,905:INFO:Defining folds
+2022-12-31 17:26:13,905:INFO:Declaring metric variables
+2022-12-31 17:26:13,915:INFO:Importing untrained model
+2022-12-31 17:26:13,928:INFO:Dummy Classifier Imported succesfully
+2022-12-31 17:26:13,945:INFO:Starting cross validation
+2022-12-31 17:26:13,946:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:26:14,478:INFO:Calculating mean and std
+2022-12-31 17:26:14,479:INFO:Creating metrics dataframe
+2022-12-31 17:26:14,487:INFO:Uploading results into container
+2022-12-31 17:26:14,488:INFO:Uploading model into container now
+2022-12-31 17:26:14,488:INFO:create_model_container: 14
+2022-12-31 17:26:14,489:INFO:master_model_container: 14
+2022-12-31 17:26:14,489:INFO:display_container: 2
+2022-12-31 17:26:14,489:INFO:DummyClassifier(constant=None, random_state=123, strategy='prior')
+2022-12-31 17:26:14,489:INFO:create_model() succesfully completed......................................
+2022-12-31 17:26:14,628:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:26:14,629:INFO:Creating metrics dataframe
+2022-12-31 17:26:14,685:INFO:Initializing create_model()
+2022-12-31 17:26:14,685:INFO:create_model(estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=None, return_train_score=False, kwargs={})
+2022-12-31 17:26:14,686:INFO:Checking exceptions
+2022-12-31 17:26:14,686:INFO:Importing libraries
+2022-12-31 17:26:14,686:INFO:Copying training dataset
+2022-12-31 17:26:14,773:INFO:Defining folds
+2022-12-31 17:26:14,773:INFO:Declaring metric variables
+2022-12-31 17:26:14,773:INFO:Importing untrained model
+2022-12-31 17:26:14,773:INFO:Declaring custom model
+2022-12-31 17:26:14,774:INFO:Logistic Regression Imported succesfully
+2022-12-31 17:26:14,775:INFO:Cross validation set to False
+2022-12-31 17:26:14,775:INFO:Fitting Model
+2022-12-31 17:26:18,913:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2022-12-31 17:26:18,914:INFO:create_models() succesfully completed......................................
+2022-12-31 17:26:19,118:INFO:create_model_container: 14
+2022-12-31 17:26:19,118:INFO:master_model_container: 14
+2022-12-31 17:26:19,118:INFO:display_container: 2
+2022-12-31 17:26:19,119:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2022-12-31 17:26:19,119:INFO:compare_models() succesfully completed......................................
+2022-12-31 17:26:19,229:INFO:Initializing tune_model()
+2022-12-31 17:26:19,229:INFO:tune_model(estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=False, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, display=None, return_train_score=False, kwargs={})
+2022-12-31 17:26:19,230:INFO:Checking exceptions
+2022-12-31 17:26:19,231:INFO:Preparing display monitor
+2022-12-31 17:26:19,263:INFO:Copying training dataset
+2022-12-31 17:26:19,326:INFO:Checking base model
+2022-12-31 17:26:19,326:INFO:Base model : Logistic Regression
+2022-12-31 17:26:19,337:INFO:Declaring metric variables
+2022-12-31 17:26:19,350:INFO:Defining Hyperparameters
+2022-12-31 17:26:19,482:INFO:Tuning with n_jobs=-1
+2022-12-31 17:26:19,482:INFO:Initializing RandomizedSearchCV
+2022-12-31 17:34:13,614:INFO:best_params: {'actual_estimator__class_weight': {}, 'actual_estimator__C': 3.882}
+2022-12-31 17:34:13,615:INFO:Hyperparameter search completed
+2022-12-31 17:34:13,616:INFO:SubProcess create_model() called ==================================
+2022-12-31 17:34:13,617:INFO:Initializing create_model()
+2022-12-31 17:34:13,617:INFO:create_model(estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, verbose=True, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x7fcec2adcdc0>, return_train_score=False, kwargs={'class_weight': {}, 'C': 3.882})
+2022-12-31 17:34:13,617:INFO:Checking exceptions
+2022-12-31 17:34:13,617:INFO:Importing libraries
+2022-12-31 17:34:13,617:INFO:Copying training dataset
+2022-12-31 17:34:13,681:INFO:Defining folds
+2022-12-31 17:34:13,682:INFO:Declaring metric variables
+2022-12-31 17:34:13,694:INFO:Importing untrained model
+2022-12-31 17:34:13,695:INFO:Declaring custom model
+2022-12-31 17:34:13,711:INFO:Logistic Regression Imported succesfully
+2022-12-31 17:34:13,736:INFO:Starting cross validation
+2022-12-31 17:34:13,738:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2022-12-31 17:34:56,942:INFO:Calculating mean and std
+2022-12-31 17:34:56,950:INFO:Creating metrics dataframe
+2022-12-31 17:34:56,972:INFO:Finalizing model
+2022-12-31 17:35:05,311:INFO:Uploading results into container
+2022-12-31 17:35:05,312:INFO:Uploading model into container now
+2022-12-31 17:35:05,312:INFO:create_model_container: 15
+2022-12-31 17:35:05,312:INFO:master_model_container: 15
+2022-12-31 17:35:05,312:INFO:display_container: 3
+2022-12-31 17:35:05,313:INFO:LogisticRegression(C=3.882, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2022-12-31 17:35:05,314:INFO:create_model() succesfully completed......................................
+2022-12-31 17:35:05,479:INFO:SubProcess create_model() end ==================================
+2022-12-31 17:35:05,491:INFO:create_model_container: 15
+2022-12-31 17:35:05,491:INFO:master_model_container: 15
+2022-12-31 17:35:05,491:INFO:display_container: 3
+2022-12-31 17:35:05,492:INFO:LogisticRegression(C=3.882, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2022-12-31 17:35:05,492:INFO:tune_model() succesfully completed......................................
+2022-12-31 17:35:05,747:INFO:Initializing plot_model()
+2022-12-31 17:35:05,750:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=LogisticRegression(C=3.882, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=confusion_matrix, plot_kwargs=None, save=False, scale=1, system=True)
+2022-12-31 17:35:05,750:INFO:Checking exceptions
+2022-12-31 17:35:05,753:INFO:Preparing display monitor
+2022-12-31 17:35:05,768:INFO:Preloading libraries
+2022-12-31 17:35:05,770:INFO:Copying training dataset
+2022-12-31 17:35:05,844:INFO:Copying test dataset
+2022-12-31 17:35:05,872:INFO:Plot type: confusion_matrix
+2022-12-31 17:35:05,873:INFO:Initializing get_config()
+2022-12-31 17:35:05,874:INFO:get_config(variable=prep_pipe)
+2022-12-31 17:35:05,882:INFO:Global variable: prep_pipe returned as Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Churn',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strate...
+                                                  random_state_quantile=123,
+                                                  target='Churn')),
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-12-31 17:35:05,882:INFO:get_config() succesfully completed......................................
+2022-12-31 17:35:05,922:INFO:Fitting Model
+2022-12-31 17:35:05,923:INFO:Scoring test/hold-out set
+2022-12-31 17:35:06,437:INFO:Visual Rendered Successfully
+2022-12-31 17:35:06,588:INFO:plot_model() succesfully completed......................................
+2022-12-31 17:35:06,641:INFO:Initializing save_model()
+2022-12-31 17:35:06,641:INFO:save_model(model=LogisticRegression(C=3.882, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), model_name=lr_model, prep_pipe_=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Churn',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strate...
+                                                  random_state_quantile=123,
+                                                  target='Churn')),
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False), verbose=True, kwargs={})
+2022-12-31 17:35:06,642:INFO:Adding model into prep_pipe
+2022-12-31 17:35:06,677:INFO:lr_model.pkl saved in current working directory
+2022-12-31 17:35:06,687:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Churn',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strate...
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=123,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False)]],
+         verbose=False)
+2022-12-31 17:35:06,687:INFO:save_model() successfully completed......................................
+2022-12-31 17:36:48,588:INFO:Initializing load_model()
+2022-12-31 17:36:48,589:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:36:56,378:INFO:Initializing load_model()
+2022-12-31 17:36:56,378:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:36:59,398:INFO:Initializing load_model()
+2022-12-31 17:36:59,399:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:37:26,304:INFO:Initializing predict_model()
+2022-12-31 17:37:26,304:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:37:26,304:INFO:Checking exceptions
+2022-12-31 17:37:26,304:INFO:Preloading libraries
+2022-12-31 17:38:31,563:INFO:Initializing predict_model()
+2022-12-31 17:38:31,563:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:38:31,564:INFO:Checking exceptions
+2022-12-31 17:38:31,564:INFO:Preloading libraries
+2022-12-31 17:40:41,143:INFO:Initializing load_model()
+2022-12-31 17:40:41,143:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:40:48,867:INFO:Initializing predict_model()
+2022-12-31 17:40:48,867:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:40:48,867:INFO:Checking exceptions
+2022-12-31 17:40:48,867:INFO:Preloading libraries
+2022-12-31 17:41:38,375:INFO:Initializing load_model()
+2022-12-31 17:41:38,375:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:41:40,425:INFO:Initializing predict_model()
+2022-12-31 17:41:40,425:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:41:40,425:INFO:Checking exceptions
+2022-12-31 17:41:40,425:INFO:Preloading libraries
+2022-12-31 17:41:45,274:INFO:Initializing predict_model()
+2022-12-31 17:41:45,274:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:41:45,274:INFO:Checking exceptions
+2022-12-31 17:41:45,274:INFO:Preloading libraries
+2022-12-31 17:41:48,638:INFO:Initializing predict_model()
+2022-12-31 17:41:48,638:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:41:48,638:INFO:Checking exceptions
+2022-12-31 17:41:48,638:INFO:Preloading libraries
+2022-12-31 17:41:52,001:INFO:Initializing predict_model()
+2022-12-31 17:41:52,001:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:41:52,002:INFO:Checking exceptions
+2022-12-31 17:41:52,002:INFO:Preloading libraries
+2022-12-31 17:41:58,903:INFO:Initializing predict_model()
+2022-12-31 17:41:58,903:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:41:58,904:INFO:Checking exceptions
+2022-12-31 17:41:58,904:INFO:Preloading libraries
+2022-12-31 17:42:00,015:INFO:Initializing predict_model()
+2022-12-31 17:42:00,015:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:42:00,016:INFO:Checking exceptions
+2022-12-31 17:42:00,016:INFO:Preloading libraries
+2022-12-31 17:42:02,983:INFO:Initializing predict_model()
+2022-12-31 17:42:02,984:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:42:02,984:INFO:Checking exceptions
+2022-12-31 17:42:02,984:INFO:Preloading libraries
+2022-12-31 17:42:07,447:INFO:Initializing predict_model()
+2022-12-31 17:42:07,448:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:42:07,448:INFO:Checking exceptions
+2022-12-31 17:42:07,448:INFO:Preloading libraries
+2022-12-31 17:42:14,170:INFO:Initializing predict_model()
+2022-12-31 17:42:14,170:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:42:14,171:INFO:Checking exceptions
+2022-12-31 17:42:14,171:INFO:Preloading libraries
+2022-12-31 17:43:39,584:INFO:Initializing predict_model()
+2022-12-31 17:43:39,584:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:43:39,584:INFO:Checking exceptions
+2022-12-31 17:43:39,584:INFO:Preloading libraries
+2022-12-31 17:43:41,713:INFO:Initializing predict_model()
+2022-12-31 17:43:41,714:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:43:41,714:INFO:Checking exceptions
+2022-12-31 17:43:41,714:INFO:Preloading libraries
+2022-12-31 17:43:42,771:INFO:Initializing predict_model()
+2022-12-31 17:43:42,771:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:43:42,771:INFO:Checking exceptions
+2022-12-31 17:43:42,771:INFO:Preloading libraries
+2022-12-31 17:43:54,244:INFO:Initializing predict_model()
+2022-12-31 17:43:54,244:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:43:54,244:INFO:Checking exceptions
+2022-12-31 17:43:54,245:INFO:Preloading libraries
+2022-12-31 17:43:56,175:INFO:Initializing predict_model()
+2022-12-31 17:43:56,175:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:43:56,175:INFO:Checking exceptions
+2022-12-31 17:43:56,176:INFO:Preloading libraries
+2022-12-31 17:44:09,503:INFO:Initializing predict_model()
+2022-12-31 17:44:09,503:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:44:09,503:INFO:Checking exceptions
+2022-12-31 17:44:09,503:INFO:Preloading libraries
+2022-12-31 17:45:04,764:INFO:Initializing load_model()
+2022-12-31 17:45:04,764:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:45:22,133:INFO:Initializing load_model()
+2022-12-31 17:45:22,133:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2022-12-31 17:45:24,073:INFO:Initializing predict_model()
+2022-12-31 17:45:24,073:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-12-31 17:45:24,073:INFO:Checking exceptions
+2022-12-31 17:45:24,073:INFO:Preloading libraries

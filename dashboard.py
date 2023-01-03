@@ -45,9 +45,52 @@ sidebar = html.Div(
         ),
         dbc.Nav(
             [
-                dbc.NavLink("Home", href="/", active="exact"),
-                dbc.NavLink("Predictions", href="/prediction", active="exact"),
-                dbc.NavLink("Data", href="/data_render", active="exact"),
+                # dbc.NavLink("Home", href="/home", active="exact"),
+                # replacing navlink to the dropdown dcc dropdown
+               
+                # adding button for the visualizations page 
+
+                # using the dropdown extended from dbc
+                # 
+                # dbc.DropdownMenu(
+                #         children=[
+                #             dbc.DropdownMenuItem("Single feature distributions", href="/"),
+                #             dbc.DropdownMenuItem(
+                #                 "Relationship between features", href="/relationship"
+                #             ),
+                #             dbc.DropdownMenuItem(
+                #                 "Distribution >2 features", href="/distribution_2_features"
+                #             ),
+                #             dbc.DropdownMenuItem("Trends between variables", href="/trends"),
+                #         ],
+                #         label="Visualizations",
+                #         nav=True,
+                #         in_navbar=True,
+                #     ),
+                # make visualizations button to bold and add the icon
+                
+                dbc.NavLink("📈 Visualizations", href="/", id = "visualization_click", n_clicks = 0, style = {"font-weight": "bold"} ),
+                dbc.Collapse(
+                    dbc.Nav(
+                        [
+                            dbc.NavLink("Distribution", href="/", active="exact", ),
+                            dbc.NavLink("Relationship", href="/relationship", active="exact"),
+                            dbc.NavLink("Multiple distribution", href="/multiple_distribution", active="exact"),
+                            dbc.NavLink("Trend", href="/trend", active="exact"),
+                        ],
+                        # vertical=True,
+                        # pills=True,
+                        # align the nav links to the left
+                        style={"margin-left": "25px"},
+                        horizontal = "center",
+                    ),
+                    id="collapse",
+
+                    is_open=True,
+                ),
+                dbc.NavLink("🤖 Predictions", href="/prediction", active="exact"),
+                dbc.NavLink("📕 Data", href="/data_render", active="exact"),
+                 
             ],
             vertical=True,
             pills=True,
@@ -84,9 +127,29 @@ app.layout = html.Div(
                     ],
                     width=2,
                 ),
-                dbc.Col([dash.page_container], width=10),
+                # only the page container will be updated with default page is home
+                dbc.Col(
+                    [
+                        dash.page_container
+                    ],
+                    width=10,
+                ),
             ]
         ),
     ]
 )
+
+@app.callback(
+    Output("collapse", "is_open"),
+    [Input("visualization_click", "n_clicks")],
+    [State("collapse", "is_open")],
+)
+def toggle_collapse(n, is_open):
+    if n:
+        return not is_open
+    return is_open
+
+
 app.run_server(debug=True)
+
+

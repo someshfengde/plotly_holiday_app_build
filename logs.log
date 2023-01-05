@@ -3989,3 +3989,1655 @@ X does not have valid feature names, but LogisticRegression was fitted with feat
 2023-01-04 01:27:06,596:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
 2023-01-04 01:27:44,999:INFO:Initializing load_model()
 2023-01-04 01:27:44,999:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-04 21:17:05,675:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-04 21:17:05,676:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-04 21:17:05,676:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-04 21:17:05,676:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-04 21:17:06,588:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-04 21:17:07,162:INFO:Initializing load_model()
+2023-01-04 21:17:07,162:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-04 23:21:51,575:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-04 23:21:51,575:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-04 23:21:51,575:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-04 23:21:51,575:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-04 23:21:52,181:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-04 23:21:52,803:INFO:Initializing load_model()
+2023-01-04 23:21:52,803:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-04 23:25:12,122:INFO:Initializing load_model()
+2023-01-04 23:25:12,122:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-04 23:25:16,369:INFO:Initializing load_model()
+2023-01-04 23:25:16,370:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-04 23:39:26,608:INFO:Initializing load_model()
+2023-01-04 23:39:26,608:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-04 23:46:37,857:INFO:Initializing load_model()
+2023-01-04 23:46:37,858:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-04 23:46:57,703:INFO:Initializing load_model()
+2023-01-04 23:46:57,703:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-04 23:47:11,595:INFO:Initializing load_model()
+2023-01-04 23:47:11,596:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-04 23:47:14,504:INFO:Initializing load_model()
+2023-01-04 23:47:14,504:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-04 23:48:01,901:INFO:Initializing load_model()
+2023-01-04 23:48:01,901:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-04 23:49:46,282:INFO:Initializing load_model()
+2023-01-04 23:49:46,282:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-04 23:51:01,332:INFO:Initializing load_model()
+2023-01-04 23:51:01,332:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-04 23:52:21,056:INFO:Initializing load_model()
+2023-01-04 23:52:21,056:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-04 23:52:45,088:INFO:Initializing load_model()
+2023-01-04 23:52:45,088:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 00:12:22,096:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-05 00:12:22,097:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-05 00:12:22,097:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-05 00:12:22,097:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-05 00:12:22,500:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-05 00:12:22,643:INFO:Initializing load_model()
+2023-01-05 00:12:22,643:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 00:12:58,874:INFO:Initializing load_model()
+2023-01-05 00:12:58,874:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 00:15:13,939:INFO:Initializing evaluate_model()
+2023-01-05 00:15:13,939:INFO:evaluate_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None, use_train_data=False)
+2023-01-05 00:15:24,957:INFO:Initializing plot_model()
+2023-01-05 00:15:24,958:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=auc, plot_kwargs=None, save=False, scale=1, system=True)
+2023-01-05 00:15:24,958:INFO:Checking exceptions
+2023-01-05 18:19:01,366:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-05 18:19:01,367:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-05 18:19:01,367:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-05 18:19:01,367:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-05 18:19:02,257:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-05 18:19:02,805:INFO:PyCaret ClassificationExperiment
+2023-01-05 18:19:02,805:INFO:Logging name: clf-default-name
+2023-01-05 18:19:02,805:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-01-05 18:19:02,806:INFO:version 3.0.0.rc5
+2023-01-05 18:19:02,806:INFO:Initializing setup()
+2023-01-05 18:19:02,806:INFO:self.USI: 7718
+2023-01-05 18:19:02,806:INFO:self._variable_keys: {'seed', '_available_plots', 'fix_imbalance', 'X_test', 'n_jobs_param', 'y_train', '_ml_usecase', 'is_multiclass', 'data', 'y_test', 'gpu_param', 'idx', 'target_param', 'fold_groups_param', 'memory', 'fold_generator', 'html_param', 'log_plots_param', 'fold_shuffle_param', 'gpu_n_jobs_param', 'X_train', 'X', 'exp_id', 'y', 'exp_name_log', 'pipeline', 'logging_param', 'USI'}
+2023-01-05 18:19:02,806:INFO:Checking environment
+2023-01-05 18:19:02,806:INFO:python_version: 3.10.6
+2023-01-05 18:19:02,806:INFO:python_build: ('main', 'Nov 14 2022 16:10:14')
+2023-01-05 18:19:02,806:INFO:machine: x86_64
+2023-01-05 18:19:02,806:INFO:platform: Linux-6.0.12-76060006-generic-x86_64-with-glibc2.35
+2023-01-05 18:19:02,807:INFO:Memory: svmem(total=16658108416, available=8621072384, percent=48.2, used=6052311040, free=4507803648, active=2095259648, inactive=8588869632, buffers=374833152, cached=5723160576, shared=1635606528, slab=394104832)
+2023-01-05 18:19:02,808:INFO:Physical Core: 2
+2023-01-05 18:19:02,808:INFO:Logical Core: 4
+2023-01-05 18:19:02,808:INFO:Checking libraries
+2023-01-05 18:19:02,808:INFO:System:
+2023-01-05 18:19:02,809:INFO:    python: 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
+2023-01-05 18:19:02,809:INFO:executable: /bin/python3
+2023-01-05 18:19:02,809:INFO:   machine: Linux-6.0.12-76060006-generic-x86_64-with-glibc2.35
+2023-01-05 18:19:02,809:INFO:PyCaret required dependencies:
+2023-01-05 18:19:02,809:INFO:                 pip: 22.0.2
+2023-01-05 18:19:02,809:INFO:          setuptools: 59.6.0
+2023-01-05 18:19:02,809:INFO:             pycaret: 3.0.0rc5
+2023-01-05 18:19:02,809:INFO:             IPython: 8.6.0
+2023-01-05 18:19:02,809:INFO:          ipywidgets: 8.0.3
+2023-01-05 18:19:02,810:INFO:                tqdm: 4.64.1
+2023-01-05 18:19:02,810:INFO:               numpy: 1.23.3
+2023-01-05 18:19:02,810:INFO:              pandas: 1.5.0
+2023-01-05 18:19:02,810:INFO:              jinja2: 3.1.2
+2023-01-05 18:19:02,810:INFO:               scipy: 1.9.1
+2023-01-05 18:19:02,810:INFO:              joblib: 1.2.0
+2023-01-05 18:19:02,810:INFO:             sklearn: 1.1.2
+2023-01-05 18:19:02,810:INFO:                pyod: 1.0.7
+2023-01-05 18:19:02,810:INFO:            imblearn: 0.10.0
+2023-01-05 18:19:02,810:INFO:   category_encoders: 2.5.1.post0
+2023-01-05 18:19:02,810:INFO:            lightgbm: 3.3.3
+2023-01-05 18:19:02,810:INFO:               numba: 0.56.4
+2023-01-05 18:19:02,810:INFO:            requests: 2.25.1
+2023-01-05 18:19:02,810:INFO:          matplotlib: 3.6.0
+2023-01-05 18:19:02,811:INFO:          scikitplot: 0.3.7
+2023-01-05 18:19:02,811:INFO:         yellowbrick: 1.5
+2023-01-05 18:19:02,811:INFO:              plotly: 5.10.0
+2023-01-05 18:19:02,811:INFO:             kaleido: 0.2.1
+2023-01-05 18:19:02,811:INFO:         statsmodels: 0.13.5
+2023-01-05 18:19:02,811:INFO:              sktime: 0.14.1
+2023-01-05 18:19:02,811:INFO:               tbats: 1.1.2
+2023-01-05 18:19:02,811:INFO:            pmdarima: 2.0.2
+2023-01-05 18:19:02,811:INFO:              psutil: 5.9.4
+2023-01-05 18:19:02,811:INFO:PyCaret optional dependencies:
+2023-01-05 18:19:02,819:INFO:                shap: Not installed
+2023-01-05 18:19:02,819:INFO:           interpret: Not installed
+2023-01-05 18:19:02,819:INFO:                umap: Not installed
+2023-01-05 18:19:02,819:INFO:    pandas_profiling: Not installed
+2023-01-05 18:19:02,819:INFO:  explainerdashboard: Not installed
+2023-01-05 18:19:02,819:INFO:             autoviz: Not installed
+2023-01-05 18:19:02,819:INFO:           fairlearn: Not installed
+2023-01-05 18:19:02,820:INFO:             xgboost: 1.7.2
+2023-01-05 18:19:02,820:INFO:            catboost: 1.1.1
+2023-01-05 18:19:02,820:INFO:              kmodes: Not installed
+2023-01-05 18:19:02,820:INFO:             mlxtend: Not installed
+2023-01-05 18:19:02,820:INFO:       statsforecast: Not installed
+2023-01-05 18:19:02,820:INFO:        tune_sklearn: Not installed
+2023-01-05 18:19:02,820:INFO:                 ray: Not installed
+2023-01-05 18:19:02,820:INFO:            hyperopt: Not installed
+2023-01-05 18:19:02,820:INFO:              optuna: Not installed
+2023-01-05 18:19:02,820:INFO:               skopt: Not installed
+2023-01-05 18:19:02,820:INFO:              mlflow: Not installed
+2023-01-05 18:19:02,820:INFO:              gradio: Not installed
+2023-01-05 18:19:02,820:INFO:             fastapi: Not installed
+2023-01-05 18:19:02,820:INFO:             uvicorn: Not installed
+2023-01-05 18:19:02,820:INFO:              m2cgen: Not installed
+2023-01-05 18:19:02,821:INFO:           evidently: Not installed
+2023-01-05 18:19:02,821:INFO:                nltk: Not installed
+2023-01-05 18:19:02,821:INFO:            pyLDAvis: Not installed
+2023-01-05 18:19:02,821:INFO:              gensim: Not installed
+2023-01-05 18:19:02,821:INFO:               spacy: Not installed
+2023-01-05 18:19:02,821:INFO:           wordcloud: Not installed
+2023-01-05 18:19:02,821:INFO:            textblob: Not installed
+2023-01-05 18:19:02,821:INFO:               fugue: Not installed
+2023-01-05 18:19:02,821:INFO:           streamlit: Not installed
+2023-01-05 18:19:02,821:INFO:             prophet: Not installed
+2023-01-05 18:19:02,821:INFO:None
+2023-01-05 18:19:02,821:INFO:Set up data.
+2023-01-05 18:19:02,884:INFO:Set up train/test split.
+2023-01-05 18:19:02,906:INFO:Set up index.
+2023-01-05 18:19:02,906:INFO:Set up folding strategy.
+2023-01-05 18:19:02,906:INFO:Assigning column types.
+2023-01-05 18:19:02,911:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2023-01-05 18:19:02,970:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-01-05 18:19:02,973:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-01-05 18:19:03,021:INFO:Soft dependency imported: xgboost: 1.7.2
+2023-01-05 18:19:03,188:INFO:Soft dependency imported: catboost: 1.1.1
+2023-01-05 18:19:03,391:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-01-05 18:19:03,392:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-01-05 18:19:03,429:INFO:Soft dependency imported: xgboost: 1.7.2
+2023-01-05 18:19:03,435:INFO:Soft dependency imported: catboost: 1.1.1
+2023-01-05 18:19:03,436:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2023-01-05 18:19:03,494:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-01-05 18:19:03,535:INFO:Soft dependency imported: xgboost: 1.7.2
+2023-01-05 18:19:03,539:INFO:Soft dependency imported: catboost: 1.1.1
+2023-01-05 18:19:03,603:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-01-05 18:19:03,641:INFO:Soft dependency imported: xgboost: 1.7.2
+2023-01-05 18:19:03,644:INFO:Soft dependency imported: catboost: 1.1.1
+2023-01-05 18:19:03,645:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2023-01-05 18:19:03,740:INFO:Soft dependency imported: xgboost: 1.7.2
+2023-01-05 18:19:03,743:INFO:Soft dependency imported: catboost: 1.1.1
+2023-01-05 18:19:03,853:INFO:Soft dependency imported: xgboost: 1.7.2
+2023-01-05 18:19:03,855:INFO:Soft dependency imported: catboost: 1.1.1
+2023-01-05 18:19:03,857:INFO:Preparing preprocessing pipeline...
+2023-01-05 18:19:03,859:INFO:Set up label encoding.
+2023-01-05 18:19:03,859:INFO:Set up simple imputation.
+2023-01-05 18:19:03,870:INFO:Set up encoding of ordinal features.
+2023-01-05 18:19:03,877:INFO:Set up encoding of categorical features.
+2023-01-05 18:19:03,877:INFO:Set up column transformation.
+2023-01-05 18:19:03,877:INFO:Set up feature normalization.
+2023-01-05 18:19:05,761:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:19:05,767:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:19:05,770:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:19:05,774:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:19:05,778:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:19:05,783:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:19:05,787:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:19:05,791:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:19:05,794:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:19:05,799:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:19:07,142:INFO:Finished creating preprocessing pipeline.
+2023-01-05 18:19:07,186:INFO:Pipeline: Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              missing_values=nan...
+                                                                   handle_unknown='value',
+                                                                   random_state=123,
+                                                                   return_df=True,
+                                                                   sigma=None,
+                                                                   verbose=0))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False))),
+                ('normalize',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=StandardScaler(copy=True,
+                                                               with_mean=True,
+                                                               with_std=True)))],
+         verbose=False)
+2023-01-05 18:19:07,187:INFO:Creating final display dataframe.
+2023-01-05 18:19:14,255:INFO:Setup _display_container:                     Description             Value
+0                    Session id               123
+1                        Target             Churn
+2                   Target type            Binary
+3                Target mapping     No: 0, Yes: 1
+4           Original data shape        (7021, 20)
+5        Transformed data shape        (7021, 41)
+6   Transformed train set shape        (4914, 41)
+7    Transformed test set shape        (2107, 41)
+8              Ordinal features                 5
+9              Numeric features                 3
+10         Categorical features                16
+11                   Preprocess              True
+12              Imputation type            simple
+13           Numeric imputation              mean
+14       Categorical imputation              mode
+15     Maximum one-hot encoding                25
+16              Encoding method              None
+17               Transformation              True
+18        Transformation method       yeo-johnson
+19                    Normalize              True
+20             Normalize method            zscore
+21               Fold Generator   StratifiedKFold
+22                  Fold Number                10
+23                     CPU Jobs                -1
+24                      Use GPU             False
+25               Log Experiment             False
+26              Experiment Name  clf-default-name
+27                          USI              7718
+2023-01-05 18:19:14,371:INFO:Soft dependency imported: xgboost: 1.7.2
+2023-01-05 18:19:14,374:INFO:Soft dependency imported: catboost: 1.1.1
+2023-01-05 18:19:14,476:INFO:Soft dependency imported: xgboost: 1.7.2
+2023-01-05 18:19:14,480:INFO:Soft dependency imported: catboost: 1.1.1
+2023-01-05 18:19:14,482:INFO:setup() successfully completed in 11.68s...............
+2023-01-05 18:19:14,514:INFO:Initializing compare_models()
+2023-01-05 18:19:14,515:INFO:compare_models(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, include=None, fold=None, round=4, cross_validation=True, sort=Accuracy, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'Accuracy', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'probability_threshold': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.classification.oop.ClassificationExperiment'>}, exclude=None)
+2023-01-05 18:19:14,515:INFO:Checking exceptions
+2023-01-05 18:19:14,530:INFO:Preparing display monitor
+2023-01-05 18:19:14,591:INFO:Initializing Logistic Regression
+2023-01-05 18:19:14,592:INFO:Total runtime is 1.3009707132975261e-05 minutes
+2023-01-05 18:19:14,604:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:19:14,605:INFO:Initializing create_model()
+2023-01-05 18:19:14,605:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=lr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:19:14,605:INFO:Checking exceptions
+2023-01-05 18:19:14,605:INFO:Importing libraries
+2023-01-05 18:19:14,605:INFO:Copying training dataset
+2023-01-05 18:19:14,623:INFO:Defining folds
+2023-01-05 18:19:14,623:INFO:Declaring metric variables
+2023-01-05 18:19:14,630:INFO:Importing untrained model
+2023-01-05 18:19:14,637:INFO:Logistic Regression Imported successfully
+2023-01-05 18:19:14,661:INFO:Starting cross validation
+2023-01-05 18:19:14,667:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:19:21,172:WARNING:/home/somesh/.local/lib/python3.10/site-packages/pycaret/internal/pipeline.py:192: UserWarning: Persisting input arguments took 0.60s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y, fitted_transformer = self._memory_fit(
+
+2023-01-05 18:19:21,650:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,656:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,660:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,664:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,672:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,675:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,679:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,686:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,690:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,694:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,838:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,842:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,846:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,851:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,855:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,859:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,863:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,868:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,872:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,875:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:21,913:WARNING:/home/somesh/.local/lib/python3.10/site-packages/pycaret/internal/pipeline.py:192: UserWarning: Persisting input arguments took 0.56s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y, fitted_transformer = self._memory_fit(
+
+2023-01-05 18:19:21,995:WARNING:/home/somesh/.local/lib/python3.10/site-packages/pycaret/internal/pipeline.py:192: UserWarning: Persisting input arguments took 0.58s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y, fitted_transformer = self._memory_fit(
+
+2023-01-05 18:19:22,793:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,797:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,806:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,810:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,814:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,823:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,828:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,833:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,832:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,839:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,840:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,843:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,844:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,847:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,853:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,857:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,862:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,868:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,873:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:22,877:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:29,857:WARNING:/home/somesh/.local/lib/python3.10/site-packages/pycaret/internal/pipeline.py:192: UserWarning: Persisting input arguments took 0.62s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y, fitted_transformer = self._memory_fit(
+
+2023-01-05 18:19:30,047:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,053:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,057:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,061:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,065:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,071:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,074:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,078:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,082:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,087:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,706:WARNING:/home/somesh/.local/lib/python3.10/site-packages/pycaret/internal/pipeline.py:192: UserWarning: Persisting input arguments took 0.51s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y, fitted_transformer = self._memory_fit(
+
+2023-01-05 18:19:30,713:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,717:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,723:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,728:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,732:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,743:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,747:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,753:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,760:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:30,764:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,212:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,216:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,222:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,226:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,230:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,236:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,240:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,246:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,250:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,256:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,430:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,435:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,439:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,443:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,448:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,453:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,457:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,461:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,466:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:31,471:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,624:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,627:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,630:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,633:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,637:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,641:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,643:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,647:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,649:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,654:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,700:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,705:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,708:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,711:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,714:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,718:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,722:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,726:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,728:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:37,731:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning: iteritems is deprecated and will be removed in a future version. Use .items instead.
+  for cat_name, class_ in values.iteritems():
+
+2023-01-05 18:19:40,626:INFO:Calculating mean and std
+2023-01-05 18:19:40,628:INFO:Creating metrics dataframe
+2023-01-05 18:19:40,636:INFO:Uploading results into container
+2023-01-05 18:19:40,639:INFO:Uploading model into container now
+2023-01-05 18:19:40,639:INFO:_master_model_container: 1
+2023-01-05 18:19:40,640:INFO:_display_container: 2
+2023-01-05 18:19:40,642:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-01-05 18:19:40,642:INFO:create_model() successfully completed......................................
+2023-01-05 18:19:40,784:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:19:40,784:INFO:Creating metrics dataframe
+2023-01-05 18:19:40,798:INFO:Initializing K Neighbors Classifier
+2023-01-05 18:19:40,798:INFO:Total runtime is 0.43678590456644695 minutes
+2023-01-05 18:19:40,805:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:19:40,806:INFO:Initializing create_model()
+2023-01-05 18:19:40,806:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=knn, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:19:40,806:INFO:Checking exceptions
+2023-01-05 18:19:40,806:INFO:Importing libraries
+2023-01-05 18:19:40,806:INFO:Copying training dataset
+2023-01-05 18:19:40,815:INFO:Defining folds
+2023-01-05 18:19:40,815:INFO:Declaring metric variables
+2023-01-05 18:19:40,823:INFO:Importing untrained model
+2023-01-05 18:19:40,829:INFO:K Neighbors Classifier Imported successfully
+2023-01-05 18:19:40,846:INFO:Starting cross validation
+2023-01-05 18:19:40,851:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:19:47,914:INFO:Calculating mean and std
+2023-01-05 18:19:47,916:INFO:Creating metrics dataframe
+2023-01-05 18:19:47,923:INFO:Uploading results into container
+2023-01-05 18:19:47,924:INFO:Uploading model into container now
+2023-01-05 18:19:47,925:INFO:_master_model_container: 2
+2023-01-05 18:19:47,925:INFO:_display_container: 2
+2023-01-05 18:19:47,925:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2023-01-05 18:19:47,926:INFO:create_model() successfully completed......................................
+2023-01-05 18:19:48,036:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:19:48,036:INFO:Creating metrics dataframe
+2023-01-05 18:19:48,051:INFO:Initializing Naive Bayes
+2023-01-05 18:19:48,051:INFO:Total runtime is 0.5576688647270203 minutes
+2023-01-05 18:19:48,058:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:19:48,059:INFO:Initializing create_model()
+2023-01-05 18:19:48,059:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=nb, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:19:48,059:INFO:Checking exceptions
+2023-01-05 18:19:48,059:INFO:Importing libraries
+2023-01-05 18:19:48,059:INFO:Copying training dataset
+2023-01-05 18:19:48,066:INFO:Defining folds
+2023-01-05 18:19:48,066:INFO:Declaring metric variables
+2023-01-05 18:19:48,075:INFO:Importing untrained model
+2023-01-05 18:19:48,081:INFO:Naive Bayes Imported successfully
+2023-01-05 18:19:48,098:INFO:Starting cross validation
+2023-01-05 18:19:48,103:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:19:54,162:INFO:Calculating mean and std
+2023-01-05 18:19:54,164:INFO:Creating metrics dataframe
+2023-01-05 18:19:54,172:INFO:Uploading results into container
+2023-01-05 18:19:54,174:INFO:Uploading model into container now
+2023-01-05 18:19:54,175:INFO:_master_model_container: 3
+2023-01-05 18:19:54,176:INFO:_display_container: 2
+2023-01-05 18:19:54,176:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2023-01-05 18:19:54,176:INFO:create_model() successfully completed......................................
+2023-01-05 18:19:54,290:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:19:54,290:INFO:Creating metrics dataframe
+2023-01-05 18:19:54,305:INFO:Initializing Decision Tree Classifier
+2023-01-05 18:19:54,305:INFO:Total runtime is 0.6619035720825195 minutes
+2023-01-05 18:19:54,311:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:19:54,312:INFO:Initializing create_model()
+2023-01-05 18:19:54,312:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=dt, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:19:54,312:INFO:Checking exceptions
+2023-01-05 18:19:54,312:INFO:Importing libraries
+2023-01-05 18:19:54,312:INFO:Copying training dataset
+2023-01-05 18:19:54,322:INFO:Defining folds
+2023-01-05 18:19:54,322:INFO:Declaring metric variables
+2023-01-05 18:19:54,329:INFO:Importing untrained model
+2023-01-05 18:19:54,338:INFO:Decision Tree Classifier Imported successfully
+2023-01-05 18:19:54,352:INFO:Starting cross validation
+2023-01-05 18:19:54,356:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:20:00,824:INFO:Calculating mean and std
+2023-01-05 18:20:00,826:INFO:Creating metrics dataframe
+2023-01-05 18:20:00,831:INFO:Uploading results into container
+2023-01-05 18:20:00,832:INFO:Uploading model into container now
+2023-01-05 18:20:00,833:INFO:_master_model_container: 4
+2023-01-05 18:20:00,834:INFO:_display_container: 2
+2023-01-05 18:20:00,835:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       random_state=123, splitter='best')
+2023-01-05 18:20:00,835:INFO:create_model() successfully completed......................................
+2023-01-05 18:20:00,941:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:20:00,941:INFO:Creating metrics dataframe
+2023-01-05 18:20:00,956:INFO:Initializing SVM - Linear Kernel
+2023-01-05 18:20:00,956:INFO:Total runtime is 0.7727483352025349 minutes
+2023-01-05 18:20:00,961:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:20:00,962:INFO:Initializing create_model()
+2023-01-05 18:20:00,962:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=svm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:20:00,962:INFO:Checking exceptions
+2023-01-05 18:20:00,962:INFO:Importing libraries
+2023-01-05 18:20:00,962:INFO:Copying training dataset
+2023-01-05 18:20:00,970:INFO:Defining folds
+2023-01-05 18:20:00,971:INFO:Declaring metric variables
+2023-01-05 18:20:00,979:INFO:Importing untrained model
+2023-01-05 18:20:00,985:INFO:SVM - Linear Kernel Imported successfully
+2023-01-05 18:20:01,004:INFO:Starting cross validation
+2023-01-05 18:20:01,011:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:20:06,344:INFO:Calculating mean and std
+2023-01-05 18:20:06,345:INFO:Creating metrics dataframe
+2023-01-05 18:20:06,350:INFO:Uploading results into container
+2023-01-05 18:20:06,352:INFO:Uploading model into container now
+2023-01-05 18:20:06,353:INFO:_master_model_container: 5
+2023-01-05 18:20:06,353:INFO:_display_container: 2
+2023-01-05 18:20:06,354:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=123, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2023-01-05 18:20:06,354:INFO:create_model() successfully completed......................................
+2023-01-05 18:20:06,481:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:20:06,481:INFO:Creating metrics dataframe
+2023-01-05 18:20:06,502:INFO:Initializing Ridge Classifier
+2023-01-05 18:20:06,502:INFO:Total runtime is 0.8651794036229451 minutes
+2023-01-05 18:20:06,510:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:20:06,510:INFO:Initializing create_model()
+2023-01-05 18:20:06,511:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=ridge, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:20:06,511:INFO:Checking exceptions
+2023-01-05 18:20:06,511:INFO:Importing libraries
+2023-01-05 18:20:06,511:INFO:Copying training dataset
+2023-01-05 18:20:06,519:INFO:Defining folds
+2023-01-05 18:20:06,520:INFO:Declaring metric variables
+2023-01-05 18:20:06,528:INFO:Importing untrained model
+2023-01-05 18:20:06,537:INFO:Ridge Classifier Imported successfully
+2023-01-05 18:20:06,556:INFO:Starting cross validation
+2023-01-05 18:20:06,562:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:20:11,561:INFO:Calculating mean and std
+2023-01-05 18:20:11,563:INFO:Creating metrics dataframe
+2023-01-05 18:20:11,567:INFO:Uploading results into container
+2023-01-05 18:20:11,567:INFO:Uploading model into container now
+2023-01-05 18:20:11,568:INFO:_master_model_container: 6
+2023-01-05 18:20:11,568:INFO:_display_container: 2
+2023-01-05 18:20:11,569:INFO:RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+                max_iter=None, normalize='deprecated', positive=False,
+                random_state=123, solver='auto', tol=0.001)
+2023-01-05 18:20:11,569:INFO:create_model() successfully completed......................................
+2023-01-05 18:20:11,672:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:20:11,673:INFO:Creating metrics dataframe
+2023-01-05 18:20:11,689:INFO:Initializing Random Forest Classifier
+2023-01-05 18:20:11,689:INFO:Total runtime is 0.9516337474187214 minutes
+2023-01-05 18:20:11,696:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:20:11,696:INFO:Initializing create_model()
+2023-01-05 18:20:11,696:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=rf, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:20:11,696:INFO:Checking exceptions
+2023-01-05 18:20:11,697:INFO:Importing libraries
+2023-01-05 18:20:11,697:INFO:Copying training dataset
+2023-01-05 18:20:11,704:INFO:Defining folds
+2023-01-05 18:20:11,705:INFO:Declaring metric variables
+2023-01-05 18:20:11,714:INFO:Importing untrained model
+2023-01-05 18:20:11,719:INFO:Random Forest Classifier Imported successfully
+2023-01-05 18:20:11,735:INFO:Starting cross validation
+2023-01-05 18:20:11,741:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:20:20,695:INFO:Calculating mean and std
+2023-01-05 18:20:20,697:INFO:Creating metrics dataframe
+2023-01-05 18:20:20,703:INFO:Uploading results into container
+2023-01-05 18:20:20,704:INFO:Uploading model into container now
+2023-01-05 18:20:20,704:INFO:_master_model_container: 7
+2023-01-05 18:20:20,704:INFO:_display_container: 2
+2023-01-05 18:20:20,705:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=100, n_jobs=-1, oob_score=False,
+                       random_state=123, verbose=0, warm_start=False)
+2023-01-05 18:20:20,707:INFO:create_model() successfully completed......................................
+2023-01-05 18:20:20,816:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:20:20,817:INFO:Creating metrics dataframe
+2023-01-05 18:20:20,833:INFO:Initializing Quadratic Discriminant Analysis
+2023-01-05 18:20:20,833:INFO:Total runtime is 1.1040287812550862 minutes
+2023-01-05 18:20:20,840:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:20:20,841:INFO:Initializing create_model()
+2023-01-05 18:20:20,841:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=qda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:20:20,842:INFO:Checking exceptions
+2023-01-05 18:20:20,842:INFO:Importing libraries
+2023-01-05 18:20:20,843:INFO:Copying training dataset
+2023-01-05 18:20:20,852:INFO:Defining folds
+2023-01-05 18:20:20,853:INFO:Declaring metric variables
+2023-01-05 18:20:20,860:INFO:Importing untrained model
+2023-01-05 18:20:20,867:INFO:Quadratic Discriminant Analysis Imported successfully
+2023-01-05 18:20:20,884:INFO:Starting cross validation
+2023-01-05 18:20:20,890:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:20:22,184:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-01-05 18:20:22,215:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-01-05 18:20:22,378:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-01-05 18:20:22,400:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-01-05 18:20:24,231:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-01-05 18:20:24,720:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-01-05 18:20:24,858:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-01-05 18:20:24,868:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-01-05 18:20:26,236:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-01-05 18:20:26,622:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/discriminant_analysis.py:887: UserWarning: Variables are collinear
+  warnings.warn("Variables are collinear")
+
+2023-01-05 18:20:27,213:INFO:Calculating mean and std
+2023-01-05 18:20:27,214:INFO:Creating metrics dataframe
+2023-01-05 18:20:27,220:INFO:Uploading results into container
+2023-01-05 18:20:27,220:INFO:Uploading model into container now
+2023-01-05 18:20:27,221:INFO:_master_model_container: 8
+2023-01-05 18:20:27,221:INFO:_display_container: 2
+2023-01-05 18:20:27,221:INFO:QuadraticDiscriminantAnalysis(priors=None, reg_param=0.0,
+                              store_covariance=False, tol=0.0001)
+2023-01-05 18:20:27,222:INFO:create_model() successfully completed......................................
+2023-01-05 18:20:27,334:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:20:27,335:INFO:Creating metrics dataframe
+2023-01-05 18:20:27,353:INFO:Initializing Ada Boost Classifier
+2023-01-05 18:20:27,353:INFO:Total runtime is 1.2126918355623881 minutes
+2023-01-05 18:20:27,359:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:20:27,360:INFO:Initializing create_model()
+2023-01-05 18:20:27,361:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=ada, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:20:27,361:INFO:Checking exceptions
+2023-01-05 18:20:27,361:INFO:Importing libraries
+2023-01-05 18:20:27,362:INFO:Copying training dataset
+2023-01-05 18:20:27,369:INFO:Defining folds
+2023-01-05 18:20:27,369:INFO:Declaring metric variables
+2023-01-05 18:20:27,378:INFO:Importing untrained model
+2023-01-05 18:20:27,384:INFO:Ada Boost Classifier Imported successfully
+2023-01-05 18:20:27,403:INFO:Starting cross validation
+2023-01-05 18:20:27,409:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:20:35,786:INFO:Calculating mean and std
+2023-01-05 18:20:35,788:INFO:Creating metrics dataframe
+2023-01-05 18:20:35,796:INFO:Uploading results into container
+2023-01-05 18:20:35,798:INFO:Uploading model into container now
+2023-01-05 18:20:35,798:INFO:_master_model_container: 9
+2023-01-05 18:20:35,798:INFO:_display_container: 2
+2023-01-05 18:20:35,799:INFO:AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=1.0,
+                   n_estimators=50, random_state=123)
+2023-01-05 18:20:35,800:INFO:create_model() successfully completed......................................
+2023-01-05 18:20:35,911:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:20:35,911:INFO:Creating metrics dataframe
+2023-01-05 18:20:35,930:INFO:Initializing Gradient Boosting Classifier
+2023-01-05 18:20:35,930:INFO:Total runtime is 1.355649435520172 minutes
+2023-01-05 18:20:35,936:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:20:35,936:INFO:Initializing create_model()
+2023-01-05 18:20:35,936:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=gbc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:20:35,936:INFO:Checking exceptions
+2023-01-05 18:20:35,936:INFO:Importing libraries
+2023-01-05 18:20:35,936:INFO:Copying training dataset
+2023-01-05 18:20:35,947:INFO:Defining folds
+2023-01-05 18:20:35,947:INFO:Declaring metric variables
+2023-01-05 18:20:35,953:INFO:Importing untrained model
+2023-01-05 18:20:35,960:INFO:Gradient Boosting Classifier Imported successfully
+2023-01-05 18:20:35,973:INFO:Starting cross validation
+2023-01-05 18:20:35,978:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:20:46,873:INFO:Calculating mean and std
+2023-01-05 18:20:46,875:INFO:Creating metrics dataframe
+2023-01-05 18:20:46,882:INFO:Uploading results into container
+2023-01-05 18:20:46,883:INFO:Uploading model into container now
+2023-01-05 18:20:46,883:INFO:_master_model_container: 10
+2023-01-05 18:20:46,883:INFO:_display_container: 2
+2023-01-05 18:20:46,884:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=123, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2023-01-05 18:20:46,884:INFO:create_model() successfully completed......................................
+2023-01-05 18:20:46,990:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:20:46,991:INFO:Creating metrics dataframe
+2023-01-05 18:20:47,012:INFO:Initializing Linear Discriminant Analysis
+2023-01-05 18:20:47,012:INFO:Total runtime is 1.5403406182924906 minutes
+2023-01-05 18:20:47,017:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:20:47,017:INFO:Initializing create_model()
+2023-01-05 18:20:47,018:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=lda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:20:47,018:INFO:Checking exceptions
+2023-01-05 18:20:47,018:INFO:Importing libraries
+2023-01-05 18:20:47,018:INFO:Copying training dataset
+2023-01-05 18:20:47,036:INFO:Defining folds
+2023-01-05 18:20:47,037:INFO:Declaring metric variables
+2023-01-05 18:20:47,084:INFO:Importing untrained model
+2023-01-05 18:20:47,096:INFO:Linear Discriminant Analysis Imported successfully
+2023-01-05 18:20:47,123:INFO:Starting cross validation
+2023-01-05 18:20:47,128:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:20:54,042:INFO:Calculating mean and std
+2023-01-05 18:20:54,045:INFO:Creating metrics dataframe
+2023-01-05 18:20:54,059:INFO:Uploading results into container
+2023-01-05 18:20:54,061:INFO:Uploading model into container now
+2023-01-05 18:20:54,063:INFO:_master_model_container: 11
+2023-01-05 18:20:54,063:INFO:_display_container: 2
+2023-01-05 18:20:54,064:INFO:LinearDiscriminantAnalysis(covariance_estimator=None, n_components=None,
+                           priors=None, shrinkage=None, solver='svd',
+                           store_covariance=False, tol=0.0001)
+2023-01-05 18:20:54,064:INFO:create_model() successfully completed......................................
+2023-01-05 18:20:54,181:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:20:54,181:INFO:Creating metrics dataframe
+2023-01-05 18:20:54,198:INFO:Initializing Extra Trees Classifier
+2023-01-05 18:20:54,199:INFO:Total runtime is 1.6601219058036805 minutes
+2023-01-05 18:20:54,205:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:20:54,205:INFO:Initializing create_model()
+2023-01-05 18:20:54,206:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=et, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:20:54,206:INFO:Checking exceptions
+2023-01-05 18:20:54,206:INFO:Importing libraries
+2023-01-05 18:20:54,206:INFO:Copying training dataset
+2023-01-05 18:20:54,216:INFO:Defining folds
+2023-01-05 18:20:54,216:INFO:Declaring metric variables
+2023-01-05 18:20:54,222:INFO:Importing untrained model
+2023-01-05 18:20:54,230:INFO:Extra Trees Classifier Imported successfully
+2023-01-05 18:20:54,250:INFO:Starting cross validation
+2023-01-05 18:20:54,255:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:21:04,841:INFO:Calculating mean and std
+2023-01-05 18:21:04,843:INFO:Creating metrics dataframe
+2023-01-05 18:21:04,851:INFO:Uploading results into container
+2023-01-05 18:21:04,852:INFO:Uploading model into container now
+2023-01-05 18:21:04,853:INFO:_master_model_container: 12
+2023-01-05 18:21:04,853:INFO:_display_container: 2
+2023-01-05 18:21:04,854:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=123, verbose=0, warm_start=False)
+2023-01-05 18:21:04,854:INFO:create_model() successfully completed......................................
+2023-01-05 18:21:04,965:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:21:04,965:INFO:Creating metrics dataframe
+2023-01-05 18:21:04,984:INFO:Initializing Extreme Gradient Boosting
+2023-01-05 18:21:04,985:INFO:Total runtime is 1.839888083934784 minutes
+2023-01-05 18:21:04,990:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:21:04,991:INFO:Initializing create_model()
+2023-01-05 18:21:04,991:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=xgboost, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:21:04,991:INFO:Checking exceptions
+2023-01-05 18:21:04,991:INFO:Importing libraries
+2023-01-05 18:21:04,992:INFO:Copying training dataset
+2023-01-05 18:21:05,004:INFO:Defining folds
+2023-01-05 18:21:05,004:INFO:Declaring metric variables
+2023-01-05 18:21:05,012:INFO:Importing untrained model
+2023-01-05 18:21:05,021:INFO:Extreme Gradient Boosting Imported successfully
+2023-01-05 18:21:05,037:INFO:Starting cross validation
+2023-01-05 18:21:05,042:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:21:18,118:INFO:Calculating mean and std
+2023-01-05 18:21:18,120:INFO:Creating metrics dataframe
+2023-01-05 18:21:18,126:INFO:Uploading results into container
+2023-01-05 18:21:18,127:INFO:Uploading model into container now
+2023-01-05 18:21:18,128:INFO:_master_model_container: 13
+2023-01-05 18:21:18,128:INFO:_display_container: 2
+2023-01-05 18:21:18,129:INFO:XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=-1, num_parallel_tree=None,
+              objective='binary:logistic', predictor=None, ...)
+2023-01-05 18:21:18,129:INFO:create_model() successfully completed......................................
+2023-01-05 18:21:18,234:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:21:18,234:INFO:Creating metrics dataframe
+2023-01-05 18:21:18,254:INFO:Initializing Light Gradient Boosting Machine
+2023-01-05 18:21:18,254:INFO:Total runtime is 2.061041843891144 minutes
+2023-01-05 18:21:18,258:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:21:18,258:INFO:Initializing create_model()
+2023-01-05 18:21:18,259:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=lightgbm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:21:18,259:INFO:Checking exceptions
+2023-01-05 18:21:18,259:INFO:Importing libraries
+2023-01-05 18:21:18,259:INFO:Copying training dataset
+2023-01-05 18:21:18,269:INFO:Defining folds
+2023-01-05 18:21:18,269:INFO:Declaring metric variables
+2023-01-05 18:21:18,275:INFO:Importing untrained model
+2023-01-05 18:21:18,283:INFO:Light Gradient Boosting Machine Imported successfully
+2023-01-05 18:21:18,298:INFO:Starting cross validation
+2023-01-05 18:21:18,303:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:21:25,910:INFO:Calculating mean and std
+2023-01-05 18:21:25,912:INFO:Creating metrics dataframe
+2023-01-05 18:21:25,920:INFO:Uploading results into container
+2023-01-05 18:21:25,921:INFO:Uploading model into container now
+2023-01-05 18:21:25,922:INFO:_master_model_container: 14
+2023-01-05 18:21:25,922:INFO:_display_container: 2
+2023-01-05 18:21:25,923:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=123, reg_alpha=0.0, reg_lambda=0.0, silent='warn',
+               subsample=1.0, subsample_for_bin=200000, subsample_freq=0)
+2023-01-05 18:21:25,923:INFO:create_model() successfully completed......................................
+2023-01-05 18:21:26,031:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:21:26,031:INFO:Creating metrics dataframe
+2023-01-05 18:21:26,053:INFO:Initializing CatBoost Classifier
+2023-01-05 18:21:26,053:INFO:Total runtime is 2.1910273075103763 minutes
+2023-01-05 18:21:26,058:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:21:26,059:INFO:Initializing create_model()
+2023-01-05 18:21:26,059:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=catboost, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:21:26,059:INFO:Checking exceptions
+2023-01-05 18:21:26,059:INFO:Importing libraries
+2023-01-05 18:21:26,059:INFO:Copying training dataset
+2023-01-05 18:21:26,069:INFO:Defining folds
+2023-01-05 18:21:26,069:INFO:Declaring metric variables
+2023-01-05 18:21:26,076:INFO:Importing untrained model
+2023-01-05 18:21:26,085:INFO:CatBoost Classifier Imported successfully
+2023-01-05 18:21:26,100:INFO:Starting cross validation
+2023-01-05 18:21:26,105:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:22:26,937:INFO:Calculating mean and std
+2023-01-05 18:22:26,941:INFO:Creating metrics dataframe
+2023-01-05 18:22:26,947:INFO:Uploading results into container
+2023-01-05 18:22:26,948:INFO:Uploading model into container now
+2023-01-05 18:22:26,949:INFO:_master_model_container: 15
+2023-01-05 18:22:26,949:INFO:_display_container: 2
+2023-01-05 18:22:26,949:INFO:<catboost.core.CatBoostClassifier object at 0x7f5508a33a00>
+2023-01-05 18:22:26,949:INFO:create_model() successfully completed......................................
+2023-01-05 18:22:27,058:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:22:27,058:INFO:Creating metrics dataframe
+2023-01-05 18:22:27,078:INFO:Initializing Dummy Classifier
+2023-01-05 18:22:27,078:INFO:Total runtime is 3.208118291695913 minutes
+2023-01-05 18:22:27,082:INFO:SubProcess create_model() called ==================================
+2023-01-05 18:22:27,083:INFO:Initializing create_model()
+2023-01-05 18:22:27,083:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=dummy, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f5522be3430>, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:22:27,083:INFO:Checking exceptions
+2023-01-05 18:22:27,083:INFO:Importing libraries
+2023-01-05 18:22:27,084:INFO:Copying training dataset
+2023-01-05 18:22:27,094:INFO:Defining folds
+2023-01-05 18:22:27,094:INFO:Declaring metric variables
+2023-01-05 18:22:27,100:INFO:Importing untrained model
+2023-01-05 18:22:27,111:INFO:Dummy Classifier Imported successfully
+2023-01-05 18:22:27,124:INFO:Starting cross validation
+2023-01-05 18:22:27,129:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-05 18:22:29,036:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-01-05 18:22:29,559:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-01-05 18:22:29,573:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-01-05 18:22:29,862:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-01-05 18:22:31,416:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-01-05 18:22:31,807:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-01-05 18:22:32,203:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-01-05 18:22:32,416:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-01-05 18:22:32,936:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-01-05 18:22:33,317:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1334: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2023-01-05 18:22:33,327:INFO:Calculating mean and std
+2023-01-05 18:22:33,329:INFO:Creating metrics dataframe
+2023-01-05 18:22:33,334:INFO:Uploading results into container
+2023-01-05 18:22:33,335:INFO:Uploading model into container now
+2023-01-05 18:22:33,335:INFO:_master_model_container: 16
+2023-01-05 18:22:33,336:INFO:_display_container: 2
+2023-01-05 18:22:33,337:INFO:DummyClassifier(constant=None, random_state=123, strategy='prior')
+2023-01-05 18:22:33,337:INFO:create_model() successfully completed......................................
+2023-01-05 18:22:33,443:INFO:SubProcess create_model() end ==================================
+2023-01-05 18:22:33,443:INFO:Creating metrics dataframe
+2023-01-05 18:22:33,478:INFO:Initializing create_model()
+2023-01-05 18:22:33,478:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-01-05 18:22:33,479:INFO:Checking exceptions
+2023-01-05 18:22:33,481:INFO:Importing libraries
+2023-01-05 18:22:33,482:INFO:Copying training dataset
+2023-01-05 18:22:33,487:INFO:Defining folds
+2023-01-05 18:22:33,487:INFO:Declaring metric variables
+2023-01-05 18:22:33,488:INFO:Importing untrained model
+2023-01-05 18:22:33,488:INFO:Declaring custom model
+2023-01-05 18:22:33,489:INFO:Logistic Regression Imported successfully
+2023-01-05 18:22:33,493:INFO:Cross validation set to False
+2023-01-05 18:22:33,493:INFO:Fitting Model
+2023-01-05 18:22:34,363:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:22:34,366:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:22:34,368:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:22:34,370:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:22:34,374:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:22:34,377:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:22:34,380:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:22:34,383:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:22:34,386:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:22:34,388:WARNING:/home/somesh/.local/lib/python3.10/site-packages/category_encoders/one_hot.py:145: FutureWarning:
+
+iteritems is deprecated and will be removed in a future version. Use .items instead.
+
+
+2023-01-05 18:22:35,197:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-01-05 18:22:35,197:INFO:create_model() successfully completed......................................
+2023-01-05 18:22:35,401:INFO:_master_model_container: 16
+2023-01-05 18:22:35,401:INFO:_display_container: 2
+2023-01-05 18:22:35,402:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-01-05 18:22:35,402:INFO:compare_models() successfully completed......................................
+2023-01-05 18:22:35,518:INFO:Initializing evaluate_model()
+2023-01-05 18:22:35,518:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None, use_train_data=False)
+2023-01-05 18:22:35,551:INFO:Initializing plot_model()
+2023-01-05 18:22:35,551:INFO:plot_model(plot=pipeline, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, system=True)
+2023-01-05 18:22:35,551:INFO:Checking exceptions
+2023-01-05 18:22:35,559:INFO:Preloading libraries
+2023-01-05 18:22:35,560:INFO:Copying training dataset
+2023-01-05 18:22:35,560:INFO:Plot type: pipeline
+2023-01-05 18:22:36,019:INFO:Visual Rendered Successfully
+2023-01-05 18:22:36,140:INFO:plot_model() successfully completed......................................
+2023-01-05 18:23:15,905:INFO:Initializing plot_model()
+2023-01-05 18:23:15,905:INFO:plot_model(plot=pr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, system=True)
+2023-01-05 18:23:15,905:INFO:Checking exceptions
+2023-01-05 18:23:15,912:INFO:Preloading libraries
+2023-01-05 18:23:15,913:INFO:Copying training dataset
+2023-01-05 18:23:15,913:INFO:Plot type: pr
+2023-01-05 18:23:17,613:INFO:Fitting Model
+2023-01-05 18:23:17,614:WARNING:/home/somesh/.local/lib/python3.10/site-packages/sklearn/base.py:450: UserWarning:
+
+X does not have valid feature names, but LogisticRegression was fitted with feature names
+
+
+2023-01-05 18:23:17,614:INFO:Scoring test/hold-out set
+2023-01-05 18:23:17,934:INFO:Visual Rendered Successfully
+2023-01-05 18:23:18,056:INFO:plot_model() successfully completed......................................
+2023-01-05 18:23:27,226:INFO:Initializing plot_model()
+2023-01-05 18:23:27,233:INFO:plot_model(plot=feature, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, system=True)
+2023-01-05 18:23:27,234:INFO:Checking exceptions
+2023-01-05 18:23:27,249:INFO:Preloading libraries
+2023-01-05 18:23:27,249:INFO:Copying training dataset
+2023-01-05 18:23:27,250:INFO:Plot type: feature
+2023-01-05 18:23:28,956:INFO:Visual Rendered Successfully
+2023-01-05 18:23:29,097:INFO:plot_model() successfully completed......................................
+2023-01-05 18:23:47,023:INFO:Initializing plot_model()
+2023-01-05 18:23:47,024:INFO:plot_model(plot=feature_all, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, system=True)
+2023-01-05 18:23:47,024:INFO:Checking exceptions
+2023-01-05 18:23:47,030:INFO:Preloading libraries
+2023-01-05 18:23:47,031:INFO:Copying training dataset
+2023-01-05 18:23:47,031:INFO:Plot type: feature_all
+2023-01-05 18:23:49,299:INFO:Visual Rendered Successfully
+2023-01-05 18:23:49,393:INFO:plot_model() successfully completed......................................
+2023-01-05 18:25:06,779:INFO:Initializing plot_model()
+2023-01-05 18:25:06,779:INFO:plot_model(plot=feature, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, system=True)
+2023-01-05 18:25:06,780:INFO:Checking exceptions
+2023-01-05 18:25:06,785:INFO:Preloading libraries
+2023-01-05 18:25:06,785:INFO:Copying training dataset
+2023-01-05 18:25:06,785:INFO:Plot type: feature
+2023-01-05 18:25:08,223:INFO:Visual Rendered Successfully
+2023-01-05 18:25:08,355:INFO:plot_model() successfully completed......................................
+2023-01-05 18:47:09,371:INFO:Initializing plot_model()
+2023-01-05 18:47:09,372:INFO:plot_model(plot=feature_all, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, system=True)
+2023-01-05 18:47:09,372:INFO:Checking exceptions
+2023-01-05 18:47:09,377:INFO:Preloading libraries
+2023-01-05 18:47:09,377:INFO:Copying training dataset
+2023-01-05 18:47:09,378:INFO:Plot type: feature_all
+2023-01-05 18:47:11,605:INFO:Visual Rendered Successfully
+2023-01-05 18:47:11,716:INFO:plot_model() successfully completed......................................
+2023-01-05 18:49:01,820:INFO:Initializing plot_model()
+2023-01-05 18:49:01,821:INFO:plot_model(plot=feature, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, system=True)
+2023-01-05 18:49:01,821:INFO:Checking exceptions
+2023-01-05 18:49:01,829:INFO:Preloading libraries
+2023-01-05 18:49:01,830:INFO:Copying training dataset
+2023-01-05 18:49:01,830:INFO:Plot type: feature
+2023-01-05 18:49:03,042:INFO:Visual Rendered Successfully
+2023-01-05 18:49:03,132:INFO:plot_model() successfully completed......................................
+2023-01-05 19:02:41,224:INFO:Initializing load_model()
+2023-01-05 19:02:41,224:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 19:02:45,955:INFO:Initializing load_model()
+2023-01-05 19:02:45,955:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 19:08:31,084:INFO:Initializing get_config()
+2023-01-05 19:08:31,085:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, variable=X)
+2023-01-05 19:08:31,106:INFO:Variable:  returned as       gender  SeniorCitizen Partner Dependents  tenure PhoneService  \
+0       Male              0     Yes         No      42           No   
+1       Male              0      No         No       1          Yes   
+2       Male              0      No         No       2          Yes   
+3       Male              0     Yes        Yes      71          Yes   
+4     Female              0     Yes        Yes      20          Yes   
+...      ...            ...     ...        ...     ...          ...   
+7016    Male              0     Yes        Yes      57          Yes   
+7017  Female              0     Yes        Yes      72          Yes   
+7018  Female              1      No         No      32          Yes   
+7019    Male              0      No         No      67           No   
+7020  Female              0     Yes        Yes      17          Yes   
+
+         MultipleLines InternetService       OnlineSecurity  \
+0     No phone service             DSL                  Yes   
+1                   No     Fiber optic                   No   
+2                   No     Fiber optic                   No   
+3                  Yes     Fiber optic                  Yes   
+4                   No              No  No internet service   
+...                ...             ...                  ...   
+7016               Yes     Fiber optic                   No   
+7017                No              No  No internet service   
+7018                No     Fiber optic                   No   
+7019  No phone service             DSL                  Yes   
+7020               Yes     Fiber optic                   No   
+
+             OnlineBackup     DeviceProtection          TechSupport  \
+0                      No                   No                   No   
+1                      No                   No                   No   
+2                     Yes                   No                   No   
+3                     Yes                  Yes                  Yes   
+4     No internet service  No internet service  No internet service   
+...                   ...                  ...                  ...   
+7016                   No                   No                   No   
+7017  No internet service  No internet service  No internet service   
+7018                   No                   No                   No   
+7019                   No                  Yes                  Yes   
+7020                   No                   No                   No   
+
+              StreamingTV      StreamingMovies        Contract  \
+0                     Yes                   No  Month-to-month   
+1                     Yes                  Yes  Month-to-month   
+2                      No                   No  Month-to-month   
+3                     Yes                  Yes        Two year   
+4     No internet service  No internet service  Month-to-month   
+...                   ...                  ...             ...   
+7016                   No                   No  Month-to-month   
+7017  No internet service  No internet service        Two year   
+7018                  Yes                  Yes  Month-to-month   
+7019                  Yes                   No        One year   
+7020                   No                  Yes  Month-to-month   
+
+     PaperlessBilling              PaymentMethod  MonthlyCharges TotalCharges  
+0                 Yes  Bank transfer (automatic)       40.150002      1626.05  
+1                 Yes           Electronic check       88.349998        88.35  
+2                 Yes           Electronic check       74.750000        144.8  
+3                 Yes  Bank transfer (automatic)      116.050003       8297.5  
+4                  No           Electronic check       20.000000       417.65  
+...               ...                        ...             ...          ...  
+7016              Yes           Electronic check       74.300003      4018.35  
+7017               No  Bank transfer (automatic)       20.100000      1460.85  
+7018               No           Electronic check       90.949997      2897.95  
+7019              Yes  Bank transfer (automatic)       49.349998      3321.35  
+7020              Yes           Electronic check       85.449997       1451.6  
+
+[7021 rows x 19 columns]
+2023-01-05 19:08:31,107:INFO:get_config() successfully completed......................................
+2023-01-05 19:09:22,042:INFO:Initializing get_config()
+2023-01-05 19:09:22,042:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, variable=X)
+2023-01-05 19:09:22,071:INFO:Variable:  returned as       gender  SeniorCitizen Partner Dependents  tenure PhoneService  \
+0       Male              0     Yes         No      42           No   
+1       Male              0      No         No       1          Yes   
+2       Male              0      No         No       2          Yes   
+3       Male              0     Yes        Yes      71          Yes   
+4     Female              0     Yes        Yes      20          Yes   
+...      ...            ...     ...        ...     ...          ...   
+7016    Male              0     Yes        Yes      57          Yes   
+7017  Female              0     Yes        Yes      72          Yes   
+7018  Female              1      No         No      32          Yes   
+7019    Male              0      No         No      67           No   
+7020  Female              0     Yes        Yes      17          Yes   
+
+         MultipleLines InternetService       OnlineSecurity  \
+0     No phone service             DSL                  Yes   
+1                   No     Fiber optic                   No   
+2                   No     Fiber optic                   No   
+3                  Yes     Fiber optic                  Yes   
+4                   No              No  No internet service   
+...                ...             ...                  ...   
+7016               Yes     Fiber optic                   No   
+7017                No              No  No internet service   
+7018                No     Fiber optic                   No   
+7019  No phone service             DSL                  Yes   
+7020               Yes     Fiber optic                   No   
+
+             OnlineBackup     DeviceProtection          TechSupport  \
+0                      No                   No                   No   
+1                      No                   No                   No   
+2                     Yes                   No                   No   
+3                     Yes                  Yes                  Yes   
+4     No internet service  No internet service  No internet service   
+...                   ...                  ...                  ...   
+7016                   No                   No                   No   
+7017  No internet service  No internet service  No internet service   
+7018                   No                   No                   No   
+7019                   No                  Yes                  Yes   
+7020                   No                   No                   No   
+
+              StreamingTV      StreamingMovies        Contract  \
+0                     Yes                   No  Month-to-month   
+1                     Yes                  Yes  Month-to-month   
+2                      No                   No  Month-to-month   
+3                     Yes                  Yes        Two year   
+4     No internet service  No internet service  Month-to-month   
+...                   ...                  ...             ...   
+7016                   No                   No  Month-to-month   
+7017  No internet service  No internet service        Two year   
+7018                  Yes                  Yes  Month-to-month   
+7019                  Yes                   No        One year   
+7020                   No                  Yes  Month-to-month   
+
+     PaperlessBilling              PaymentMethod  MonthlyCharges TotalCharges  
+0                 Yes  Bank transfer (automatic)       40.150002      1626.05  
+1                 Yes           Electronic check       88.349998        88.35  
+2                 Yes           Electronic check       74.750000        144.8  
+3                 Yes  Bank transfer (automatic)      116.050003       8297.5  
+4                  No           Electronic check       20.000000       417.65  
+...               ...                        ...             ...          ...  
+7016              Yes           Electronic check       74.300003      4018.35  
+7017               No  Bank transfer (automatic)       20.100000      1460.85  
+7018               No           Electronic check       90.949997      2897.95  
+7019              Yes  Bank transfer (automatic)       49.349998      3321.35  
+7020              Yes           Electronic check       85.449997       1451.6  
+
+[7021 rows x 19 columns]
+2023-01-05 19:09:22,071:INFO:get_config() successfully completed......................................
+2023-01-05 19:09:36,188:INFO:Initializing plot_model()
+2023-01-05 19:09:36,190:INFO:plot_model(plot=feature_all, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, system=True)
+2023-01-05 19:09:36,190:INFO:Checking exceptions
+2023-01-05 19:09:36,196:INFO:Preloading libraries
+2023-01-05 19:09:36,197:INFO:Copying training dataset
+2023-01-05 19:09:36,197:INFO:Plot type: feature_all
+2023-01-05 19:09:38,212:INFO:Visual Rendered Successfully
+2023-01-05 19:09:38,302:INFO:plot_model() successfully completed......................................
+2023-01-05 19:10:31,230:INFO:Initializing get_config()
+2023-01-05 19:10:31,232:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, variable=X)
+2023-01-05 19:10:31,260:INFO:Variable:  returned as       gender  SeniorCitizen Partner Dependents  tenure PhoneService  \
+0       Male              0     Yes         No      42           No   
+1       Male              0      No         No       1          Yes   
+2       Male              0      No         No       2          Yes   
+3       Male              0     Yes        Yes      71          Yes   
+4     Female              0     Yes        Yes      20          Yes   
+...      ...            ...     ...        ...     ...          ...   
+7016    Male              0     Yes        Yes      57          Yes   
+7017  Female              0     Yes        Yes      72          Yes   
+7018  Female              1      No         No      32          Yes   
+7019    Male              0      No         No      67           No   
+7020  Female              0     Yes        Yes      17          Yes   
+
+         MultipleLines InternetService       OnlineSecurity  \
+0     No phone service             DSL                  Yes   
+1                   No     Fiber optic                   No   
+2                   No     Fiber optic                   No   
+3                  Yes     Fiber optic                  Yes   
+4                   No              No  No internet service   
+...                ...             ...                  ...   
+7016               Yes     Fiber optic                   No   
+7017                No              No  No internet service   
+7018                No     Fiber optic                   No   
+7019  No phone service             DSL                  Yes   
+7020               Yes     Fiber optic                   No   
+
+             OnlineBackup     DeviceProtection          TechSupport  \
+0                      No                   No                   No   
+1                      No                   No                   No   
+2                     Yes                   No                   No   
+3                     Yes                  Yes                  Yes   
+4     No internet service  No internet service  No internet service   
+...                   ...                  ...                  ...   
+7016                   No                   No                   No   
+7017  No internet service  No internet service  No internet service   
+7018                   No                   No                   No   
+7019                   No                  Yes                  Yes   
+7020                   No                   No                   No   
+
+              StreamingTV      StreamingMovies        Contract  \
+0                     Yes                   No  Month-to-month   
+1                     Yes                  Yes  Month-to-month   
+2                      No                   No  Month-to-month   
+3                     Yes                  Yes        Two year   
+4     No internet service  No internet service  Month-to-month   
+...                   ...                  ...             ...   
+7016                   No                   No  Month-to-month   
+7017  No internet service  No internet service        Two year   
+7018                  Yes                  Yes  Month-to-month   
+7019                  Yes                   No        One year   
+7020                   No                  Yes  Month-to-month   
+
+     PaperlessBilling              PaymentMethod  MonthlyCharges TotalCharges  
+0                 Yes  Bank transfer (automatic)       40.150002      1626.05  
+1                 Yes           Electronic check       88.349998        88.35  
+2                 Yes           Electronic check       74.750000        144.8  
+3                 Yes  Bank transfer (automatic)      116.050003       8297.5  
+4                  No           Electronic check       20.000000       417.65  
+...               ...                        ...             ...          ...  
+7016              Yes           Electronic check       74.300003      4018.35  
+7017               No  Bank transfer (automatic)       20.100000      1460.85  
+7018               No           Electronic check       90.949997      2897.95  
+7019              Yes  Bank transfer (automatic)       49.349998      3321.35  
+7020              Yes           Electronic check       85.449997       1451.6  
+
+[7021 rows x 19 columns]
+2023-01-05 19:10:31,260:INFO:get_config() successfully completed......................................
+2023-01-05 19:10:45,575:INFO:Initializing get_config()
+2023-01-05 19:10:45,578:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, variable=None)
+2023-01-05 19:12:17,636:INFO:Initializing get_config()
+2023-01-05 19:12:17,636:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f5516ab43d0>, variable=feature_importance)
+2023-01-05 19:49:54,495:INFO:Initializing load_model()
+2023-01-05 19:49:54,496:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 22:20:20,630:INFO:Initializing load_model()
+2023-01-05 22:20:20,630:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 22:20:24,069:INFO:Initializing load_model()
+2023-01-05 22:20:24,070:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 22:25:59,163:INFO:Initializing load_model()
+2023-01-05 22:25:59,163:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 22:26:23,651:INFO:Initializing load_model()
+2023-01-05 22:26:23,651:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 22:26:36,571:INFO:Initializing load_model()
+2023-01-05 22:26:36,571:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 22:26:49,117:INFO:Initializing load_model()
+2023-01-05 22:26:49,117:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 22:27:40,898:INFO:Initializing load_model()
+2023-01-05 22:27:40,898:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 22:28:33,002:INFO:Initializing load_model()
+2023-01-05 22:28:33,002:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 22:55:21,213:INFO:Initializing load_model()
+2023-01-05 22:55:21,213:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 22:58:29,708:INFO:Initializing load_model()
+2023-01-05 22:58:29,708:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 22:59:16,622:INFO:Initializing load_model()
+2023-01-05 22:59:16,623:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 22:59:31,712:INFO:Initializing load_model()
+2023-01-05 22:59:31,712:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 23:00:53,171:INFO:Initializing load_model()
+2023-01-05 23:00:53,171:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 23:02:47,151:INFO:Initializing load_model()
+2023-01-05 23:02:47,151:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 23:09:13,480:INFO:Initializing load_model()
+2023-01-05 23:09:13,480:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 23:09:19,568:INFO:Initializing load_model()
+2023-01-05 23:09:19,569:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 23:12:32,149:INFO:Initializing load_model()
+2023-01-05 23:12:32,150:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 23:12:56,301:INFO:Initializing load_model()
+2023-01-05 23:12:56,302:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 23:13:01,189:INFO:Initializing load_model()
+2023-01-05 23:13:01,189:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 23:13:39,241:INFO:Initializing load_model()
+2023-01-05 23:13:39,241:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 23:14:21,171:INFO:Initializing load_model()
+2023-01-05 23:14:21,172:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 23:15:59,664:INFO:Initializing load_model()
+2023-01-05 23:15:59,664:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-05 23:16:05,668:INFO:Initializing load_model()
+2023-01-05 23:16:05,668:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)

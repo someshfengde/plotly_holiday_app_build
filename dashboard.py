@@ -44,31 +44,7 @@ sidebar = html.Div(
             className="lead",
         ),
         dbc.Nav(
-            [
-                # dbc.NavLink("Home", href="/home", active="exact"),
-                # replacing navlink to the dropdown dcc dropdown
-               
-                # adding button for the visualizations page 
-
-                # using the dropdown extended from dbc
-                # 
-                # dbc.DropdownMenu(
-                #         children=[
-                #             dbc.DropdownMenuItem("Single feature distributions", href="/"),
-                #             dbc.DropdownMenuItem(
-                #                 "Relationship between features", href="/relationship"
-                #             ),
-                #             dbc.DropdownMenuItem(
-                #                 "Distribution >2 features", href="/distribution_2_features"
-                #             ),
-                #             dbc.DropdownMenuItem("Trends between variables", href="/trends"),
-                #         ],
-                #         label="Visualizations",
-                #         nav=True,
-                #         in_navbar=True,
-                #     ),
-                # make visualizations button to bold and add the icon
-                
+            [   
                 dbc.NavLink("📈 Visualizations", href="/", id = "visualization_click", n_clicks = 0, style = {"font-weight": "bold"} ),
                 dbc.Collapse(
                     dbc.Nav(
@@ -145,7 +121,7 @@ app.layout = html.Div(
     [State("collapse", "is_open")],
 )
 def toggle_collapse(n, is_open):
-    if n:
+    if n> 10:
         return not is_open
     return is_open
 

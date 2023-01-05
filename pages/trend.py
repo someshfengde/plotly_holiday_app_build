@@ -20,6 +20,11 @@ data = pd.read_csv("telco-customer-churn-by-IBM.csv")
 
 layout = html.Div(
     [
+        dcc.Markdown("# Trend of a variable over time"),
+        dcc.Markdown("## Churn trend"),
+        dcc.Graph(figure = px.line(data.sort_values("tenure"), x = "tenure", y = "Churn", color = "Churn")),
+        dcc.Markdown("## Monthly charges trend"),
+        dcc.Graph(figure = px.line(data.sort_values("MonthlyCharges"), x = "tenure", y = "MonthlyCharges", color = "Churn")),
         dcc.Markdown("""
         # Trend of a variable over time:
             - Churn trend

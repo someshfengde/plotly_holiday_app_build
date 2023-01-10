@@ -3,5 +3,5 @@ dash_bootstrap_components
 dash_bootstrap_templates
 pandas
 plotly
-pycaret
+pycaret==2.3.10
 gunicorn

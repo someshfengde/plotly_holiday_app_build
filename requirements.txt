@@ -4,3 +4,4 @@ dash_bootstrap_templates
 pandas
 plotly
 pycaret
+gunicorn

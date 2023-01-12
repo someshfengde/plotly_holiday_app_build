@@ -4,6 +4,7 @@ dash_bootstrap_templates==1.0.7
 dash_iconify==0.1.2
 dash_mantine_components==0.11.1
 dl==0.1.0
+gunicorn
 docutils==0.17.1
 HTMLParser==0.0.2
 numpy

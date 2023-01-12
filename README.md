@@ -8,6 +8,12 @@ This app was developed for plotly holiday application building competition.
     ### https://customer-churn-dashboard.onrender.com/
 
 application screenshots and implementation
+
+### Video
+[Screencast from 01-13-2023 12:33:48 AM.webm](https://user-images.githubusercontent.com/42097653/212158423-41f0ff1f-ee58-40e1-b68f-4f9e2c132519.webm)
+
+
+
 ![Screenshot from 2023-01-13 00-11-56](https://user-images.githubusercontent.com/42097653/212153928-a3a96d48-3cd8-4684-a240-5ae605071155.png)
 ![Screenshot from 2023-01-13 00-12-44](https://user-images.githubusercontent.com/42097653/212153948-0af4d4cb-8df9-443d-8b12-3686279fbc81.png)
 ![Screenshot from 2023-01-13 00-13-00](https://user-images.githubusercontent.com/42097653/212153956-2534ea38-f8ec-4abf-9a2c-c4ae61513d77.png)
@@ -50,4 +56,4 @@ Thank you [@WenjieZ](https://github.com/WenjieZ) for making this guide, It reall
 link to the guide: https://www.zhengwenjie.net/beanstalk/
 
 ### TODO:
-- [ ] add video implementation
+- [x] add video implementation

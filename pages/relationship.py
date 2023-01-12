@@ -1,4 +1,3 @@
-
 import dash
 from dash import html, dcc, dash_table, callback, Input, Output, State
 import dash_bootstrap_components as dbc
@@ -12,7 +11,7 @@ load_figure_template("lux")
 
 
 # registering this page
-dash.register_page(__name__, path = "/relationship")
+dash.register_page(__name__, path="/relationship")
 
 
 # reading the data
@@ -23,26 +22,70 @@ data["MonthlyCharges"] = data["MonthlyCharges"].astype("float")
 data["tenure"] = data["tenure"].astype("int")
 
 
-tenure_vs_churn_figure = px.scatter(data, x = "tenure", y = "Churn", color = "Churn", opacity = 0.8)
+internet_services_plot = px.histogram(
+    data, x="InternetService", color="Churn", barmode="group"
+)
+
+contract_types_plot = px.histogram(data, x="Contract", color="Churn", barmode="group")
+
+contract_payment_figure = px.sunburst(
+    data, values="TotalCharges", path=["Contract", "PaymentMethod"]
+)
+
+tenure_vs_churn_figure = px.pie(
+    data, values="tenure", names="Churn", title="Tenure vs churn", hole=0.3
+)
+
+streaming_movies_data = (
+    pd.DataFrame(data["StreamingMovies"].value_counts())
+    .reset_index(drop=False)
+    .rename(columns={"index": "Type"})
+)
+streaming_services_fig = px.pie(
+    streaming_movies_data, values="StreamingMovies", color="Type", hole=0.3
+)
 
 layout = html.Div(
     [
-        dcc.Markdown("# Relationship between two variables"),
-        dcc.Markdown("## tenure and churn relationship"), 
-        dcc.Graph(id = "tenure_vs_churn", figure = tenure_vs_churn_figure),
-        dcc.Markdown("## Monthly charges and total charges relationship"),
-        dcc.Graph(figure = px.scatter(data, x = "MonthlyCharges", y = "TotalCharges", color = "Churn", opacity = 0.8, size = "TotalCharges")),
-        dcc.Markdown("## tenure and monthly charges relationship"),
-        dcc.Graph(figure = px.scatter(data, x = "tenure", y = "MonthlyCharges", color = "Churn", opacity = 0.8)),
-        dcc.Markdown("## tenure and total charges relationship"),
-        dcc.Graph(figure = px.scatter(data, x = "tenure", y = "TotalCharges", color = "Churn", opacity = 0.8)),
-
-        dcc.Markdown("""
-        # Relationship between two variables:
-            - Tenure vs churn
-            - Monthly charges vs total charges
-            - Tenure vs monthly charges
-            - Tenure vs total charges
-        """)
+        dbc.Row(
+            [
+                dbc.Col(
+                    [
+                        dcc.Markdown("## contract, total charges and payment method."),
+                        dcc.Graph(figure=contract_payment_figure),
+                    ],
+                    width=6,
+                ),
+                dbc.Col(
+                    [
+                        dcc.Markdown("## relationship between tenure and churn"),
+                        dcc.Graph(figure=tenure_vs_churn_figure),
+                    ],
+                    width=6,
+                ),
+            ]
+        ),
+        dbc.Row(
+            [
+                dbc.Col(
+                    [
+                        dcc.Markdown("## How many customers have streaming services"),
+                        dcc.Graph(figure=streaming_services_fig),
+                    ], 
+                    width = 6
+                ),
+                dbc.Col(
+                    [
+                        dcc.Markdown(
+                            "## Which type of internet service customers are using?"
+                        ),
+                        dcc.Graph(figure=internet_services_plot),
+                    ], 
+                    width = 6
+                ),
+            ]
+        ),
+        dcc.Markdown("## Exploring the types of contracts"),
+        dcc.Graph(figure=contract_types_plot),
     ]
 )

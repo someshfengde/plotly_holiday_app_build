@@ -5645,3 +5645,321 @@ X does not have valid feature names, but LogisticRegression was fitted with feat
 2023-01-10 10:00:49,469:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
 2023-01-10 10:00:54,491:INFO:Initializing load_model()
 2023-01-10 10:00:54,491:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-10 22:37:00,313:INFO:Initializing load_model()
+2023-01-10 22:37:00,313:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-10 22:37:03,910:INFO:Initializing load_model()
+2023-01-10 22:37:03,910:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-10 22:37:32,098:INFO:Initializing load_model()
+2023-01-10 22:37:32,098:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-10 22:37:41,254:INFO:Initializing load_model()
+2023-01-10 22:37:41,254:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-10 22:37:50,449:INFO:Initializing load_model()
+2023-01-10 22:37:50,449:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-10 22:38:00,340:INFO:Initializing load_model()
+2023-01-10 22:38:00,340:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-10 22:38:20,968:INFO:Initializing load_model()
+2023-01-10 22:38:20,968:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-10 22:38:24,818:INFO:Initializing load_model()
+2023-01-10 22:38:24,818:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-10 22:38:45,055:INFO:Initializing predict_model()
+2023-01-10 22:38:45,055:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-10 22:38:45,055:INFO:Checking exceptions
+2023-01-10 22:38:45,055:INFO:Preloading libraries
+2023-01-10 23:42:33,413:INFO:Initializing predict_model()
+2023-01-10 23:42:33,419:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='Churn')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    targe...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='Churn')),
+                ('fix_perfect', Remove_100(target='Churn')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=3.882, class_weight={}, max_iter=1000,
+                                    random_state=123)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2023-01-10 23:42:33,419:INFO:Checking exceptions
+2023-01-10 23:42:33,419:INFO:Preloading libraries
+2023-01-11 00:20:12,345:INFO:Initializing load_model()
+2023-01-11 00:20:12,346:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 00:20:25,809:INFO:Initializing load_model()
+2023-01-11 00:20:25,810:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 22:38:58,761:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-11 22:38:58,761:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-11 22:38:58,761:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-11 22:38:58,762:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-11 22:38:59,780:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-11 22:39:00,115:INFO:Initializing load_model()
+2023-01-11 22:39:00,116:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 22:42:53,515:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-11 22:42:53,516:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-11 22:42:53,516:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-11 22:42:53,516:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-11 22:42:54,072:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-11 22:42:54,283:INFO:Initializing load_model()
+2023-01-11 22:42:54,283:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 22:43:11,832:INFO:Initializing load_model()
+2023-01-11 22:43:11,833:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 22:43:18,320:INFO:Initializing load_model()
+2023-01-11 22:43:18,320:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 22:47:29,784:INFO:Initializing load_model()
+2023-01-11 22:47:29,784:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 22:48:35,253:INFO:Initializing load_model()
+2023-01-11 22:48:35,253:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 22:50:05,142:INFO:Initializing load_model()
+2023-01-11 22:50:05,143:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 22:52:41,683:INFO:Initializing load_model()
+2023-01-11 22:52:41,683:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 22:53:55,342:INFO:Initializing load_model()
+2023-01-11 22:53:55,342:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 22:55:36,605:INFO:Initializing load_model()
+2023-01-11 22:55:36,605:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 22:57:46,089:INFO:Initializing load_model()
+2023-01-11 22:57:46,089:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 22:58:58,034:INFO:Initializing load_model()
+2023-01-11 22:58:58,034:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:12:47,292:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-11 23:12:47,294:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-11 23:12:47,294:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-11 23:12:47,294:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-11 23:12:48,925:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-11 23:12:49,366:INFO:Initializing load_model()
+2023-01-11 23:12:49,366:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:13:15,333:INFO:Initializing load_model()
+2023-01-11 23:13:15,334:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:13:19,544:INFO:Initializing load_model()
+2023-01-11 23:13:19,544:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:15:38,939:INFO:Initializing load_model()
+2023-01-11 23:15:38,939:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:15:50,922:INFO:Initializing load_model()
+2023-01-11 23:15:50,922:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:15:55,760:INFO:Initializing load_model()
+2023-01-11 23:15:55,760:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:16:15,940:INFO:Initializing load_model()
+2023-01-11 23:16:15,940:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:16:28,279:INFO:Initializing load_model()
+2023-01-11 23:16:28,279:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:16:51,871:INFO:Initializing load_model()
+2023-01-11 23:16:51,871:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:18:54,055:INFO:Initializing load_model()
+2023-01-11 23:18:54,055:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:19:18,147:INFO:Initializing load_model()
+2023-01-11 23:19:18,147:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:20:45,222:INFO:Initializing load_model()
+2023-01-11 23:20:45,223:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:21:07,122:INFO:Initializing load_model()
+2023-01-11 23:21:07,122:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:21:23,735:INFO:Initializing load_model()
+2023-01-11 23:21:23,735:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:22:17,430:INFO:Initializing load_model()
+2023-01-11 23:22:17,430:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:23:02,949:INFO:Initializing load_model()
+2023-01-11 23:23:02,949:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:23:28,288:INFO:Initializing load_model()
+2023-01-11 23:23:28,288:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:24:05,605:INFO:Initializing load_model()
+2023-01-11 23:24:05,606:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:24:47,707:INFO:Initializing load_model()
+2023-01-11 23:24:47,707:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:25:15,847:INFO:Initializing load_model()
+2023-01-11 23:25:15,847:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:28:03,198:INFO:Initializing load_model()
+2023-01-11 23:28:03,198:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:30:10,204:INFO:Initializing load_model()
+2023-01-11 23:30:10,204:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:30:13,907:INFO:Initializing load_model()
+2023-01-11 23:30:13,907:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:48:28,688:INFO:Initializing load_model()
+2023-01-11 23:48:28,688:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:48:53,955:INFO:Initializing load_model()
+2023-01-11 23:48:53,956:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-11 23:49:45,400:INFO:Initializing load_model()
+2023-01-11 23:49:45,400:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:16:37,783:INFO:Initializing load_model()
+2023-01-12 13:16:37,783:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:17:09,463:INFO:Initializing load_model()
+2023-01-12 13:17:09,463:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:17:48,255:INFO:Initializing load_model()
+2023-01-12 13:17:48,255:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:17:53,334:INFO:Initializing load_model()
+2023-01-12 13:17:53,334:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:19:22,741:INFO:Initializing load_model()
+2023-01-12 13:19:22,742:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:19:41,663:INFO:Initializing load_model()
+2023-01-12 13:19:41,663:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:20:05,044:INFO:Initializing load_model()
+2023-01-12 13:20:05,044:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:20:09,746:INFO:Initializing load_model()
+2023-01-12 13:20:09,746:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:20:57,387:INFO:Initializing load_model()
+2023-01-12 13:20:57,388:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:24:41,575:INFO:Initializing load_model()
+2023-01-12 13:24:41,575:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:25:19,763:INFO:Initializing load_model()
+2023-01-12 13:25:19,763:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:25:36,527:INFO:Initializing load_model()
+2023-01-12 13:25:36,527:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:25:41,254:INFO:Initializing load_model()
+2023-01-12 13:25:41,254:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:26:36,977:INFO:Initializing load_model()
+2023-01-12 13:26:36,977:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:27:21,984:INFO:Initializing load_model()
+2023-01-12 13:27:21,984:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:28:10,932:INFO:Initializing load_model()
+2023-01-12 13:28:10,933:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:29:18,965:INFO:Initializing load_model()
+2023-01-12 13:29:18,965:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:29:38,231:INFO:Initializing load_model()
+2023-01-12 13:29:38,231:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:29:43,453:INFO:Initializing load_model()
+2023-01-12 13:29:43,453:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:30:26,084:INFO:Initializing load_model()
+2023-01-12 13:30:26,084:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:31:37,067:INFO:Initializing load_model()
+2023-01-12 13:31:37,067:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:32:13,187:INFO:Initializing load_model()
+2023-01-12 13:32:13,188:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:32:37,137:INFO:Initializing load_model()
+2023-01-12 13:32:37,137:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:32:59,480:INFO:Initializing load_model()
+2023-01-12 13:32:59,480:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:33:10,031:INFO:Initializing load_model()
+2023-01-12 13:33:10,031:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:33:47,167:INFO:Initializing load_model()
+2023-01-12 13:33:47,167:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:34:48,382:INFO:Initializing load_model()
+2023-01-12 13:34:48,382:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:40:07,463:INFO:Initializing load_model()
+2023-01-12 13:40:07,463:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:42:05,900:INFO:Initializing load_model()
+2023-01-12 13:42:05,900:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:42:24,512:INFO:Initializing load_model()
+2023-01-12 13:42:24,512:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:49:25,438:INFO:Initializing load_model()
+2023-01-12 13:49:25,439:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:52:59,540:INFO:Initializing load_model()
+2023-01-12 13:52:59,540:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:53:15,553:INFO:Initializing load_model()
+2023-01-12 13:53:15,553:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:54:11,838:INFO:Initializing load_model()
+2023-01-12 13:54:11,838:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:54:36,699:INFO:Initializing load_model()
+2023-01-12 13:54:36,699:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:57:26,829:INFO:Initializing load_model()
+2023-01-12 13:57:26,829:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 13:59:53,488:INFO:Initializing load_model()
+2023-01-12 13:59:53,489:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:00:35,239:INFO:Initializing load_model()
+2023-01-12 14:00:35,239:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:01:22,937:INFO:Initializing load_model()
+2023-01-12 14:01:22,937:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:02:03,174:INFO:Initializing load_model()
+2023-01-12 14:02:03,174:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:06:24,056:INFO:Initializing load_model()
+2023-01-12 14:06:24,056:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:18:46,922:INFO:Initializing load_model()
+2023-01-12 14:18:46,922:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:18:50,773:INFO:Initializing load_model()
+2023-01-12 14:18:50,773:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:23:21,671:INFO:Initializing load_model()
+2023-01-12 14:23:21,672:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:23:46,322:INFO:Initializing load_model()
+2023-01-12 14:23:46,323:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:23:50,662:INFO:Initializing load_model()
+2023-01-12 14:23:50,662:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:24:09,090:INFO:Initializing load_model()
+2023-01-12 14:24:09,090:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:26:00,899:INFO:Initializing load_model()
+2023-01-12 14:26:00,899:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:26:05,485:INFO:Initializing load_model()
+2023-01-12 14:26:05,486:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:26:35,243:INFO:Initializing load_model()
+2023-01-12 14:26:35,243:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:27:09,048:INFO:Initializing load_model()
+2023-01-12 14:27:09,048:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:28:10,657:INFO:Initializing load_model()
+2023-01-12 14:28:10,657:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:28:25,353:INFO:Initializing load_model()
+2023-01-12 14:28:25,353:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:28:52,187:INFO:Initializing load_model()
+2023-01-12 14:28:52,187:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:29:11,038:INFO:Initializing load_model()
+2023-01-12 14:29:11,038:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:31:42,930:INFO:Initializing load_model()
+2023-01-12 14:31:42,930:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:32:01,082:INFO:Initializing load_model()
+2023-01-12 14:32:01,083:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:32:16,957:INFO:Initializing load_model()
+2023-01-12 14:32:16,957:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:32:32,204:INFO:Initializing load_model()
+2023-01-12 14:32:32,205:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:33:22,494:INFO:Initializing load_model()
+2023-01-12 14:33:22,494:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:34:22,654:INFO:Initializing load_model()
+2023-01-12 14:34:22,654:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:34:27,146:INFO:Initializing load_model()
+2023-01-12 14:34:27,146:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:34:51,315:INFO:Initializing load_model()
+2023-01-12 14:34:51,315:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:40:15,318:INFO:Initializing load_model()
+2023-01-12 14:40:15,318:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:41:59,929:INFO:Initializing load_model()
+2023-01-12 14:41:59,929:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:42:28,251:INFO:Initializing load_model()
+2023-01-12 14:42:28,251:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:42:32,163:INFO:Initializing load_model()
+2023-01-12 14:42:32,163:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:46:03,287:INFO:Initializing load_model()
+2023-01-12 14:46:03,287:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:46:35,980:INFO:Initializing load_model()
+2023-01-12 14:46:35,980:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 14:47:24,120:INFO:Initializing load_model()
+2023-01-12 14:47:24,120:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)

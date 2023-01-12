@@ -1,6 +1,8 @@
 from dash import Dash, dcc, html, Input, Output, State
 import dash_bootstrap_components as dbc
-import dash
+import dash 
+from dash_iconify import DashIconify
+import dash_mantine_components as dmc
 
 # designing the frontend page with dash for customer chrun data
 dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.min.css"
@@ -37,6 +39,7 @@ CONTENT_STYLE = {
 
 sidebar = html.Div(
     [
+        html.Br(),
         html.H2("Telco", className="display-4"),
         html.Hr(),
         html.P(
@@ -44,29 +47,76 @@ sidebar = html.Div(
             className="lead",
         ),
         dbc.Nav(
-            [   
-                dbc.NavLink("📈 Visualizations", href="/", id = "visualization_click", n_clicks = 0, style = {"font-weight": "bold"} ),
+            [
+                dbc.NavLink(
+                    "📈 Visualizations",
+                    href="/",
+                    id="visualization_click",
+                    n_clicks=0,
+                    style={"font-weight": "bold"},
+                ),
                 dbc.Collapse(
                     dbc.Nav(
-                        [
-                            dbc.NavLink("Distribution", href="/", active="exact", ),
-                            dbc.NavLink("Relationship", href="/relationship", active="exact"),
-                            dbc.NavLink("Multiple distribution", href="/multiple_distribution", active="exact"),
-                            dbc.NavLink("Trend", href="/trend", active="exact"),
-                        ],
-                        # vertical=True,
-                        # pills=True,
-                        # align the nav links to the left
+                        dbc.Row([
+                            dbc.NavLink(
+                                "Page-1",
+                                href="/",
+                                active="exact",
+                            ),
+                            dbc.NavLink(
+                                "Page-2", href="/relationship", active="exact"
+                            ),
+                        ]),
                         style={"margin-left": "25px"},
-                        horizontal = "center",
+                        horizontal="center",
                     ),
                     id="collapse",
-
                     is_open=True,
                 ),
                 dbc.NavLink("🤖 Predictions", href="/prediction", active="exact"),
                 dbc.NavLink("📕 Data", href="/data_render", active="exact"),
-                 
+                html.Hr(), 
+                html.Br(), 
+                html.Br(),
+                dbc.Accordion(
+                [
+                    dbc.AccordionItem(
+                        dbc.Nav(
+                            [
+                                dbc.NavLink(
+                                    "👨‍🎓 Resume",
+                                    href="https://drive.google.com/file/d/1qiwgoT_KfCb9rA6S-8bOT25Jeh7Z7ayG/view?usp=sharing",
+                                    target="_blank",
+                                ),
+                                dbc.NavLink(
+                                    "🕸️ LinkedIn",
+                                    href="https://www.linkedin.com/in/somesh-9188",
+                                    target="_blank",
+                                ),
+                                dbc.NavLink(
+                                    "😺 GitHub",
+                                    href="https://github.com/someshfengde",
+                                    target="_blank",
+                                ),
+                                dbc.NavLink(
+                                    "🌐 Portfolio",
+                                    href="https://somesh.gitbook.io/somesh-fengade/",
+                                    target="_blank",
+                                ),
+                                dbc.NavLink(
+                                    "⬆️ Upwork",
+                                    href="https://www.upwork.com/freelancers/~01d21fd7991660718f",
+                                    target="_blank",
+                                ),
+                            ],
+                            vertical=True,
+                        ),
+                        title="My Socials",
+                    )
+                ],
+                always_open = True
+                
+            ),
             ],
             vertical=True,
             pills=True,
@@ -88,8 +138,11 @@ app.layout = html.Div(
                                 className="text-white text-center",
                             )
                         ],
-                        width=12,
-                    )
+                        width=11,
+                    ),
+                    dbc.Col([
+                            dbc.NavLink(DashIconify("github", icon="ion:logo-github",width = 50 ,  color = "white",),href = "https://github.com/someshfengde/plotly_holiday_app_build", target = "_blank"),
+                    ])
                 ],
                 sticky="top",
                 color="primary",
@@ -105,9 +158,7 @@ app.layout = html.Div(
                 ),
                 # only the page container will be updated with default page is home
                 dbc.Col(
-                    [
-                        dash.page_container
-                    ],
+                    [dash.page_container],
                     width=10,
                 ),
             ]
@@ -115,17 +166,16 @@ app.layout = html.Div(
     ]
 )
 
+
 @app.callback(
     Output("collapse", "is_open"),
     [Input("visualization_click", "n_clicks")],
     [State("collapse", "is_open")],
 )
 def toggle_collapse(n, is_open):
-    if n> 10:
+    if n > 10:
         return not is_open
     return is_open
 
 
 app.run_server(debug=True)
-
-

@@ -208,7 +208,7 @@ pydbus==0.6.0
 pydyf==0.5.0
 Pygments==2.11.2
 PyGObject==3.42.1
-PyJWT==2.3.0
+PyJWT==2.4.0
 pymacaroons==0.13.0
 PyMeeus==0.5.10
 PyNaCl==1.5.0

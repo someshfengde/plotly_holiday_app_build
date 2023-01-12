@@ -7009,3 +7009,764 @@ Feature names seen at fit time, yet now missing:
 'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
 2023-01-12 18:23:03,948:INFO:Initializing load_model()
 2023-01-12 18:23:03,948:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 18:49:05,246:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:49:05,252:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:49:05,252:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:49:05,252:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:49:05,518:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-12 18:49:05,888:INFO:Initializing load_model()
+2023-01-12 18:49:05,888:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 18:49:05,889:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator LabelEncoder from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+
+2023-01-12 18:49:05,889:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator SimpleImputer from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+
+2023-01-12 18:49:49,779:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:49:49,779:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:49:49,780:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:49:49,780:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:49:50,043:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-12 18:49:50,416:INFO:Initializing load_model()
+2023-01-12 18:49:50,416:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 18:49:50,417:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator LabelEncoder from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+
+2023-01-12 18:49:50,417:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator SimpleImputer from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+
+2023-01-12 18:51:03,488:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:51:03,489:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:51:03,489:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:51:03,489:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:51:03,743:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-12 18:51:04,128:INFO:Initializing load_model()
+2023-01-12 18:51:04,128:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 18:51:04,129:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator LabelEncoder from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+
+2023-01-12 18:51:04,130:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator SimpleImputer from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+
+2023-01-12 18:55:50,769:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:55:50,769:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:55:50,769:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:55:50,769:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:55:51,051:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-12 18:55:51,417:INFO:Initializing load_model()
+2023-01-12 18:55:51,417:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 18:55:51,418:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator LabelEncoder from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+
+2023-01-12 18:55:51,419:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator SimpleImputer from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+
+2023-01-12 18:57:27,440:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:57:27,441:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:57:27,441:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:57:27,441:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:57:27,746:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-12 18:57:28,127:INFO:Initializing load_model()
+2023-01-12 18:57:28,127:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 18:57:28,128:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator LabelEncoder from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+
+2023-01-12 18:57:28,128:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator SimpleImputer from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+
+2023-01-12 18:59:04,673:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:59:04,673:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:59:04,673:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:59:04,673:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 18:59:04,953:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-12 18:59:05,321:INFO:Initializing load_model()
+2023-01-12 18:59:05,321:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 18:59:05,322:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator LabelEncoder from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+
+2023-01-12 18:59:05,322:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator SimpleImputer from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+
+2023-01-12 19:04:19,508:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 19:04:19,509:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 19:04:19,509:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 19:04:19,509:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 19:04:19,769:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-12 19:04:20,146:INFO:Initializing load_model()
+2023-01-12 19:04:20,146:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 19:04:20,147:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator LabelEncoder from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+
+2023-01-12 19:04:20,147:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:338: UserWarning: Trying to unpickle estimator SimpleImputer from version 1.1.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  UserWarning,
+
+2023-01-12 19:08:51,741:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 19:08:51,741:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 19:08:51,741:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 19:08:51,741:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 19:08:52,086:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-12 19:08:52,832:INFO:PyCaret ClassificationExperiment
+2023-01-12 19:08:52,832:INFO:Logging name: clf-default-name
+2023-01-12 19:08:52,833:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-01-12 19:08:52,833:INFO:version 3.0.0.rc5
+2023-01-12 19:08:52,833:INFO:Initializing setup()
+2023-01-12 19:08:52,833:INFO:self.USI: 02d9
+2023-01-12 19:08:52,833:INFO:self._variable_keys: {'_ml_usecase', 'data', 'pipeline', 'logging_param', 'X_test', 'target_param', 'fix_imbalance', 'exp_id', 'html_param', 'n_jobs_param', 'memory', 'X', 'y_test', 'gpu_n_jobs_param', 'seed', '_available_plots', 'X_train', 'fold_groups_param', 'is_multiclass', 'y_train', 'exp_name_log', 'y', 'fold_shuffle_param', 'gpu_param', 'USI', 'fold_generator', 'log_plots_param', 'idx'}
+2023-01-12 19:08:52,833:INFO:Checking environment
+2023-01-12 19:08:52,833:INFO:python_version: 3.7.15
+2023-01-12 19:08:52,833:INFO:python_build: ('default', 'Jan 12 2023 19:01:33')
+2023-01-12 19:08:52,833:INFO:machine: x86_64
+2023-01-12 19:08:52,834:INFO:platform: Linux-6.0.12-76060006-generic-x86_64-with-debian-bookworm-sid
+2023-01-12 19:08:52,834:INFO:Memory: svmem(total=16658108416, available=6439944192, percent=61.3, used=8229650432, free=287313920, active=3691843584, inactive=10568290304, buffers=679923712, cached=7461220352, shared=1639817216, slab=793829376)
+2023-01-12 19:08:52,835:INFO:Physical Core: 2
+2023-01-12 19:08:52,836:INFO:Logical Core: 4
+2023-01-12 19:08:52,836:INFO:Checking libraries
+2023-01-12 19:08:52,836:INFO:System:
+2023-01-12 19:08:52,836:INFO:    python: 3.7.15 (default, Jan 12 2023, 19:01:33)  [GCC 11.3.0]
+2023-01-12 19:08:52,836:INFO:executable: /home/somesh/.pyenv/versions/3.7.15/bin/python
+2023-01-12 19:08:52,836:INFO:   machine: Linux-6.0.12-76060006-generic-x86_64-with-debian-bookworm-sid
+2023-01-12 19:08:52,836:INFO:PyCaret required dependencies:
+2023-01-12 19:08:52,836:INFO:                 pip: 22.0.4
+2023-01-12 19:08:52,837:INFO:          setuptools: 47.1.0
+2023-01-12 19:08:52,837:INFO:             pycaret: 3.0.0rc5
+2023-01-12 19:08:52,837:INFO:             IPython: 7.34.0
+2023-01-12 19:08:52,837:INFO:          ipywidgets: 8.0.4
+2023-01-12 19:08:52,837:INFO:                tqdm: 4.64.1
+2023-01-12 19:08:52,837:INFO:               numpy: 1.21.6
+2023-01-12 19:08:52,837:INFO:              pandas: 1.3.5
+2023-01-12 19:08:52,837:INFO:              jinja2: 3.1.2
+2023-01-12 19:08:52,837:INFO:               scipy: 1.7.3
+2023-01-12 19:08:52,837:INFO:              joblib: 1.2.0
+2023-01-12 19:08:52,838:INFO:             sklearn: 1.0.2
+2023-01-12 19:08:52,838:INFO:                pyod: 1.0.7
+2023-01-12 19:08:52,838:INFO:            imblearn: 0.10.1
+2023-01-12 19:08:52,838:INFO:   category_encoders: 2.5.1.post0
+2023-01-12 19:08:52,838:INFO:            lightgbm: 3.3.4
+2023-01-12 19:08:52,838:INFO:               numba: 0.56.4
+2023-01-12 19:08:52,838:INFO:            requests: 2.28.1
+2023-01-12 19:08:52,838:INFO:          matplotlib: 3.5.3
+2023-01-12 19:08:52,838:INFO:          scikitplot: 0.3.7
+2023-01-12 19:08:52,838:INFO:         yellowbrick: 1.5
+2023-01-12 19:08:52,838:INFO:              plotly: 5.10.0
+2023-01-12 19:08:52,839:INFO:             kaleido: 0.2.1
+2023-01-12 19:08:52,839:INFO:         statsmodels: 0.13.5
+2023-01-12 19:08:52,839:INFO:              sktime: 0.15.0
+2023-01-12 19:08:52,839:INFO:               tbats: 1.1.2
+2023-01-12 19:08:52,839:INFO:            pmdarima: 2.0.2
+2023-01-12 19:08:52,839:INFO:              psutil: 5.9.4
+2023-01-12 19:08:52,839:INFO:PyCaret optional dependencies:
+2023-01-12 19:08:52,846:INFO:                shap: Not installed
+2023-01-12 19:08:52,846:INFO:           interpret: Not installed
+2023-01-12 19:08:52,846:INFO:                umap: Not installed
+2023-01-12 19:08:52,846:INFO:    pandas_profiling: Not installed
+2023-01-12 19:08:52,846:INFO:  explainerdashboard: Not installed
+2023-01-12 19:08:52,846:INFO:             autoviz: Not installed
+2023-01-12 19:08:52,847:INFO:           fairlearn: Not installed
+2023-01-12 19:08:52,847:INFO:             xgboost: Not installed
+2023-01-12 19:08:52,847:INFO:            catboost: Not installed
+2023-01-12 19:08:52,847:INFO:              kmodes: Not installed
+2023-01-12 19:08:52,847:INFO:             mlxtend: Not installed
+2023-01-12 19:08:52,847:INFO:       statsforecast: Not installed
+2023-01-12 19:08:52,847:INFO:        tune_sklearn: Not installed
+2023-01-12 19:08:52,847:INFO:                 ray: Not installed
+2023-01-12 19:08:52,847:INFO:            hyperopt: Not installed
+2023-01-12 19:08:52,849:INFO:              optuna: Not installed
+2023-01-12 19:08:52,849:INFO:               skopt: Not installed
+2023-01-12 19:08:52,849:INFO:              mlflow: Not installed
+2023-01-12 19:08:52,849:INFO:              gradio: Not installed
+2023-01-12 19:08:52,849:INFO:             fastapi: Not installed
+2023-01-12 19:08:52,849:INFO:             uvicorn: Not installed
+2023-01-12 19:08:52,849:INFO:              m2cgen: Not installed
+2023-01-12 19:08:52,849:INFO:           evidently: Not installed
+2023-01-12 19:08:52,849:INFO:                nltk: Not installed
+2023-01-12 19:08:52,849:INFO:            pyLDAvis: Not installed
+2023-01-12 19:08:52,850:INFO:              gensim: Not installed
+2023-01-12 19:08:52,850:INFO:               spacy: Not installed
+2023-01-12 19:08:52,850:INFO:           wordcloud: Not installed
+2023-01-12 19:08:52,850:INFO:            textblob: Not installed
+2023-01-12 19:08:52,850:INFO:               fugue: Not installed
+2023-01-12 19:08:52,850:INFO:           streamlit: Not installed
+2023-01-12 19:08:52,850:INFO:             prophet: Not installed
+2023-01-12 19:08:52,850:INFO:None
+2023-01-12 19:08:52,850:INFO:Set up data.
+2023-01-12 19:08:52,884:INFO:Set up train/test split.
+2023-01-12 19:08:52,900:INFO:Set up index.
+2023-01-12 19:08:52,900:INFO:Set up folding strategy.
+2023-01-12 19:08:52,900:INFO:Assigning column types.
+2023-01-12 19:08:52,911:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2023-01-12 19:08:52,969:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-01-12 19:08:52,971:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-01-12 19:08:53,012:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:08:53,025:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:08:53,096:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-01-12 19:08:53,098:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-01-12 19:08:53,143:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:08:53,143:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:08:53,143:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2023-01-12 19:08:53,197:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-01-12 19:08:53,231:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:08:53,231:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:08:53,291:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2023-01-12 19:08:53,324:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:08:53,324:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:08:53,324:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2023-01-12 19:08:53,410:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:08:53,411:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:08:53,512:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:08:53,512:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:08:53,514:INFO:Preparing preprocessing pipeline...
+2023-01-12 19:08:53,516:INFO:Set up label encoding.
+2023-01-12 19:08:53,516:INFO:Set up simple imputation.
+2023-01-12 19:08:53,528:INFO:Set up encoding of ordinal features.
+2023-01-12 19:08:53,543:INFO:Set up encoding of categorical features.
+2023-01-12 19:08:53,543:INFO:Set up column transformation.
+2023-01-12 19:08:53,543:INFO:Set up feature normalization.
+2023-01-12 19:08:55,859:INFO:Finished creating preprocessing pipeline.
+2023-01-12 19:08:55,881:INFO:Pipeline: Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              mis...
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False))),
+                ('normalize',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=StandardScaler(copy=True,
+                                                               with_mean=True,
+                                                               with_std=True)))],
+         verbose=False)
+2023-01-12 19:08:55,881:INFO:Creating final display dataframe.
+2023-01-12 19:09:02,077:INFO:Setup _display_container:                     Description             Value
+0                    Session id               123
+1                        Target             Churn
+2                   Target type            Binary
+3                Target mapping     No: 0, Yes: 1
+4           Original data shape        (7021, 20)
+5        Transformed data shape        (7021, 41)
+6   Transformed train set shape        (4914, 41)
+7    Transformed test set shape        (2107, 41)
+8              Ordinal features                 5
+9              Numeric features                 4
+10         Categorical features                15
+11                   Preprocess              True
+12              Imputation type            simple
+13           Numeric imputation              mean
+14       Categorical imputation              mode
+15     Maximum one-hot encoding                25
+16              Encoding method              None
+17               Transformation              True
+18        Transformation method       yeo-johnson
+19                    Normalize              True
+20             Normalize method            zscore
+21               Fold Generator   StratifiedKFold
+22                  Fold Number                10
+23                     CPU Jobs                -1
+24                      Use GPU             False
+25               Log Experiment             False
+26              Experiment Name  clf-default-name
+27                          USI              02d9
+2023-01-12 19:09:02,198:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:09:02,198:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:09:02,288:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:09:02,289:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-01-12 19:09:02,290:INFO:setup() successfully completed in 9.46s...............
+2023-01-12 19:09:02,326:INFO:Initializing compare_models()
+2023-01-12 19:09:02,326:INFO:compare_models(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f30e9eb2150>, include=['lr'], fold=None, round=4, cross_validation=True, sort=Accuracy, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.classification.oop.ClassificationExperiment object at 0x7f30e9eb2150>, 'include': ['lr'], 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'Accuracy', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'probability_threshold': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.classification.oop.ClassificationExperiment'>}, exclude=None)
+2023-01-12 19:09:02,326:INFO:Checking exceptions
+2023-01-12 19:09:02,333:INFO:Preparing display monitor
+2023-01-12 19:09:02,384:INFO:Initializing Logistic Regression
+2023-01-12 19:09:02,385:INFO:Total runtime is 5.821386973063151e-06 minutes
+2023-01-12 19:09:02,393:INFO:SubProcess create_model() called ==================================
+2023-01-12 19:09:02,394:INFO:Initializing create_model()
+2023-01-12 19:09:02,394:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f30e9eb2150>, estimator=lr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f30daf3e050>, model_only=True, return_train_score=False, kwargs={})
+2023-01-12 19:09:02,395:INFO:Checking exceptions
+2023-01-12 19:09:02,395:INFO:Importing libraries
+2023-01-12 19:09:02,395:INFO:Copying training dataset
+2023-01-12 19:09:02,403:INFO:Defining folds
+2023-01-12 19:09:02,403:INFO:Declaring metric variables
+2023-01-12 19:09:02,412:INFO:Importing untrained model
+2023-01-12 19:09:02,420:INFO:Logistic Regression Imported successfully
+2023-01-12 19:09:02,435:INFO:Starting cross validation
+2023-01-12 19:09:02,440:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-12 19:09:08,836:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/pycaret/internal/pipeline.py:197: UserWarning: Persisting input arguments took 0.60s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  **fit_params_steps.get(name, {}),
+
+2023-01-12 19:09:08,924:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/pycaret/internal/pipeline.py:197: UserWarning: Persisting input arguments took 0.59s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  **fit_params_steps.get(name, {}),
+
+2023-01-12 19:09:10,322:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/pycaret/internal/pipeline.py:197: UserWarning: Persisting input arguments took 0.54s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  **fit_params_steps.get(name, {}),
+
+2023-01-12 19:09:14,281:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/pycaret/internal/pipeline.py:197: UserWarning: Persisting input arguments took 0.52s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  **fit_params_steps.get(name, {}),
+
+2023-01-12 19:09:14,304:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/pycaret/internal/pipeline.py:197: UserWarning: Persisting input arguments took 0.69s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  **fit_params_steps.get(name, {}),
+
+2023-01-12 19:09:15,829:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/pycaret/internal/pipeline.py:197: UserWarning: Persisting input arguments took 0.80s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  **fit_params_steps.get(name, {}),
+
+2023-01-12 19:09:15,896:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/pycaret/internal/pipeline.py:197: UserWarning: Persisting input arguments took 0.60s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  **fit_params_steps.get(name, {}),
+
+2023-01-12 19:09:16,284:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/pycaret/internal/pipeline.py:197: UserWarning: Persisting input arguments took 0.56s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  **fit_params_steps.get(name, {}),
+
+2023-01-12 19:09:17,676:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/pycaret/internal/pipeline.py:197: UserWarning: Persisting input arguments took 0.54s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  **fit_params_steps.get(name, {}),
+
+2023-01-12 19:09:20,224:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/pycaret/internal/pipeline.py:197: UserWarning: Persisting input arguments took 0.52s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  **fit_params_steps.get(name, {}),
+
+2023-01-12 19:09:24,475:INFO:Calculating mean and std
+2023-01-12 19:09:24,478:INFO:Creating metrics dataframe
+2023-01-12 19:09:24,487:INFO:Uploading results into container
+2023-01-12 19:09:24,488:INFO:Uploading model into container now
+2023-01-12 19:09:24,489:INFO:_master_model_container: 1
+2023-01-12 19:09:24,489:INFO:_display_container: 2
+2023-01-12 19:09:24,490:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-01-12 19:09:24,491:INFO:create_model() successfully completed......................................
+2023-01-12 19:09:24,602:INFO:SubProcess create_model() end ==================================
+2023-01-12 19:09:24,602:INFO:Creating metrics dataframe
+2023-01-12 19:09:24,645:INFO:Initializing create_model()
+2023-01-12 19:09:24,645:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f30e9eb2150>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-01-12 19:09:24,645:INFO:Checking exceptions
+2023-01-12 19:09:24,649:INFO:Importing libraries
+2023-01-12 19:09:24,649:INFO:Copying training dataset
+2023-01-12 19:09:24,657:INFO:Defining folds
+2023-01-12 19:09:24,657:INFO:Declaring metric variables
+2023-01-12 19:09:24,658:INFO:Importing untrained model
+2023-01-12 19:09:24,658:INFO:Declaring custom model
+2023-01-12 19:09:24,660:INFO:Logistic Regression Imported successfully
+2023-01-12 19:09:24,663:INFO:Cross validation set to False
+2023-01-12 19:09:24,663:INFO:Fitting Model
+2023-01-12 19:09:26,038:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-01-12 19:09:26,039:INFO:create_model() successfully completed......................................
+2023-01-12 19:09:26,219:INFO:_master_model_container: 1
+2023-01-12 19:09:26,219:INFO:_display_container: 2
+2023-01-12 19:09:26,220:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-01-12 19:09:26,220:INFO:compare_models() successfully completed......................................
+2023-01-12 19:09:26,353:INFO:Initializing evaluate_model()
+2023-01-12 19:09:26,353:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f30e9eb2150>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None, use_train_data=False)
+2023-01-12 19:09:26,380:INFO:Initializing plot_model()
+2023-01-12 19:09:26,381:INFO:plot_model(plot=pipeline, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f30e9eb2150>, system=True)
+2023-01-12 19:09:26,381:INFO:Checking exceptions
+2023-01-12 19:09:26,384:INFO:Preloading libraries
+2023-01-12 19:09:26,384:INFO:Copying training dataset
+2023-01-12 19:09:26,384:INFO:Plot type: pipeline
+2023-01-12 19:09:26,684:INFO:Visual Rendered Successfully
+2023-01-12 19:09:26,767:INFO:plot_model() successfully completed......................................
+2023-01-12 19:09:50,030:INFO:Initializing get_config()
+2023-01-12 19:09:50,031:INFO:get_config(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f30e9eb2150>, variable=feature_importance)
+2023-01-12 19:09:54,053:INFO:Initializing tune_model()
+2023-01-12 19:09:54,053:INFO:tune_model(estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=None, round=4, n_iter=10, custom_grid=None, optimize=Accuracy, custom_scorer=None, search_library=scikit-learn, search_algorithm=None, early_stopping=False, early_stopping_max_iters=10, choose_better=True, fit_kwargs=None, groups=None, return_tuner=False, verbose=True, tuner_verbose=True, return_train_score=False, kwargs={}, self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f30e9eb2150>)
+2023-01-12 19:09:54,054:INFO:Checking exceptions
+2023-01-12 19:09:54,101:INFO:Copying training dataset
+2023-01-12 19:09:54,110:INFO:Checking base model
+2023-01-12 19:09:54,111:INFO:Base model : Logistic Regression
+2023-01-12 19:09:54,118:INFO:Declaring metric variables
+2023-01-12 19:09:54,125:INFO:Defining Hyperparameters
+2023-01-12 19:09:54,231:INFO:Tuning with n_jobs=-1
+2023-01-12 19:09:54,231:INFO:Initializing RandomizedSearchCV
+2023-01-12 19:10:30,371:INFO:best_params: {'actual_estimator__class_weight': {}, 'actual_estimator__C': 7.863}
+2023-01-12 19:10:30,372:INFO:Hyperparameter search completed
+2023-01-12 19:10:30,372:INFO:SubProcess create_model() called ==================================
+2023-01-12 19:10:30,372:INFO:Initializing create_model()
+2023-01-12 19:10:30,373:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f30e9eb2150>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f30da7bae10>, model_only=True, return_train_score=False, kwargs={'class_weight': {}, 'C': 7.863})
+2023-01-12 19:10:30,373:INFO:Checking exceptions
+2023-01-12 19:10:30,373:INFO:Importing libraries
+2023-01-12 19:10:30,373:INFO:Copying training dataset
+2023-01-12 19:10:30,381:INFO:Defining folds
+2023-01-12 19:10:30,382:INFO:Declaring metric variables
+2023-01-12 19:10:30,388:INFO:Importing untrained model
+2023-01-12 19:10:30,388:INFO:Declaring custom model
+2023-01-12 19:10:30,395:INFO:Logistic Regression Imported successfully
+2023-01-12 19:10:30,409:INFO:Starting cross validation
+2023-01-12 19:10:30,414:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-12 19:10:35,543:INFO:Calculating mean and std
+2023-01-12 19:10:35,544:INFO:Creating metrics dataframe
+2023-01-12 19:10:35,554:INFO:Finalizing model
+2023-01-12 19:10:36,245:INFO:Uploading results into container
+2023-01-12 19:10:36,246:INFO:Uploading model into container now
+2023-01-12 19:10:36,247:INFO:_master_model_container: 2
+2023-01-12 19:10:36,248:INFO:_display_container: 3
+2023-01-12 19:10:36,249:INFO:LogisticRegression(C=7.863, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-01-12 19:10:36,250:INFO:create_model() successfully completed......................................
+2023-01-12 19:10:36,360:INFO:SubProcess create_model() end ==================================
+2023-01-12 19:10:36,360:INFO:choose_better activated
+2023-01-12 19:10:36,366:INFO:SubProcess create_model() called ==================================
+2023-01-12 19:10:36,367:INFO:Initializing create_model()
+2023-01-12 19:10:36,368:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f30e9eb2150>, estimator=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-01-12 19:10:36,369:INFO:Checking exceptions
+2023-01-12 19:10:36,372:INFO:Importing libraries
+2023-01-12 19:10:36,372:INFO:Copying training dataset
+2023-01-12 19:10:36,378:INFO:Defining folds
+2023-01-12 19:10:36,378:INFO:Declaring metric variables
+2023-01-12 19:10:36,378:INFO:Importing untrained model
+2023-01-12 19:10:36,379:INFO:Declaring custom model
+2023-01-12 19:10:36,380:INFO:Logistic Regression Imported successfully
+2023-01-12 19:10:36,381:INFO:Starting cross validation
+2023-01-12 19:10:36,386:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-01-12 19:10:41,403:INFO:Calculating mean and std
+2023-01-12 19:10:41,404:INFO:Creating metrics dataframe
+2023-01-12 19:10:41,406:INFO:Finalizing model
+2023-01-12 19:10:42,043:INFO:Uploading results into container
+2023-01-12 19:10:42,044:INFO:Uploading model into container now
+2023-01-12 19:10:42,045:INFO:_master_model_container: 3
+2023-01-12 19:10:42,046:INFO:_display_container: 4
+2023-01-12 19:10:42,047:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-01-12 19:10:42,047:INFO:create_model() successfully completed......................................
+2023-01-12 19:10:42,160:INFO:SubProcess create_model() end ==================================
+2023-01-12 19:10:42,161:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for Accuracy is 0.8061
+2023-01-12 19:10:42,161:INFO:LogisticRegression(C=7.863, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) result for Accuracy is 0.8063
+2023-01-12 19:10:42,162:INFO:LogisticRegression(C=7.863, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False) is best model
+2023-01-12 19:10:42,162:INFO:choose_better completed
+2023-01-12 19:10:42,185:INFO:_master_model_container: 3
+2023-01-12 19:10:42,185:INFO:_display_container: 3
+2023-01-12 19:10:42,187:INFO:LogisticRegression(C=7.863, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-01-12 19:10:42,187:INFO:tune_model() successfully completed......................................
+2023-01-12 19:10:42,351:INFO:Initializing plot_model()
+2023-01-12 19:10:42,352:INFO:plot_model(plot=confusion_matrix, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=LogisticRegression(C=7.863, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f30e9eb2150>, system=True)
+2023-01-12 19:10:42,352:INFO:Checking exceptions
+2023-01-12 19:10:42,359:INFO:Preloading libraries
+2023-01-12 19:10:42,359:INFO:Copying training dataset
+2023-01-12 19:10:42,360:INFO:Plot type: confusion_matrix
+2023-01-12 19:10:43,873:INFO:Fitting Model
+2023-01-12 19:10:43,873:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:451: UserWarning:
+
+X does not have valid feature names, but LogisticRegression was fitted with feature names
+
+
+2023-01-12 19:10:43,873:INFO:Scoring test/hold-out set
+2023-01-12 19:10:44,166:INFO:Visual Rendered Successfully
+2023-01-12 19:10:44,256:INFO:plot_model() successfully completed......................................
+2023-01-12 19:10:44,327:INFO:Initializing save_model()
+2023-01-12 19:10:44,327:INFO:save_model(model=LogisticRegression(C=7.863, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), model_name=lr_model, prep_pipe_=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              mis...
+                                                              handle_unknown='value',
+                                                              return_df=True,
+                                                              use_cat_names=True,
+                                                              verbose=0))),
+                ('transformation',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=PowerTransformer(copy=True,
+                                                                 method='yeo-johnson',
+                                                                 standardize=False))),
+                ('normalize',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=StandardScaler(copy=True,
+                                                               with_mean=True,
+                                                               with_std=True)))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2023-01-12 19:10:44,327:INFO:Adding model into prep_pipe
+2023-01-12 19:10:44,358:INFO:lr_model.pkl saved in current working directory
+2023-01-12 19:10:44,378:INFO:Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              mis...
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=StandardScaler(copy=True,
+                                                               with_mean=True,
+                                                               with_std=True))),
+                ('trained_model',
+                 LogisticRegression(C=7.863, class_weight={}, dual=False,
+                                    fit_intercept=True, intercept_scaling=1,
+                                    l1_ratio=None, max_iter=1000,
+                                    multi_class='auto', n_jobs=None,
+                                    penalty='l2', random_state=123,
+                                    solver='lbfgs', tol=0.0001, verbose=0,
+                                    warm_start=False))],
+         verbose=False)
+2023-01-12 19:10:44,378:INFO:save_model() successfully completed......................................
+2023-01-12 19:10:54,088:WARNING:/home/somesh/.pyenv/versions/3.7.15/lib/python3.7/site-packages/sklearn/base.py:493: FutureWarning:
+
+The feature names should match those that were passed during fit. Starting version 1.2, an error will be raised.
+Feature names unseen at fit time:
+- Churn
+- Contract
+- DeviceProtection
+- InternetService
+- MultipleLines
+- ...
+Feature names seen at fit time, yet now missing:
+- Contract_Month-to-month
+- Contract_One year
+- Contract_Two year
+- DeviceProtection_No
+- DeviceProtection_No internet service
+- ...
+
+
+
+2023-01-12 19:10:55,936:INFO:Initializing predict_model()
+2023-01-12 19:10:55,936:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f30e9eb2150>, estimator=LogisticRegression(C=7.863, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7f30da327320>)
+2023-01-12 19:10:55,937:INFO:Checking exceptions
+2023-01-12 19:10:55,938:INFO:Preloading libraries
+2023-01-12 19:10:55,941:INFO:Set up data.
+2023-01-12 19:10:55,963:INFO:Set up index.
+2023-01-12 19:10:59,056:INFO:Initializing load_model()
+2023-01-12 19:10:59,058:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 19:13:00,328:INFO:Initializing load_model()
+2023-01-12 19:13:00,328:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 22:49:38,592:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 22:49:38,592:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 22:49:38,593:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 22:49:38,593:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 22:49:38,944:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-12 22:49:39,458:INFO:Initializing load_model()
+2023-01-12 22:49:39,458:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)

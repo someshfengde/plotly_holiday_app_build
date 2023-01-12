@@ -1,4 +1,4 @@
-dash==2.6.2
+dash
 dash_bootstrap_components==1.2.1
 dash_bootstrap_templates==1.0.7
 dash_iconify==0.1.2

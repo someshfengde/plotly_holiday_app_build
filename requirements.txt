@@ -90,7 +90,7 @@ networkx==2.8.8
 nltk==3.8
 numba==0.54.1
 numexpr==2.8.4
-numpy==1.20.3
+numpy==1.22.0
 oauthlib==3.2.2
 openai==0.25.0
 openpyxl==3.0.10

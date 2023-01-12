@@ -504,8 +504,9 @@ def predict_churn(
         )
         # predict churn
         prediction = predict_model(model, data=df)
+        # print(prediction)
         # return prediction
-        return html.H2(f"Predicted Churn: {prediction['Label'][0]}")
+        return html.H2(f"Predicted Churn: {prediction['prediction_label'][0]}")
 
 
 information_collection_form = dbc.Form([demographics, services, predict_button])

@@ -7770,3 +7770,201 @@ Feature names seen at fit time, yet now missing:
 'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
 2023-01-12 22:49:39,458:INFO:Initializing load_model()
 2023-01-12 22:49:39,458:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 23:43:05,302:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 23:43:05,302:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 23:43:05,302:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 23:43:05,302:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 23:43:05,615:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-12 23:43:06,014:INFO:Initializing load_model()
+2023-01-12 23:43:06,014:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 23:43:14,213:INFO:Initializing predict_model()
+2023-01-12 23:43:14,213:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fb4503f2b50>, estimator=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             '...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(C=7.863, class_weight={}, max_iter=1000,
+                                    random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7fb45032d560>)
+2023-01-12 23:43:14,213:INFO:Checking exceptions
+2023-01-12 23:43:14,213:INFO:Preloading libraries
+2023-01-12 23:43:14,214:INFO:Set up data.
+2023-01-12 23:43:14,229:INFO:Set up index.
+2023-01-12 23:43:19,712:INFO:Initializing predict_model()
+2023-01-12 23:43:19,712:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fb44fffba50>, estimator=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             '...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(C=7.863, class_weight={}, max_iter=1000,
+                                    random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7fb44ffe1ef0>)
+2023-01-12 23:43:19,712:INFO:Checking exceptions
+2023-01-12 23:43:19,712:INFO:Preloading libraries
+2023-01-12 23:43:19,713:INFO:Set up data.
+2023-01-12 23:43:19,724:INFO:Set up index.
+2023-01-12 23:43:19,891:INFO:Initializing predict_model()
+2023-01-12 23:43:19,891:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fb44ff80b10>, estimator=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             '...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(C=7.863, class_weight={}, max_iter=1000,
+                                    random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7fb4513b3320>)
+2023-01-12 23:43:19,891:INFO:Checking exceptions
+2023-01-12 23:43:19,891:INFO:Preloading libraries
+2023-01-12 23:43:19,891:INFO:Set up data.
+2023-01-12 23:43:19,904:INFO:Set up index.
+2023-01-12 23:43:21,721:INFO:Initializing predict_model()
+2023-01-12 23:43:21,721:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fb4506a2650>, estimator=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             '...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(C=7.863, class_weight={}, max_iter=1000,
+                                    random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7fb44ffe1d40>)
+2023-01-12 23:43:21,721:INFO:Checking exceptions
+2023-01-12 23:43:21,721:INFO:Preloading libraries
+2023-01-12 23:43:21,722:INFO:Set up data.
+2023-01-12 23:43:21,734:INFO:Set up index.
+2023-01-12 23:44:01,746:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 23:44:01,746:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 23:44:01,746:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 23:44:01,746:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 23:44:02,113:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-12 23:44:02,863:INFO:Initializing load_model()
+2023-01-12 23:44:02,863:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 23:44:04,770:INFO:Initializing predict_model()
+2023-01-12 23:44:04,770:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fb64f2beb90>, estimator=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             '...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(C=7.863, class_weight={}, max_iter=1000,
+                                    random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7fb64f3ef3b0>)
+2023-01-12 23:44:04,770:INFO:Checking exceptions
+2023-01-12 23:44:04,770:INFO:Preloading libraries
+2023-01-12 23:44:04,771:INFO:Set up data.
+2023-01-12 23:44:04,784:INFO:Set up index.
+2023-01-12 23:44:39,320:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 23:44:39,320:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 23:44:39,320:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 23:44:39,320:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-01-12 23:44:39,693:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-01-12 23:44:40,217:INFO:Initializing load_model()
+2023-01-12 23:44:40,217:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2023-01-12 23:44:41,959:INFO:Initializing predict_model()
+2023-01-12 23:44:41,959:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fccc089d910>, estimator=Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['gender', 'Partner', 'Dependents',
+                                             '...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('transformation',
+                 TransformerWrapper(transformer=PowerTransformer(standardize=False))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 LogisticRegression(C=7.863, class_weight={}, max_iter=1000,
+                                    random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7fccc1968560>)
+2023-01-12 23:44:41,959:INFO:Checking exceptions
+2023-01-12 23:44:41,960:INFO:Preloading libraries
+2023-01-12 23:44:41,960:INFO:Set up data.
+2023-01-12 23:44:41,969:INFO:Set up index.

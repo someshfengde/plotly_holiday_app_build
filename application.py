@@ -13,7 +13,7 @@ app = Dash(
     use_pages=True,
     update_title="...🎄",
 )
-server = app.server
+application = app.server
 app._favicon = "favicon.ico"
 # creating the layout of the page
 
@@ -177,5 +177,5 @@ def toggle_collapse(n, is_open):
         return not is_open
     return is_open
 
-
-app.run_server(debug=True)
+if __name__ == "__main__":
+    application.run(debug=False , port = 8080)

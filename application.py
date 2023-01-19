@@ -17,15 +17,14 @@ app = Dash(
 app.index_string = """<!DOCTYPE html>
 <html>
     <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
         <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2G5G66STSD"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RWE73D8GQY"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-2G5G66STSD');
+        gtag('config', 'G-RWE73D8GQY');
         </script>
         {%metas%}
         <title>{%title%}</title>
